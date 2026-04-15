@@ -1,0 +1,2472 @@
+﻿cve_mun_full,NOM_MUN_CLEAN,temp_media_anual,ZON_TER
+01008,San José de Gracia,15.0,Templado
+01009,Tepezalá,15.0,Templado
+01010,El Llano,15.0,Templado
+01011,San Francisco de los Romo,17.0,Templado
+01001,Aguascalientes,15.0,Templado
+01002,Asientos,15.0,Templado
+01003,Calvillo,19.0,Semicálido
+01004,Cosío,15.0,Templado
+01005,Jesús María,15.0,Templado
+01006,Pabellón de Arteaga,17.0,Templado
+01007,Rincón de Romos,17.0,Templado
+02005,Playas de Rosarito,17.0,Templado
+02002,Mexicali,19.0,Semicálido
+02003,Tecate,21.0,Semicálido
+02004,Tijuana,17.0,Templado
+02001,Ensenada,19.0,Semicálido
+02007,San Felipe,17.0,Templado
+02006,San Quintín,23.0,Cálido
+03001,Comondú,19.0,Semicálido
+03002,Mulegé,23.0,Cálido
+03003,La Paz,21.0,Semicálido
+03008,Los Cabos,21.0,Semicálido
+03009,Loreto,21.0,Semicálido
+04003,Carmen,27.0,Muy cálido
+04011,Candelaria,23.0,Cálido
+04002,Campeche,25.0,Cálido
+04004,Champotón,27.0,Muy cálido
+04007,Palizada,27.0,Muy cálido
+04008,Tenabo,25.0,Cálido
+04009,Escárcega,25.0,Cálido
+04010,Calakmul,23.0,Cálido
+04013,Dzitbalché,25.0,Cálido
+04005,Hecelchakán,25.0,Cálido
+04001,Calkiní,25.0,Cálido
+04012,Seybaplaya,25.0,Cálido
+04006,Hopelchén,25.0,Cálido
+05016,Lamadrid,21.0,Semicálido
+05029,Sacramento,19.0,Semicálido
+05036,Viesca,17.0,Templado
+05014,Jiménez,21.0,Semicálido
+05035,Torreón,17.0,Templado
+05002,Acuña,21.0,Semicálido
+05004,Arteaga,15.0,Templado
+05005,Candela,19.0,Semicálido
+05027,Ramos Arizpe,15.0,Templado
+05009,Francisco I. Madero,21.0,Semicálido
+05033,San Pedro,19.0,Semicálido
+05024,Parras,15.0,Templado
+05025,Piedras Negras,21.0,Semicálido
+05017,Matamoros,19.0,Semicálido
+05023,Ocampo,17.0,Templado
+05018,Monclova,17.0,Templado
+05012,Guerrero,21.0,Semicálido
+05030,Saltillo,13.0,Templado
+05031,San Buenaventura,21.0,Semicálido
+05020,Múzquiz,21.0,Semicálido
+05010,Frontera,19.0,Semicálido
+05021,Nadadores,19.0,Semicálido
+05032,San Juan de Sabinas,21.0,Semicálido
+05008,Escobedo,21.0,Semicálido
+05006,Castaños,17.0,Templado
+05001,Abasolo,21.0,Semicálido
+05007,Cuatro Ciénegas,17.0,Templado
+05003,Allende,21.0,Semicálido
+05011,General Cepeda,15.0,Templado
+05013,Hidalgo,21.0,Semicálido
+05015,Juárez,21.0,Semicálido
+05022,Nava,21.0,Semicálido
+05026,Progreso,21.0,Semicálido
+05019,Morelos,21.0,Semicálido
+05028,Sabinas,21.0,Semicálido
+05034,Sierra Mojada,17.0,Templado
+05037,Villa Unión,19.0,Semicálido
+05038,Zaragoza,21.0,Semicálido
+06001,Armería,23.0,Cálido
+06002,Colima,27.0,Muy cálido
+06005,Cuauhtémoc,25.0,Cálido
+06006,Ixtlahuacán,27.0,Muy cálido
+06007,Manzanillo,23.0,Cálido
+06004,Coquimatlán,21.0,Semicálido
+06010,Villa de Álvarez,25.0,Cálido
+06008,Minatitlán,25.0,Cálido
+06009,Tecomán,23.0,Cálido
+06003,Comala,25.0,Cálido
+07086,Suchiapa,25.0,Cálido
+07105,Unión Juárez,25.0,Cálido
+07014,El Bosque,17.0,Templado
+07015,Cacahoatán,19.0,Semicálido
+07038,Huixtán,15.0,Templado
+07039,Huitiupán,25.0,Cálido
+07043,Ixtacomitán,23.0,Cálido
+07083,Socoltenango,23.0,Cálido
+07084,Solosuchiapa,23.0,Cálido
+07047,Jitotol,15.0,Templado
+07052,Las Margaritas,25.0,Cálido
+07028,Chiapilla,25.0,Cálido
+07054,Mazatán,27.0,Muy cálido
+07006,Amatenango de la Frontera,19.0,Semicálido
+07090,Tapalapa,19.0,Semicálido
+07098,Totolapa,25.0,Cálido
+07100,Tumbalá,23.0,Cálido
+07025,Chapultenango,19.0,Semicálido
+07027,Chiapa de Corzo,25.0,Cálido
+07040,Huixtla,25.0,Cálido
+07041,La Independencia,17.0,Templado
+07042,Ixhuatán,15.0,Templado
+07044,Ixtapa,25.0,Cálido
+07045,Ixtapangajoya,23.0,Cálido
+07048,Juárez,25.0,Cálido
+07089,Tapachula,23.0,Cálido
+07035,Frontera Hidalgo,27.0,Muy cálido
+07036,La Grandeza,13.0,Templado
+07059,Ocosingo,23.0,Cálido
+07071,Villa Comaltitlán,23.0,Cálido
+07061,Ocozocoautla de Espinosa,25.0,Cálido
+07064,Oxchuc,15.0,Templado
+07066,Pantelhó,21.0,Semicálido
+07078,San Cristóbal de las Casas,23.0,Cálido
+07032,Escuintla,23.0,Cálido
+07037,Huehuetán,25.0,Cálido
+07068,Pichucalco,23.0,Cálido
+07069,Pijijiapan,25.0,Cálido
+07016,Catazajá,25.0,Cálido
+07124,Mezcalapa,23.0,Cálido
+07005,Amatán,17.0,Templado
+07007,Amatenango del Valle,23.0,Cálido
+07080,Siltepec,15.0,Templado
+07067,Pantepec,17.0,Templado
+07065,Palenque,23.0,Cálido
+07077,Salto de Agua,23.0,Cálido
+07123,Emiliano Zapata,25.0,Cálido
+07122,El Parral,25.0,Cálido
+07075,Las Rosas,25.0,Cálido
+07076,Sabanilla,17.0,Templado
+07120,Capitán Luis Ángel Vidal,17.0,Templado
+07017,Cintalapa,25.0,Cálido
+07018,Coapilla,25.0,Cálido
+07019,Comitán de Domínguez,23.0,Cálido
+07020,La Concordia,19.0,Semicálido
+07021,Copainalá,27.0,Muy cálido
+07074,Reforma,25.0,Cálido
+07082,Sitalá,21.0,Semicálido
+07112,San Juan Cancuc,15.0,Templado
+07093,Tenejapa,15.0,Templado
+07116,Marqués de Comillas,23.0,Cálido
+07114,Benemérito de las Américas,23.0,Cálido
+07031,Chilón,19.0,Semicálido
+07030,Chicomuselo,23.0,Cálido
+07001,Acacoyagua,25.0,Cálido
+07002,Acala,25.0,Cálido
+07003,Acapetahua,23.0,Cálido
+07004,Altamirano,17.0,Templado
+07008,Ángel Albino Corzo,21.0,Semicálido
+07009,Arriaga,27.0,Muy cálido
+07012,Berriozábal,25.0,Cálido
+07013,Bochil,21.0,Semicálido
+07046,Jiquipilas,25.0,Cálido
+07022,Chalchihuitán,21.0,Semicálido
+07092,Tecpatán,27.0,Muy cálido
+07094,Teopisca,23.0,Cálido
+07070,El Porvenir,19.0,Semicálido
+07081,Simojovel,21.0,Semicálido
+07125,Honduras de la Sierra,17.0,Templado
+07088,Sunuapa,23.0,Cálido
+07057,Motozintla,25.0,Cálido
+07096,Tila,21.0,Semicálido
+07097,Tonalá,27.0,Muy cálido
+07099,La Trinitaria,23.0,Cálido
+07101,Tuxtla Gutiérrez,25.0,Cálido
+07102,Tuxtla Chico,25.0,Cálido
+07103,Tuzantán,25.0,Cálido
+07104,Tzimol,23.0,Cálido
+07106,Venustiano Carranza,23.0,Cálido
+07107,Villa Corzo,21.0,Semicálido
+07108,Villaflores,19.0,Semicálido
+07109,Yajalón,21.0,Semicálido
+07079,San Fernando,25.0,Cálido
+07087,Suchiate,27.0,Muy cálido
+07121,Rincón Chamula San Pedro,21.0,Semicálido
+07034,Frontera Comalapa,23.0,Cálido
+07062,Ostuacán,23.0,Cálido
+07119,Santiago el Pinar,15.0,Templado
+07049,Larráinzar,13.0,Templado
+07050,La Libertad,25.0,Cálido
+07051,Mapastepec,25.0,Cálido
+07072,Pueblo Nuevo Solistahuacán,21.0,Semicálido
+07110,San Lucas,25.0,Cálido
+07111,Zinacantán,17.0,Templado
+07023,Chamula,15.0,Templado
+07026,Chenalhó,15.0,Templado
+07010,Bejucal de Ocampo,19.0,Semicálido
+07011,Bella Vista,15.0,Templado
+07024,Chanal,17.0,Templado
+07029,Chicoasén,23.0,Cálido
+07033,Francisco León,23.0,Cálido
+07053,Mazapa de Madero,13.0,Templado
+07055,Metapa,27.0,Muy cálido
+07056,Mitontic,15.0,Templado
+07058,Nicolás Ruíz,25.0,Cálido
+07060,Ocotepec,19.0,Semicálido
+07063,Osumacinta,23.0,Cálido
+07073,Rayón,17.0,Templado
+07085,Soyaló,21.0,Semicálido
+07091,Tapilula,19.0,Semicálido
+07113,Aldama,15.0,Templado
+07115,Maravilla Tenejapa,23.0,Cálido
+07117,Montecristo de Guerrero,15.0,Templado
+07118,San Andrés Duraznal,21.0,Semicálido
+08043,Matachí,11.0,Semifrio
+08003,Allende,17.0,Templado
+08014,Coronado,17.0,Templado
+08061,Satevó,19.0,Semicálido
+08062,Saucillo,17.0,Templado
+08063,Temósachic,11.0,Semifrio
+08067,Valle de Zaragoza,17.0,Templado
+08044,Matamoros,17.0,Templado
+08045,Meoqui,17.0,Templado
+08046,Morelos,19.0,Semicálido
+08047,Moris,23.0,Cálido
+08048,Namiquipa,11.0,Semifrio
+08002,Aldama,17.0,Templado
+08059,San Francisco del Oro,15.0,Templado
+08037,Juárez,17.0,Templado
+08019,Chihuahua,17.0,Templado
+08024,Santa Isabel,17.0,Templado
+08064,El Tule,15.0,Templado
+08026,Gran Morelos,17.0,Templado
+08027,Guachochi,17.0,Templado
+08028,Guadalupe,17.0,Templado
+08030,Guazapares,25.0,Cálido
+08032,Hidalgo del Parral,17.0,Templado
+08033,Huejotitán,13.0,Templado
+08034,Ignacio Zaragoza,11.0,Semifrio
+08035,Janos,15.0,Templado
+08038,Julimes,17.0,Templado
+08039,López,17.0,Templado
+08040,Madera,11.0,Semifrio
+08042,Manuel Benavides,17.0,Templado
+08005,Ascensión,17.0,Templado
+08052,Ojinaga,17.0,Templado
+08006,Bachíniva,11.0,Semifrio
+08008,Batopilas de Manuel Gómez Morín,13.0,Templado
+08009,Bocoyna,11.0,Semifrio
+08010,Buenaventura,17.0,Templado
+08011,Camargo,17.0,Templado
+08012,Carichí,11.0,Semifrio
+08013,Casas Grandes,11.0,Semifrio
+08015,Coyame del Sotol,17.0,Templado
+08016,La Cruz,17.0,Templado
+08017,Cuauhtémoc,11.0,Semifrio
+08020,Chínipas,25.0,Cálido
+08021,Delicias,19.0,Semicálido
+08022,Dr. Belisario Domínguez,17.0,Templado
+08023,Galeana,17.0,Templado
+08025,Gómez Farías,11.0,Semifrio
+08055,Rosales,17.0,Templado
+08031,Guerrero,11.0,Semifrio
+08050,Nuevo Casas Grandes,17.0,Templado
+08051,Ocampo,11.0,Semifrio
+08054,Riva Palacio,13.0,Templado
+08056,Rosario,19.0,Semicálido
+08058,San Francisco de Conchos,17.0,Templado
+08001,Ahumada,17.0,Templado
+08007,Balleza,13.0,Templado
+08018,Cusihuiriachi,11.0,Semifrio
+08065,Urique,25.0,Cálido
+08066,Uruachi,21.0,Semicálido
+08041,Maguarichi,11.0,Semifrio
+08004,Aquiles Serdán,17.0,Templado
+08053,Praxedis G. Guerrero,17.0,Templado
+08057,San Francisco de Borja,11.0,Semifrio
+08060,Santa Bárbara,17.0,Templado
+08029,Guadalupe y Calvo,23.0,Cálido
+08036,Jiménez,17.0,Templado
+08049,Nonoava,13.0,Templado
+09003,Coyoacán,15.0,Templado
+09007,Iztapalapa,15.0,Templado
+09008,La Magdalena Contreras,15.0,Templado
+09009,Milpa Alta,15.0,Templado
+09010,Álvaro Obregón,15.0,Templado
+09011,Tláhuac,15.0,Templado
+09012,Tlalpan,15.0,Templado
+09013,Xochimilco,15.0,Templado
+09006,Iztacalco,17.0,Templado
+09015,Cuauhtémoc,17.0,Templado
+09017,Venustiano Carranza,17.0,Templado
+09002,Azcapotzalco,15.0,Templado
+09016,Miguel Hidalgo,15.0,Templado
+09005,Gustavo A. Madero,15.0,Templado
+09004,Cuajimalpa de Morelos,15.0,Templado
+09014,Benito Juárez,15.0,Templado
+10023,Pueblo Nuevo,25.0,Cálido
+10025,San Bernardo,13.0,Templado
+10027,San Juan de Guadalupe,17.0,Templado
+10035,Tepehuanes,11.0,Semifrio
+10026,San Dimas,23.0,Cálido
+10019,Otáez,21.0,Semicálido
+10022,Poanas,15.0,Templado
+10002,Canelas,23.0,Cálido
+10003,Coneto de Comonfort,15.0,Templado
+10004,Cuencamé,15.0,Templado
+10006,General Simón Bolívar,17.0,Templado
+10008,Guadalupe Victoria,15.0,Templado
+10009,Guanaceví,11.0,Semifrio
+10010,Hidalgo,17.0,Templado
+10011,Indé,19.0,Semicálido
+10031,Santa Clara,17.0,Templado
+10013,Mapimí,17.0,Templado
+10016,Nombre de Dios,19.0,Semicálido
+10018,El Oro,15.0,Templado
+10020,Pánuco de Coronado,15.0,Templado
+10032,Santiago Papasquiaro,25.0,Cálido
+10007,Gómez Palacio,21.0,Semicálido
+10015,Nazas,17.0,Templado
+10028,San Juan del Río,15.0,Templado
+10030,San Pedro del Gallo,17.0,Templado
+10021,Peñón Blanco,13.0,Templado
+10024,Rodeo,15.0,Templado
+10034,Tamazula,25.0,Cálido
+10039,Nuevo Ideal,11.0,Semifrio
+10001,Canatlán,13.0,Templado
+10005,Durango,15.0,Templado
+10012,Lerdo,19.0,Semicálido
+10014,Mezquital,23.0,Cálido
+10017,Ocampo,13.0,Templado
+10038,Vicente Guerrero,15.0,Templado
+10033,Súchil,17.0,Templado
+10037,Topia,23.0,Cálido
+10029,San Luis del Cordero,19.0,Semicálido
+10036,Tlahualilo,21.0,Semicálido
+11035,Santa Cruz de Juventino Rosas,19.0,Semicálido
+11031,San Francisco del Rincón,19.0,Semicálido
+11009,Comonfort,15.0,Templado
+11015,Guanajuato,15.0,Templado
+11016,Huanímaro,17.0,Templado
+11017,Irapuato,17.0,Templado
+11018,Jaral del Progreso,17.0,Templado
+11019,Jerécuaro,15.0,Templado
+11020,León,19.0,Semicálido
+11021,Moroleón,15.0,Templado
+11025,Purísima del Rincón,19.0,Semicálido
+11026,Romita,19.0,Semicálido
+11027,Salamanca,17.0,Templado
+11028,Salvatierra,15.0,Templado
+11029,San Diego de la Unión,15.0,Templado
+11032,San José Iturbide,13.0,Templado
+11033,San Luis de la Paz,15.0,Templado
+11034,Santa Catarina,17.0,Templado
+11043,Victoria,15.0,Templado
+11045,Xichú,13.0,Templado
+11006,Atarjea,15.0,Templado
+11011,Cortazar,17.0,Templado
+11012,Cuerámaro,19.0,Semicálido
+11036,Santiago Maravatío,17.0,Templado
+11038,Tarandacuao,15.0,Templado
+11039,Tarimoro,15.0,Templado
+11040,Tierra Blanca,13.0,Templado
+11002,Acámbaro,15.0,Templado
+11013,Doctor Mora,15.0,Templado
+11014,Dolores Hidalgo Cuna de la Independencia Nacional,17.0,Templado
+11022,Ocampo,13.0,Templado
+11024,Pueblo Nuevo,19.0,Semicálido
+11030,San Felipe,15.0,Templado
+11041,Uriangato,17.0,Templado
+11003,San Miguel de Allende,15.0,Templado
+11004,Apaseo el Alto,15.0,Templado
+11005,Apaseo el Grande,17.0,Templado
+11007,Celaya,15.0,Templado
+11008,Manuel Doblado,19.0,Semicálido
+11001,Abasolo,17.0,Templado
+11023,Pénjamo,17.0,Templado
+11037,Silao de la Victoria,19.0,Semicálido
+11042,Valle de Santiago,17.0,Templado
+11044,Villagrán,19.0,Semicálido
+11046,Yuriria,15.0,Templado
+11010,Coroneo,15.0,Templado
+12067,Tlapehuala,25.0,Cálido
+12043,Metlatónoc,27.0,Muy cálido
+12081,Iliatenco,21.0,Semicálido
+12066,Tlapa de Comonfort,17.0,Templado
+12078,Cochoapa el Grande,25.0,Cálido
+12079,José Joaquín de Herrera,25.0,Cálido
+12076,Acatepec,27.0,Muy cálido
+12077,Marquelia,27.0,Muy cálido
+12074,Zitlala,19.0,Semicálido
+12075,Eduardo Neri,19.0,Semicálido
+12071,Xochistlahuaca,27.0,Muy cálido
+12072,Zapotitlán Tablas,23.0,Cálido
+12069,Xalpatláhuac,21.0,Semicálido
+12070,Xochihuehuetlán,21.0,Semicálido
+12057,Técpan de Galeana,27.0,Muy cálido
+12058,Teloloapan,21.0,Semicálido
+12055,Taxco de Alarcón,25.0,Cálido
+12056,Tecoanapa,27.0,Muy cálido
+12048,Petatlán,27.0,Muy cálido
+12053,San Marcos,27.0,Muy cálido
+12054,San Miguel Totolapan,25.0,Cálido
+12052,San Luis Acatlán,27.0,Muy cálido
+12051,Quechultenango,27.0,Muy cálido
+12049,Pilcaya,23.0,Cálido
+12050,Pungarabato,25.0,Cálido
+12047,Pedro Ascencio Alquisiras,23.0,Cálido
+12045,Olinalá,19.0,Semicálido
+12046,Ometepec,27.0,Muy cálido
+12042,Mártir de Cuilapan,19.0,Semicálido
+12044,Mochitlán,27.0,Muy cálido
+12040,Leonardo Bravo,23.0,Cálido
+12041,Malinaltepec,21.0,Semicálido
+12038,Zihuatanejo de Azueta,27.0,Muy cálido
+12039,Juan R. Escudero,27.0,Muy cálido
+12036,Igualapa,27.0,Muy cálido
+12037,Ixcateopan de Cuauhtémoc,21.0,Semicálido
+12002,Ahuacuotzingo,19.0,Semicálido
+12003,Ajuchitlán del Progreso,17.0,Templado
+12034,Huitzuco de los Figueroa,25.0,Cálido
+12035,Iguala de la Independencia,27.0,Muy cálido
+12032,General Heliodoro Castillo,19.0,Semicálido
+12033,Huamuxtitlán,21.0,Semicálido
+12030,Florencio Villarreal,27.0,Muy cálido
+12031,General Canuto A. Neri,21.0,Semicálido
+12028,Chilapa de Álvarez,25.0,Cálido
+12029,Chilpancingo de los Bravo,27.0,Muy cálido
+12026,Cuetzala del Progreso,25.0,Cálido
+12027,Cutzamala de Pinzón,25.0,Cálido
+12025,Cuautepec,27.0,Muy cálido
+12062,Tlacoachistlahuaca,27.0,Muy cálido
+12059,Tepecoacuilco de Trujano,23.0,Cálido
+12061,Tixtla de Guerrero,23.0,Cálido
+12060,Tetipac,23.0,Cálido
+12063,Tlacoapa,21.0,Semicálido
+12022,Coyuca de Catalán,21.0,Semicálido
+12023,Cuajinicuilapa,27.0,Muy cálido
+12020,Copanatoyac,13.0,Templado
+12021,Coyuca de Benítez,27.0,Muy cálido
+12016,Coahuayutla de José María Izazaga,23.0,Cálido
+12017,Cocula,27.0,Muy cálido
+12014,Benito Juárez,27.0,Muy cálido
+12015,Buenavista de Cuéllar,25.0,Cálido
+12012,Ayutla de los Libres,27.0,Muy cálido
+12013,Azoyú,27.0,Muy cálido
+12010,Atlixtac,23.0,Cálido
+12011,Atoyac de Álvarez,27.0,Muy cálido
+12008,Atenango del Río,27.0,Muy cálido
+12009,Atlamajalcingo del Monte,19.0,Semicálido
+12073,Zirándaro,23.0,Cálido
+12004,Alcozauca de Guerrero,23.0,Cálido
+12068,La Unión de Isidoro Montes de Oca,23.0,Cálido
+12001,Acapulco de Juárez,27.0,Muy cálido
+12005,Alpoyeca,23.0,Cálido
+12024,Cualác,19.0,Semicálido
+12065,Tlalixtaquilla de Maldonado,19.0,Semicálido
+12080,Juchitán,27.0,Muy cálido
+12064,Tlalchapa,23.0,Cálido
+12018,Copala,27.0,Muy cálido
+12019,Copalillo,23.0,Cálido
+12006,Apaxtla,27.0,Muy cálido
+12007,Arcelia,25.0,Cálido
+13029,Huichapan,15.0,Templado
+13034,Lolotla,23.0,Cálido
+13030,Ixmiquilpan,15.0,Templado
+13031,Jacala de Ledezma,23.0,Cálido
+13033,Juárez Hidalgo,23.0,Cálido
+13035,Metepec,15.0,Templado
+13036,San Agustín Metzquititlán,15.0,Templado
+13037,Metztitlán,15.0,Templado
+13038,Mineral del Chico,15.0,Templado
+13006,Alfajayucan,15.0,Templado
+13007,Almoloya,13.0,Templado
+13008,Apan,13.0,Templado
+13009,El Arenal,15.0,Templado
+13010,Atitalaquia,15.0,Templado
+13011,Atlapexco,23.0,Cálido
+13012,Atotonilco el Grande,15.0,Templado
+13013,Atotonilco de Tula,15.0,Templado
+13014,Calnali,23.0,Cálido
+13015,Cardonal,15.0,Templado
+13016,Cuautepec de Hinojosa,15.0,Templado
+13021,Emiliano Zapata,11.0,Semifrio
+13083,Zempoala,15.0,Templado
+13084,Zimapán,15.0,Templado
+13071,Tlahuiltepa,15.0,Templado
+13072,Tlanalapa,15.0,Templado
+13081,Zacualtipán de Ángeles,13.0,Templado
+13082,Zapotlán de Juárez,15.0,Templado
+13075,Tolcayuca,15.0,Templado
+13076,Tula de Allende,15.0,Templado
+13078,Xochiatipan,23.0,Cálido
+13073,Tlanchinol,23.0,Cálido
+13017,Chapantongo,15.0,Templado
+13044,Nopala de Villagrán,15.0,Templado
+13045,Omitlán de Juárez,15.0,Templado
+13046,San Felipe Orizatlán,23.0,Cálido
+13047,Pacula,15.0,Templado
+13048,Pachuca de Soto,15.0,Templado
+13049,Pisaflores,23.0,Cálido
+13077,Tulancingo de Bravo,15.0,Templado
+13018,Chapulhuacán,23.0,Cálido
+13020,Eloxochitlán,19.0,Semicálido
+13022,Epazoyucan,15.0,Templado
+13023,Francisco I. Madero,15.0,Templado
+13024,Huasca de Ocampo,15.0,Templado
+13067,Tezontepec de Aldama,15.0,Templado
+13025,Huautla,23.0,Cálido
+13026,Huazalingo,23.0,Cálido
+13027,Huehuetla,17.0,Templado
+13028,Huejutla de Reyes,23.0,Cálido
+13043,Nicolás Flores,15.0,Templado
+13066,Villa de Tezontepec,15.0,Templado
+13068,Tianguistengo,23.0,Cálido
+13069,Tizayuca,15.0,Templado
+13019,Chilcuautla,15.0,Templado
+13032,Jaltocán,23.0,Cálido
+13041,Mixquiahuala de Juárez,15.0,Templado
+13079,Xochicoatlán,23.0,Cálido
+13080,Yahualica,23.0,Cálido
+13004,Agua Blanca de Iturbide,15.0,Templado
+13005,Ajacuba,15.0,Templado
+13039,Mineral del Monte,13.0,Templado
+13040,La Misión,23.0,Cálido
+13042,Molango de Escamilla,23.0,Cálido
+13056,Santiago Tulantepec de Lugo Guerrero,15.0,Templado
+13057,Singuilucan,15.0,Templado
+13058,Tasquillo,15.0,Templado
+13059,Tecozautla,15.0,Templado
+13060,Tenango de Doria,13.0,Templado
+13061,Tepeapulco,13.0,Templado
+13062,Tepehuacán de Guerrero,23.0,Cálido
+13063,Tepeji del Río de Ocampo,15.0,Templado
+13050,Progreso de Obregón,13.0,Templado
+13064,Tepetitlán,15.0,Templado
+13051,Mineral de la Reforma,15.0,Templado
+13052,San Agustín Tlaxiaca,15.0,Templado
+13053,San Bartolo Tutotepec,13.0,Templado
+13054,San Salvador,15.0,Templado
+13055,Santiago de Anaya,15.0,Templado
+13001,Acatlán,15.0,Templado
+13002,Acaxochitlán,15.0,Templado
+13003,Actopan,15.0,Templado
+13065,Tetepango,15.0,Templado
+13070,Tlahuelilpan,15.0,Templado
+13074,Tlaxcoapan,15.0,Templado
+14043,La Huerta,25.0,Cálido
+14055,Magdalena,21.0,Semicálido
+14086,Tapalpa,23.0,Cálido
+14054,El Limón,23.0,Cálido
+14020,Cabo Corrientes,25.0,Cálido
+14021,Casimiro Castillo,25.0,Cálido
+14022,Cihuatlán,25.0,Cálido
+14023,Zapotlán el Grande,21.0,Semicálido
+14026,Concepción de Buenos Aires,19.0,Semicálido
+14088,Tecolotlán,19.0,Semicálido
+14089,Techaluta de Montenegro,19.0,Semicálido
+14104,Totatiche,21.0,Semicálido
+14105,Tototlán,19.0,Semicálido
+14106,Tuxcacuesco,13.0,Templado
+14107,Tuxcueca,19.0,Semicálido
+14070,El Salto,19.0,Semicálido
+14071,San Cristóbal de la Barranca,19.0,Semicálido
+14082,Sayula,19.0,Semicálido
+14083,Tala,19.0,Semicálido
+14006,Ameca,19.0,Semicálido
+14007,San Juanito de Escobedo,21.0,Semicálido
+14008,Arandas,19.0,Semicálido
+14009,El Arenal,19.0,Semicálido
+14112,Valle de Juárez,21.0,Semicálido
+14113,San Gabriel,11.0,Semifrio
+14114,Villa Corona,19.0,Semicálido
+14122,Zapotitlán de Vadillo,25.0,Cálido
+14123,Zapotlán del Rey,19.0,Semicálido
+14124,Zapotlanejo,19.0,Semicálido
+14001,Acatic,19.0,Semicálido
+14004,Amacueca,19.0,Semicálido
+14087,Tecalitlán,21.0,Semicálido
+14120,Zapopan,19.0,Semicálido
+14121,Zapotiltic,21.0,Semicálido
+14094,Tequila,21.0,Semicálido
+14095,Teuchitlán,21.0,Semicálido
+14096,Tizapán el Alto,19.0,Semicálido
+14097,Tlajomulco de Zúñiga,19.0,Semicálido
+14098,San Pedro Tlaquepaque,19.0,Semicálido
+14099,Tolimán,21.0,Semicálido
+14018,La Barca,17.0,Templado
+14019,Bolaños,17.0,Templado
+14024,Cocula,19.0,Semicálido
+14100,Tomatlán,25.0,Cálido
+14101,Tonalá,19.0,Semicálido
+14102,Tonaya,23.0,Cálido
+14103,Tonila,25.0,Cálido
+14041,Huejúcar,15.0,Templado
+14042,Huejuquilla el Alto,15.0,Templado
+14044,Ixtlahuacán de los Membrillos,19.0,Semicálido
+14045,Ixtlahuacán del Río,19.0,Semicálido
+14046,Jalostotitlán,19.0,Semicálido
+14047,Jamay,19.0,Semicálido
+14048,Jesús María,19.0,Semicálido
+14049,Jilotlán de los Dolores,27.0,Muy cálido
+14050,Jocotepec,19.0,Semicálido
+14051,Juanacatlán,19.0,Semicálido
+14052,Juchitlán,23.0,Cálido
+14053,Lagos de Moreno,19.0,Semicálido
+14056,Santa María del Oro,27.0,Muy cálido
+14057,La Manzanilla de la Paz,15.0,Templado
+14058,Mascota,15.0,Templado
+14059,Mazamitla,19.0,Semicálido
+14060,Mexticacán,19.0,Semicálido
+14061,Mezquitic,17.0,Templado
+14062,Mixtlán,19.0,Semicálido
+14063,Ocotlán,19.0,Semicálido
+14064,Ojuelos de Jalisco,15.0,Templado
+14065,Pihuamo,23.0,Cálido
+14090,Tenamaxtlán,23.0,Cálido
+14091,Teocaltiche,19.0,Semicálido
+14092,Teocuitatlán de Corona,19.0,Semicálido
+14093,Tepatitlán de Morelos,19.0,Semicálido
+14017,Ayutla,17.0,Templado
+14039,Guadalajara,19.0,Semicálido
+14066,Poncitlán,19.0,Semicálido
+14108,Tuxpan,25.0,Cálido
+14109,Unión de San Antonio,19.0,Semicálido
+14110,Unión de Tula,23.0,Cálido
+14011,Atengo,19.0,Semicálido
+14072,San Diego de Alejandría,19.0,Semicálido
+14073,San Juan de los Lagos,19.0,Semicálido
+14074,San Julián,15.0,Templado
+14075,San Marcos,21.0,Semicálido
+14076,San Martín de Bolaños,15.0,Templado
+14077,San Martín Hidalgo,19.0,Semicálido
+14078,San Miguel el Alto,15.0,Templado
+14079,Gómez Farías,19.0,Semicálido
+14080,San Sebastián del Oeste,15.0,Templado
+14081,Santa María de los Ángeles,15.0,Templado
+14002,Acatlán de Juárez,19.0,Semicálido
+14003,Ahualulco de Mercado,21.0,Semicálido
+14005,Amatitán,19.0,Semicálido
+14025,Colotlán,15.0,Templado
+14027,Cuautitlán de García Barragán,25.0,Cálido
+14028,Cuautla,19.0,Semicálido
+14029,Cuquío,19.0,Semicálido
+14030,Chapala,19.0,Semicálido
+14031,Chimaltitán,25.0,Cálido
+14032,Chiquilistlán,23.0,Cálido
+14033,Degollado,19.0,Semicálido
+14034,Ejutla,23.0,Cálido
+14035,Encarnación de Díaz,15.0,Templado
+14036,Etzatlán,21.0,Semicálido
+14037,El Grullo,23.0,Cálido
+14038,Guachinango,17.0,Templado
+14040,Hostotipaquillo,21.0,Semicálido
+14068,Villa Purificación,25.0,Cálido
+14069,Quitupan,21.0,Semicálido
+14084,Talpa de Allende,25.0,Cálido
+14085,Tamazula de Gordiano,21.0,Semicálido
+14111,Valle de Guadalupe,19.0,Semicálido
+14115,Villa Guerrero,21.0,Semicálido
+14116,Villa Hidalgo,15.0,Templado
+14117,Cañadas de Obregón,19.0,Semicálido
+14118,Yahualica de González Gallo,19.0,Semicálido
+14119,Zacoalco de Torres,19.0,Semicálido
+14010,Atemajac de Brizuela,19.0,Semicálido
+14013,Atotonilco el Alto,17.0,Templado
+14014,Atoyac,19.0,Semicálido
+14015,Autlán de Navarro,25.0,Cálido
+14016,Ayotlán,17.0,Templado
+14067,Puerto Vallarta,19.0,Semicálido
+14012,Atenguillo,13.0,Templado
+14125,San Ignacio Cerro Gordo,15.0,Templado
+15036,Hueypoxtla,15.0,Templado
+15040,Ixtapan de la Sal,21.0,Semicálido
+15042,Ixtlahuaca,9.0,Semifrio
+15062,Ocoyoacac,13.0,Templado
+15003,Aculco,15.0,Templado
+15005,Almoloya de Juárez,9.0,Semifrio
+15010,Apaxco,15.0,Templado
+15099,Texcoco,15.0,Templado
+15009,Amecameca,15.0,Templado
+15085,Temascalcingo,15.0,Templado
+15088,Tenancingo,21.0,Semicálido
+15034,Ecatzingo,17.0,Templado
+15041,Ixtapan del Oro,19.0,Semicálido
+15031,Chimalhuacán,15.0,Templado
+15121,Cuautitlán Izcalli,15.0,Templado
+15122,Valle de Chalco Solidaridad,15.0,Templado
+15015,Atlautla,17.0,Templado
+15016,Axapusco,15.0,Templado
+15017,Ayapango,15.0,Templado
+15018,Calimaya,7.0,Semifrio
+15070,La Paz,15.0,Templado
+15071,Polotitlán,15.0,Templado
+15072,Rayón,13.0,Templado
+15073,San Antonio la Isla,13.0,Templado
+15024,Cuautitlán,15.0,Templado
+15093,Tepetlaoxtoc,15.0,Templado
+15079,Soyaniquilpan de Juárez,15.0,Templado
+15026,Chapa de Mota,15.0,Templado
+15094,Tepetlixpa,19.0,Semicálido
+15029,Chicoloapan,15.0,Templado
+15090,Tenango del Valle,15.0,Templado
+15081,Tecámac,15.0,Templado
+15067,Otzolotepec,7.0,Semifrio
+15123,Luvianos,25.0,Cálido
+15021,Coatepec Harinas,19.0,Semicálido
+15103,Tlalmanalco,15.0,Templado
+15108,Tultepec,15.0,Templado
+15111,Villa de Allende,11.0,Semifrio
+15112,Villa del Carbón,15.0,Templado
+15104,Tlalnepantla de Baz,15.0,Templado
+15063,Ocuilan,19.0,Semicálido
+15068,Ozumba,19.0,Semicálido
+15077,San Simón de Guerrero,21.0,Semicálido
+15096,Tequixquiac,15.0,Templado
+15107,Tonatico,23.0,Cálido
+15001,Acambay de Ruíz Castañeda,15.0,Templado
+15008,Amatepec,25.0,Cálido
+15109,Tultitlán,15.0,Templado
+15118,Zinacantepec,7.0,Semifrio
+15078,Santo Tomás,23.0,Cálido
+15080,Sultepec,25.0,Cálido
+15082,Tejupilco,25.0,Cálido
+15086,Temascaltepec,23.0,Cálido
+15028,Chiautla,15.0,Templado
+15002,Acolman,15.0,Templado
+15004,Almoloya de Alquisiras,19.0,Semicálido
+15011,Atenco,15.0,Templado
+15013,Atizapán de Zaragoza,15.0,Templado
+15014,Atlacomulco,11.0,Semifrio
+15019,Capulhuac,13.0,Templado
+15059,Nextlalpan,15.0,Templado
+15092,Teotihuacán,15.0,Templado
+15057,Naucalpan de Juárez,15.0,Templado
+15084,Temascalapa,15.0,Templado
+15089,Tenango del Aire,15.0,Templado
+15054,Metepec,13.0,Templado
+15056,Morelos,11.0,Semifrio
+15058,Nezahualcóyotl,15.0,Templado
+15046,Jilotzingo,11.0,Semifrio
+15105,Tlatlaya,25.0,Cálido
+15106,Toluca,7.0,Semifrio
+15110,Valle de Bravo,17.0,Templado
+15116,Zacazonapan,23.0,Cálido
+15119,Zumpahuacán,23.0,Cálido
+15120,Zumpango,15.0,Templado
+15065,Otumba,15.0,Templado
+15035,Huehuetoca,15.0,Templado
+15037,Huixquilucan,15.0,Templado
+15038,Isidro Fabela,11.0,Semifrio
+15039,Ixtapaluca,15.0,Templado
+15075,San Martín de las Pirámides,15.0,Templado
+15091,Teoloyucan,15.0,Templado
+15043,Xalatlaco,13.0,Templado
+15047,Jiquipilco,7.0,Semifrio
+15048,Jocotitlán,11.0,Semifrio
+15051,Lerma,9.0,Semifrio
+15113,Villa Guerrero,21.0,Semicálido
+15114,Villa Victoria,11.0,Semifrio
+15007,Amanalco,17.0,Templado
+15095,Tepotzotlán,13.0,Templado
+15097,Texcaltitlán,17.0,Templado
+15032,Donato Guerra,19.0,Semicálido
+15033,Ecatepec de Morelos,15.0,Templado
+15102,Timilpan,11.0,Semifrio
+15087,Temoaya,7.0,Semifrio
+15069,Papalotla,15.0,Templado
+15012,Atizapán,13.0,Templado
+15060,Nicolás Romero,7.0,Semifrio
+15061,Nopaltepec,15.0,Templado
+15064,El Oro,11.0,Semifrio
+15066,Otzoloapan,23.0,Cálido
+15025,Chalco,15.0,Templado
+15074,San Felipe del Progreso,11.0,Semifrio
+15044,Jaltenco,15.0,Templado
+15049,Joquicingo,15.0,Templado
+15052,Malinalco,23.0,Cálido
+15050,Juchitepec,15.0,Templado
+15101,Tianguistenco,13.0,Templado
+15045,Jilotepec,15.0,Templado
+15115,Xonacatlán,7.0,Semifrio
+15117,Zacualpan,21.0,Semicálido
+15124,San José del Rincón,9.0,Semifrio
+15125,Tonanitla,15.0,Templado
+15006,Almoloya del Río,13.0,Templado
+15020,Coacalco de Berriozábal,15.0,Templado
+15022,Cocotitlán,15.0,Templado
+15027,Chapultepec,13.0,Templado
+15030,Chiconcuac,15.0,Templado
+15053,Melchor Ocampo,15.0,Templado
+15055,Mexicaltzingo,13.0,Templado
+15076,San Mateo Atenco,13.0,Templado
+15083,Temamatla,15.0,Templado
+15098,Texcalyacac,13.0,Templado
+15100,Tezoyuca,15.0,Templado
+15023,Coyotepec,15.0,Templado
+16097,Turicato,27.0,Muy cálido
+16098,Tuxpan,17.0,Templado
+16111,Ziracuaretiro,21.0,Semicálido
+16112,Zitácuaro,21.0,Semicálido
+16094,Tlazazalca,15.0,Templado
+16095,Tocumbo,25.0,Cálido
+16096,Tumbiscatío,25.0,Cálido
+16113,José Sixto Verduzco,17.0,Templado
+16084,Tangamandapio,19.0,Semicálido
+16085,Tangancícuaro,15.0,Templado
+16038,Huetamo,,Muy cálido
+16031,Epitacio Huerta,15.0,Templado
+16032,Erongarícuaro,13.0,Templado
+16033,Gabriel Zamora,27.0,Muy cálido
+16073,Quiroga,15.0,Templado
+16092,Tiquicheo de Nicolás Romero,27.0,Muy cálido
+16093,Tlalpujahua,11.0,Semifrio
+16100,Tzintzuntzan,15.0,Templado
+16101,Tzitzio,27.0,Muy cálido
+16009,Ario,25.0,Cálido
+16010,Arteaga,27.0,Muy cálido
+16011,Briseñas,19.0,Semicálido
+16025,Chilchota,15.0,Templado
+16026,Chinicuila,25.0,Cálido
+16088,Tarímbaro,15.0,Templado
+16089,Tepalcatepec,23.0,Cálido
+16039,Huiramba,13.0,Templado
+16040,Indaparapeo,15.0,Templado
+16041,Irimbo,17.0,Templado
+16042,Ixtlán,19.0,Semicálido
+16043,Jacona,15.0,Templado
+16044,Jiménez,15.0,Templado
+16045,Jiquilpan,19.0,Semicálido
+16046,Juárez,25.0,Cálido
+16047,Jungapeo,21.0,Semicálido
+16048,Lagunillas,15.0,Templado
+16049,Madero,25.0,Cálido
+16050,Maravatío,13.0,Templado
+16051,Marcos Castellanos,19.0,Semicálido
+16052,Lázaro Cárdenas,27.0,Muy cálido
+16053,Morelia,13.0,Templado
+16062,Pajacuarán,19.0,Semicálido
+16063,Panindícuaro,15.0,Templado
+16064,Parácuaro,27.0,Muy cálido
+16065,Paracho,11.0,Semifrio
+16066,Pátzcuaro,13.0,Templado
+16069,La Piedad,19.0,Semicálido
+16070,Purépero,15.0,Templado
+16071,Puruándiro,15.0,Templado
+16074,Cojumatlán de Régules,19.0,Semicálido
+16077,San Lucas,,Muy cálido
+16078,Santa Ana Maya,19.0,Semicálido
+16079,Salvador Escalante,21.0,Semicálido
+16080,Senguio,11.0,Semifrio
+16081,Susupuato,23.0,Cálido
+16082,Tacámbaro,23.0,Cálido
+16083,Tancítaro,17.0,Templado
+16013,Carácuaro,27.0,Muy cálido
+16012,Buenavista,27.0,Muy cálido
+16056,Nahuatzen,11.0,Semifrio
+16008,Aquila,27.0,Muy cálido
+16029,Churumuco,,Muy cálido
+16030,Ecuandureo,19.0,Semicálido
+16055,Múgica,27.0,Muy cálido
+16027,Chucándiro,15.0,Templado
+16028,Churintzio,19.0,Semicálido
+16068,Peribán,23.0,Cálido
+16099,Tuzantla,27.0,Muy cálido
+16106,Yurécuaro,19.0,Semicálido
+16107,Zacapu,13.0,Templado
+16108,Zamora,19.0,Semicálido
+16109,Zináparo,19.0,Semicálido
+16110,Zinapécuaro,15.0,Templado
+16034,Hidalgo,19.0,Semicálido
+16075,Los Reyes,23.0,Cálido
+16076,Sahuayo,19.0,Semicálido
+16105,Vista Hermosa,19.0,Semicálido
+16024,Cherán,13.0,Templado
+16035,La Huacana,23.0,Cálido
+16036,Huandacareo,15.0,Templado
+16037,Huaniqueo,15.0,Templado
+16001,Acuitzio,13.0,Templado
+16002,Aguililla,21.0,Semicálido
+16003,Álvaro Obregón,17.0,Templado
+16004,Angamacutiro,17.0,Templado
+16005,Angangueo,11.0,Semifrio
+16006,Apatzingán,23.0,Cálido
+16007,Aporo,17.0,Templado
+16102,Uruapan,23.0,Cálido
+16103,Venustiano Carranza,19.0,Semicálido
+16104,Villamar,19.0,Semicálido
+16057,Nocupétaro,23.0,Cálido
+16058,Nuevo Parangaricutiro,21.0,Semicálido
+16059,Nuevo Urecho,27.0,Muy cálido
+16060,Numarán,19.0,Semicálido
+16061,Ocampo,17.0,Templado
+16087,Taretan,23.0,Cálido
+16018,Copándaro,15.0,Templado
+16019,Cotija,21.0,Semicálido
+16020,Cuitzeo,15.0,Templado
+16021,Charapan,13.0,Templado
+16022,Charo,15.0,Templado
+16067,Penjamillo,15.0,Templado
+16072,Queréndaro,13.0,Templado
+16086,Tanhuato,19.0,Semicálido
+16014,Coahuayana,23.0,Cálido
+16015,Coalcomán de Vázquez Pallares,25.0,Cálido
+16016,Coeneo,15.0,Templado
+16017,Contepec,15.0,Templado
+16023,Chavinda,19.0,Semicálido
+16054,Morelos,15.0,Templado
+16090,Tingambato,15.0,Templado
+16091,Tingüindín,19.0,Semicálido
+17004,Ayala,23.0,Cálido
+17015,Miacatlán,19.0,Semicálido
+17031,Zacatepec,23.0,Cálido
+17017,Puente de Ixtla,25.0,Cálido
+17003,Axochiapan,23.0,Cálido
+17008,Emiliano Zapata,23.0,Cálido
+17016,Ocuituco,19.0,Semicálido
+17022,Tetela del Volcán,19.0,Semicálido
+17036,Hueyapan,19.0,Semicálido
+17014,Mazatepec,25.0,Cálido
+17018,Temixco,23.0,Cálido
+17029,Yautepec,19.0,Semicálido
+17028,Xochitepec,23.0,Cálido
+17001,Amacuzac,25.0,Cálido
+17025,Tlaquiltenango,25.0,Cálido
+17027,Totolapan,19.0,Semicálido
+17024,Tlaltizapán de Zapata,23.0,Cálido
+17009,Huitzilac,19.0,Semicálido
+17012,Jojutla,25.0,Cálido
+17011,Jiutepec,21.0,Semicálido
+17020,Tepoztlán,19.0,Semicálido
+17002,Atlatlahucan,19.0,Semicálido
+17006,Cuautla,23.0,Cálido
+17010,Jantetelco,23.0,Cálido
+17013,Jonacatepec de Leandro Valle,23.0,Cálido
+17019,Tepalcingo,23.0,Cálido
+17021,Tetecala,23.0,Cálido
+17026,Tlayacapan,19.0,Semicálido
+17030,Yecapixtla,19.0,Semicálido
+17005,Coatlán del Río,23.0,Cálido
+17007,Cuernavaca,19.0,Semicálido
+17035,Xoxocotla,23.0,Cálido
+17032,Zacualpan de Amilpas,19.0,Semicálido
+17033,Temoac,21.0,Semicálido
+17023,Tlalnepantla,19.0,Semicálido
+17034,Coatetelco,23.0,Cálido
+18008,Xalisco,19.0,Semicálido
+18017,Tepic,17.0,Templado
+18001,Acaponeta,21.0,Semicálido
+18015,Santiago Ixcuintla,23.0,Cálido
+18006,Ixtlán del Río,21.0,Semicálido
+18009,Del Nayar,27.0,Muy cálido
+18011,Ruíz,23.0,Cálido
+18004,Compostela,25.0,Cálido
+18005,Huajicori,23.0,Cálido
+18019,La Yesca,25.0,Cálido
+18020,Bahía de Banderas,23.0,Cálido
+18002,Ahuacatlán,23.0,Cálido
+18010,Rosamorada,23.0,Cálido
+18012,San Blas,21.0,Semicálido
+18016,Tecuala,25.0,Cálido
+18018,Tuxpan,25.0,Cálido
+18003,Amatlán de Cañas,21.0,Semicálido
+18007,Jala,19.0,Semicálido
+18013,San Pedro Lagunillas,25.0,Cálido
+18014,Santa María del Oro,21.0,Semicálido
+19038,Montemorelos,15.0,Templado
+19025,General Zuazua,23.0,Cálido
+19045,Salinas Victoria,19.0,Semicálido
+19028,Higueras,19.0,Semicálido
+19051,Villaldama,19.0,Semicálido
+19015,Doctor Coss,23.0,Cálido
+19016,Doctor González,23.0,Cálido
+19018,García,17.0,Templado
+19009,Cadereyta Jiménez,23.0,Cálido
+19002,Agualeguas,23.0,Cálido
+19003,Los Aldamas,23.0,Cálido
+19004,Allende,21.0,Semicálido
+19005,Anáhuac,23.0,Cálido
+19021,General Escobedo,19.0,Semicálido
+19022,General Terán,21.0,Semicálido
+19023,General Treviño,23.0,Cálido
+19012,Ciénega de Flores,21.0,Semicálido
+19013,China,23.0,Cálido
+19014,Doctor Arroyo,19.0,Semicálido
+19017,Galeana,15.0,Templado
+19001,Abasolo,19.0,Semicálido
+19024,General Zaragoza,13.0,Templado
+19037,Mina,15.0,Templado
+19039,Monterrey,15.0,Templado
+19040,Parás,23.0,Cálido
+19041,Pesquería,23.0,Cálido
+19042,Los Ramones,23.0,Cálido
+19044,Sabinas Hidalgo,23.0,Cálido
+19046,San Nicolás de los Garza,19.0,Semicálido
+19048,Santa Catarina,15.0,Templado
+19007,Aramberri,15.0,Templado
+19011,Cerralvo,23.0,Cálido
+19049,Santiago,13.0,Templado
+19020,General Bravo,23.0,Cálido
+19027,Los Herreras,23.0,Cálido
+19019,San Pedro Garza García,15.0,Templado
+19032,Lampazos de Naranjo,23.0,Cálido
+19033,Linares,17.0,Templado
+19034,Marín,23.0,Cálido
+19050,Vallecillo,23.0,Cálido
+19031,Juárez,23.0,Cálido
+19029,Hualahuises,23.0,Cálido
+19008,Bustamante,19.0,Semicálido
+19010,El Carmen,17.0,Templado
+19030,Iturbide,11.0,Semifrio
+19035,Melchor Ocampo,23.0,Cálido
+19036,Mier y Noriega,19.0,Semicálido
+19043,Rayones,17.0,Templado
+19047,Hidalgo,19.0,Semicálido
+19026,Guadalupe,23.0,Cálido
+19006,Apodaca,23.0,Cálido
+20481,Santiago Nuyoó,23.0,Cálido
+20484,Santiago Tamazola,19.0,Semicálido
+20380,Santa Cruz Papalutla,19.0,Semicálido
+20493,Santiago Tillo,17.0,Templado
+20497,Santiago Yaitepec,19.0,Semicálido
+20498,Santiago Yaveo,21.0,Semicálido
+20508,Santo Domingo Chihuitán,27.0,Muy cálido
+20408,Santa María del Rosario,17.0,Templado
+20027,Chiquihuitlán de Benito Juárez,17.0,Templado
+20028,Heroica Ciudad de Ejutla de Crespo,19.0,Semicálido
+20510,Santo Domingo Ixcatlán,19.0,Semicálido
+20514,Santo Domingo Roayaga,17.0,Templado
+20517,Santo Domingo Tepuxtepec,19.0,Semicálido
+20518,Santo Domingo Tlatayápam,15.0,Templado
+20521,Santo Domingo Tonaltepec,15.0,Templado
+20318,San Pedro Mixtepec,21.0,Semicálido
+20264,San Miguel Chicahua,15.0,Templado
+20284,San Miguel Tilquiápam,17.0,Templado
+20523,Santo Domingo Yanhuitlán,17.0,Templado
+20524,Santo Domingo Yodohino,17.0,Templado
+20304,San Pedro Coxcaltepec Cántaros,17.0,Templado
+20286,San Miguel Tlacotepec,17.0,Templado
+20410,Santa María Ecatepec,23.0,Cálido
+20288,San Miguel Yotao,15.0,Templado
+20305,San Pedro Comitancillo,27.0,Muy cálido
+20378,Santa Cruz Mixtepec,15.0,Templado
+20311,San Pedro Jaltepetongo,15.0,Templado
+20312,San Pedro Jicayán,25.0,Cálido
+20313,San Pedro Jocotipac,15.0,Templado
+20235,San Luis Amatlán,21.0,Semicálido
+20295,San Pablo Huixtepec,17.0,Templado
+20359,Santa Ana Yareni,19.0,Semicálido
+20368,Santa Catarina Minas,17.0,Templado
+20225,San Lorenzo,25.0,Cálido
+20248,San Mateo del Mar,27.0,Muy cálido
+20315,San Pedro Mártir,19.0,Semicálido
+20053,Magdalena Tlacotepec,27.0,Muy cálido
+20300,San Pedro Amuzgos,27.0,Muy cálido
+20316,San Pedro Mártir Quiechapa,15.0,Templado
+20301,San Pedro Apóstol,21.0,Semicálido
+20321,San Pedro Nopala,15.0,Templado
+20302,San Pedro Atoyac,25.0,Cálido
+20451,Santiago Apoala,15.0,Templado
+20333,San Pedro Totolápam,21.0,Semicálido
+20334,Villa de Tututepec,25.0,Cálido
+20303,San Pedro Cajonos,17.0,Templado
+20319,San Pedro Mixtepec,13.0,Templado
+20435,Santa María Tepantlali,23.0,Cálido
+20437,Santa María Tlahuitoltepec,17.0,Templado
+20441,Santa María Xadani,27.0,Muy cálido
+20446,Santa María Yucuhiti,23.0,Cálido
+20447,Santa María Zacatepec,19.0,Semicálido
+20469,Santiago Juxtlahuaca,25.0,Cálido
+20307,San Pedro Huamelula,27.0,Muy cálido
+20308,San Pedro Huilotepec,27.0,Muy cálido
+20331,San Pedro Tidaá,11.0,Semifrio
+20509,Santo Domingo de Morelos,23.0,Cálido
+20511,Santo Domingo Nuxaá,17.0,Templado
+20513,Santo Domingo Petapa,23.0,Cálido
+20314,San Pedro Juchatengo,19.0,Semicálido
+20562,Magdalena Yodocono de Porfirio Díaz,11.0,Semifrio
+20317,San Pedro Mártir Yucuxaco,15.0,Templado
+20075,Reforma de Pineda,27.0,Muy cálido
+20322,San Pedro Ocopetatillo,15.0,Templado
+20456,Santiago Cacaloxtepec,21.0,Semicálido
+20457,Santiago Camotlán,17.0,Templado
+20323,San Pedro Ocotepec,17.0,Templado
+20343,San Sebastián Abasolo,19.0,Semicálido
+20480,Santiago Nundiche,17.0,Templado
+20482,Santiago Pinotepa Nacional,25.0,Cálido
+20325,San Pedro Quiatoni,25.0,Cálido
+20360,Santa Ana Zegache,19.0,Semicálido
+20228,San Lorenzo Cuaunecuiltitla,15.0,Templado
+20326,San Pedro Sochiápam,23.0,Cálido
+20328,San Pedro Taviche,17.0,Templado
+20271,San Miguel Mixtepec,15.0,Templado
+20205,San Juan Lalana,21.0,Semicálido
+20278,San Miguel Soyaltepec,23.0,Cálido
+20229,San Lorenzo Texmelúcan,19.0,Semicálido
+20335,San Pedro Yaneri,15.0,Templado
+20170,San José Lachiguiri,15.0,Templado
+20230,San Lorenzo Victoria,19.0,Semicálido
+20165,San José Ayuquila,21.0,Semicálido
+20327,San Pedro Tapanatepec,27.0,Muy cálido
+20336,San Pedro Yólox,15.0,Templado
+20329,San Pedro Teozacoalco,17.0,Templado
+20330,San Pedro Teutila,19.0,Semicálido
+20167,San José del Peñasco,15.0,Templado
+20340,San Pedro y San Pablo Tequixtepec,19.0,Semicálido
+20193,San Juan del Estado,19.0,Semicálido
+20202,San Juan Lachao,23.0,Cálido
+20214,San Juan Quiotepec,21.0,Semicálido
+20339,San Pedro y San Pablo Teposcolula,13.0,Templado
+20341,San Pedro Yucunama,15.0,Templado
+20216,San Juan Tabaá,21.0,Semicálido
+20217,San Juan Tamazola,17.0,Templado
+20227,San Lorenzo Cacaotepec,19.0,Semicálido
+20342,San Raymundo Jalpan,21.0,Semicálido
+20570,Zimatlán de Álvarez,19.0,Semicálido
+20236,San Marcial Ozolotepec,21.0,Semicálido
+20237,San Marcos Arteaga,17.0,Templado
+20261,San Miguel Amatitlán,17.0,Templado
+20262,San Miguel Amatlán,11.0,Semifrio
+20266,San Miguel del Puerto,27.0,Muy cálido
+20277,Villa Sola de Vega,25.0,Cálido
+20253,San Mateo Piñas,21.0,Semicálido
+20254,San Mateo Río Hondo,23.0,Cálido
+20272,San Miguel Panixtlahuaca,25.0,Cálido
+20273,San Miguel Peras,15.0,Templado
+20275,San Miguel Quetzaltepec,19.0,Semicálido
+20345,San Sebastián Ixcapa,27.0,Muy cálido
+20287,San Miguel Tulancingo,15.0,Templado
+20291,San Pablo Coatlán,23.0,Cálido
+20298,San Pablo Villa de Mitla,15.0,Templado
+20346,San Sebastián Nicananduta,15.0,Templado
+20349,San Sebastián Teitipac,19.0,Semicálido
+20181,San Juan Bautista Suchitepec,15.0,Templado
+20197,San Juan Guelavía,19.0,Semicálido
+20182,San Juan Bautista Tlacoatzintepec,23.0,Cálido
+20199,San Juan Ihualtepec,19.0,Semicálido
+20231,San Lucas Camotlán,17.0,Templado
+20239,San Martín Huamelúlpam,17.0,Templado
+20265,San Miguel Chimalapa,27.0,Muy cálido
+20044,Loma Bonita,25.0,Cálido
+20338,Villa de Etla,19.0,Semicálido
+20344,San Sebastián Coatlán,21.0,Semicálido
+20191,San Juan Chicomezúchil,15.0,Templado
+20366,Santa Catarina Loxicha,23.0,Cálido
+20377,Santa Cruz Itundujia,27.0,Muy cálido
+20018,Concepción Buenavista,15.0,Templado
+20036,Guevea de Humboldt,23.0,Cálido
+20404,Santa María Chachoápam,15.0,Templado
+20407,Santa María Chimalapa,23.0,Cálido
+20005,Asunción Ixtaltepec,27.0,Muy cálido
+20249,San Mateo Yoloxochitlán,17.0,Templado
+20256,San Mateo Tlapiltepec,15.0,Templado
+20183,San Juan Bautista Tlachichilco,19.0,Semicálido
+20347,San Sebastián Río Hondo,13.0,Templado
+20348,San Sebastián Tecomaxtlahuaca,21.0,Semicálido
+20356,Santa Ana del Valle,19.0,Semicálido
+20406,Santa María Chilchotla,15.0,Templado
+20350,San Sebastián Tutla,19.0,Semicálido
+20357,Santa Ana Tavela,19.0,Semicálido
+20352,San Simón Zahuatlán,17.0,Templado
+20353,Santa Ana,15.0,Templado
+20354,Santa Ana Ateixtlahuaca,17.0,Templado
+20502,Santiago Zacatepec,17.0,Templado
+20355,Santa Ana Cuauhtémoc,15.0,Templado
+20297,San Pablo Tijaltepec,23.0,Cálido
+20242,San Martín Peras,17.0,Templado
+20130,San Dionisio del Mar,27.0,Muy cálido
+20150,San Francisco Telixtlahuaca,19.0,Semicálido
+20279,San Miguel Suchixtepec,19.0,Semicálido
+20260,San Miguel Aloápam,15.0,Templado
+20299,San Pablo Yaganiza,17.0,Templado
+20031,Tamazulápam del Espíritu Santo,19.0,Semicálido
+20401,Santa María Colotepec,21.0,Semicálido
+20503,Santiago Zoochila,19.0,Semicálido
+20223,San Juan Yatzona,17.0,Templado
+20174,Ánimas Trujano,19.0,Semicálido
+20362,Santa Catarina Cuixtla,15.0,Templado
+20358,Santa Ana Tlapacoyan,17.0,Templado
+20361,Santa Catalina Quierí,11.0,Semifrio
+20549,"Heroica Villa Tezoatlán de Segura y Luna, Cuna de la Independencia de Oaxaca",15.0,Templado
+20367,Santa Catarina Mechoacán,25.0,Cálido
+20363,Santa Catarina Ixtepeji,17.0,Templado
+20373,Santa Catarina Zapoquila,13.0,Templado
+20369,Santa Catarina Quiané,19.0,Semicálido
+20569,Santa Inés de Zaragoza,17.0,Templado
+20370,Santa Catarina Tayata,17.0,Templado
+20381,Santa Cruz Tacache de Mina,25.0,Cálido
+20372,Santa Catarina Yosonotú,17.0,Templado
+20179,San Juan Bautista Jayacatlán,17.0,Templado
+20374,Santa Cruz Acatepec,15.0,Templado
+20379,Santa Cruz Nundaco,13.0,Templado
+20375,Santa Cruz Amilpas,19.0,Semicálido
+20376,Santa Cruz de Bravo,17.0,Templado
+20382,Santa Cruz Tacahua,19.0,Semicálido
+20500,Santiago Yosondúa,23.0,Cálido
+20056,Mártires de Tacubaya,27.0,Muy cálido
+20196,San Juan Evangelista Analco,17.0,Templado
+20383,Santa Cruz Tayata,17.0,Templado
+20418,Santa María Jalapa del Marqués,27.0,Muy cálido
+20057,Matías Romero Avendaño,23.0,Cálido
+20058,Mazatlán Villa de Flores,25.0,Cálido
+20059,Miahuatlán de Porfirio Díaz,15.0,Templado
+20177,San Juan Bautista Cuicatlán,21.0,Semicálido
+20293,San Pablo Etla,19.0,Semicálido
+20189,San Juan Comaltepec,17.0,Templado
+20384,Santa Cruz Xitla,15.0,Templado
+20064,Nejapa de Madero,19.0,Semicálido
+20104,San Antonino el Alto,15.0,Templado
+20387,Santa Gertrudis,19.0,Semicálido
+20203,San Juan Lachigalla,15.0,Templado
+20388,Santa Inés del Monte,19.0,Semicálido
+20423,Santa María Nduayaco,11.0,Semifrio
+20468,Santiago Jocotepec,23.0,Cálido
+20470,Santiago Lachiguiri,27.0,Muy cálido
+20204,San Juan Lajarcia,23.0,Cálido
+20192,San Juan Chilateca,19.0,Semicálido
+20420,Santa María Lachixío,13.0,Templado
+20390,Santa Lucía del Camino,19.0,Semicálido
+20391,Santa Lucía Miahuatlán,21.0,Semicálido
+20430,Santa María Tataltepec,21.0,Semicálido
+20392,Santa Lucía Monteverde,23.0,Cálido
+20393,Santa Lucía Ocotlán,19.0,Semicálido
+20394,Santa María Alotepec,19.0,Semicálido
+20395,Santa María Apazco,15.0,Templado
+20396,Santa María la Asunción,19.0,Semicálido
+20400,Santa María Camotlán,15.0,Templado
+20402,Santa María Cortijo,27.0,Muy cálido
+20405,Villa de Chilapa de Díaz,15.0,Templado
+20432,Santa María Temaxcalapa,17.0,Templado
+20409,Santa María del Tule,19.0,Semicálido
+20411,Santa María Guelacé,19.0,Semicálido
+20412,Santa María Guienagati,27.0,Muy cálido
+20414,Santa María Huazolotitlán,25.0,Cálido
+20415,Santa María Ipalapa,25.0,Cálido
+20416,Santa María Ixcatlán,15.0,Templado
+20421,Santa María Mixtequilla,27.0,Muy cálido
+20433,Santa María Temaxcaltepec,23.0,Cálido
+20425,Santa María Pápalo,19.0,Semicálido
+20436,Santa María Texcatitlán,15.0,Templado
+20429,Santa María Sola,17.0,Templado
+20431,Santa María Tecomavaca,15.0,Templado
+20434,Santa María Teopoxco,13.0,Templado
+20438,Santa María Tlalixtac,15.0,Templado
+20442,Santa María Yalina,21.0,Semicálido
+20444,Santa María Yolotepec,21.0,Semicálido
+20245,San Martín Zacatepec,23.0,Cálido
+20443,Santa María Yavesía,11.0,Semifrio
+20445,Santa María Yosoyúa,17.0,Templado
+20448,Santa María Zaniza,23.0,Cálido
+20246,San Mateo Cajonos,17.0,Templado
+20276,San Miguel Santa Flor,13.0,Templado
+20449,Santa María Zoquitlán,17.0,Templado
+20452,Santiago Apóstol,19.0,Semicálido
+20462,Santiago Huajolotitlán,15.0,Templado
+20250,San Mateo Etlatongo,17.0,Templado
+20453,Santiago Astata,27.0,Muy cálido
+20251,San Mateo Nejápam,23.0,Cálido
+20215,San Juan Sayultepec,17.0,Templado
+20281,San Miguel Tecomatlán,17.0,Templado
+20463,Santiago Huauclilla,17.0,Templado
+20454,Santiago Atitlán,17.0,Templado
+20455,Santiago Ayuquililla,21.0,Semicálido
+20458,Santiago Comaltepec,17.0,Templado
+20461,Santiago del Río,15.0,Templado
+20051,Magdalena Teitipac,19.0,Semicálido
+20169,San José Independencia,23.0,Cálido
+20465,Santiago Ixcuintepec,21.0,Semicálido
+20467,Santiago Jamiltepec,25.0,Cálido
+20471,Santiago Lalopa,23.0,Cálido
+20472,Santiago Laollaga,27.0,Muy cálido
+20473,Santiago Laxopa,17.0,Templado
+20474,Santiago Llano Grande,27.0,Muy cálido
+20538,Sitio de Xitlapehua,17.0,Templado
+20475,Santiago Matatlán,19.0,Semicálido
+20478,Santiago Nacaltepec,17.0,Templado
+20476,Santiago Miltepec,17.0,Templado
+20479,Santiago Nejapilla,13.0,Templado
+20483,Santiago Suchilquitongo,19.0,Semicálido
+20486,Villa Tejúpam de la Unión,15.0,Templado
+20487,Santiago Tenango,17.0,Templado
+20259,San Miguel Ahuehuetitlán,23.0,Cálido
+20460,Santiago Choápam,17.0,Templado
+20489,Santiago Tetepec,25.0,Cálido
+20490,Santiago Texcalcingo,15.0,Templado
+20494,Santiago Tlazoyaltepec,17.0,Templado
+20255,San Mateo Sindihui,23.0,Cálido
+20499,Santiago Yolomécatl,15.0,Templado
+20496,Santiago Xiacuí,11.0,Semifrio
+20504,Nuevo Zoquiápam,9.0,Semifrio
+20117,San Bartolomé Loxicha,23.0,Cálido
+20568,Zapotitlán Palmas,17.0,Templado
+20258,San Miguel Achiutla,17.0,Templado
+20519,Santo Domingo Tomaltepec,19.0,Semicálido
+20501,Santiago Yucuyachi,23.0,Cálido
+20505,Santo Domingo Ingenio,27.0,Muy cálido
+20506,Santo Domingo Albarradas,17.0,Templado
+20507,Santo Domingo Armenta,27.0,Muy cálido
+20512,Santo Domingo Ozolotepec,17.0,Templado
+20529,Santos Reyes Yucuná,19.0,Semicálido
+20535,San Vicente Lachixío,19.0,Semicálido
+20520,Santo Domingo Tonalá,17.0,Templado
+20522,Santo Domingo Xagacía,17.0,Templado
+20536,San Vicente Nuñú,11.0,Semifrio
+20527,Santos Reyes Pápalo,13.0,Templado
+20528,Santos Reyes Tepejillo,17.0,Templado
+20530,Santo Tomás Jalieza,19.0,Semicálido
+20531,Santo Tomás Mazaltepec,19.0,Semicálido
+20515,Santo Domingo Tehuantepec,27.0,Muy cálido
+20516,Santo Domingo Teojomulco,13.0,Templado
+20532,Santo Tomás Ocotepec,23.0,Cálido
+20533,Santo Tomás Tamazulapan,15.0,Templado
+20541,Tanetze de Zaragoza,17.0,Templado
+20539,Soledad Etla,19.0,Semicálido
+20540,Villa de Tamazulápam del Progreso,15.0,Templado
+20194,San Juan del Río,19.0,Semicálido
+20014,Ciudad Ixtepec,27.0,Muy cálido
+20542,Taniche,21.0,Semicálido
+20015,Coatecas Altas,17.0,Templado
+20544,Teococuilco de Marcos Pérez,11.0,Semifrio
+20552,Tlacotepec Plumas,15.0,Templado
+20545,Teotitlán de Flores Magón,25.0,Cálido
+20546,Teotitlán del Valle,19.0,Semicálido
+20547,Teotongo,15.0,Templado
+20332,San Pedro Topiltepec,13.0,Templado
+20550,San Jerónimo Tlacochahuaya,19.0,Semicálido
+20218,San Juan Teita,21.0,Semicálido
+20553,Tlalixtac de Cabrera,19.0,Semicálido
+20558,Valerio Trujano,19.0,Semicálido
+20190,San Juan Cotzocón,21.0,Semicálido
+20554,Totontepec Villa de Morelos,17.0,Templado
+20413,Santa María Huatulco,27.0,Muy cálido
+20555,Trinidad Zaachila,19.0,Semicálido
+20561,Yaxe,15.0,Templado
+20173,San Juan Atepec,15.0,Templado
+20557,Unión Hidalgo,27.0,Muy cálido
+20020,Constancia del Rosario,23.0,Cálido
+20563,Yogana,19.0,Semicálido
+20030,El Espinal,27.0,Muy cálido
+20195,San Juan Diuxi,17.0,Templado
+20564,Yutanduchi de Guerrero,21.0,Semicálido
+20567,Zapotitlán Lagunas,19.0,Semicálido
+20001,Abejones,19.0,Semicálido
+20003,Asunción Cacalotepec,19.0,Semicálido
+20566,San Mateo Yucutindoo,23.0,Cálido
+20016,Coicoyán de las Flores,25.0,Cálido
+20176,San Juan Bautista Coixtlahuaca,15.0,Templado
+20187,San Juan Coatzóspam,23.0,Cálido
+20525,Santo Domingo Zanatepec,27.0,Muy cálido
+20526,Santos Reyes Nopala,23.0,Cálido
+20004,Asunción Cuyotepeji,15.0,Templado
+20007,Asunción Ocotlán,21.0,Semicálido
+20011,Calihualá,15.0,Templado
+20012,Candelaria Loxicha,23.0,Cálido
+20047,Santa Magdalena Jicotlán,15.0,Templado
+20013,Ciénega de Zimatlán,21.0,Semicálido
+20017,La Compañía,19.0,Semicálido
+20049,Magdalena Ocotlán,19.0,Semicálido
+20019,Concepción Pápalo,15.0,Templado
+20022,Cosoltepec,19.0,Semicálido
+20024,Cuyamecalco Villa de Zaragoza,25.0,Cálido
+20025,Chahuites,27.0,Muy cálido
+20026,Chalcatongo de Hidalgo,23.0,Cálido
+20029,Eloxochitlán de Flores Magón,15.0,Templado
+20032,Fresnillo de Trujano,25.0,Cálido
+20050,Magdalena Peñasco,17.0,Templado
+20052,Magdalena Tequisistlán,27.0,Muy cálido
+20201,San Juan Juquila Vijanos,15.0,Templado
+20188,San Juan Colorado,25.0,Cálido
+20033,Guadalupe Etla,19.0,Semicálido
+20054,Magdalena Zahuatlán,17.0,Templado
+20337,San Pedro y San Pablo Ayutla,19.0,Semicálido
+20351,San Simón Almolongas,15.0,Templado
+20364,Santa Catarina Juquila,25.0,Cálido
+20034,Guadalupe de Ramírez,19.0,Semicálido
+20035,Guelatao de Juárez,17.0,Templado
+20371,Santa Catarina Ticuá,13.0,Templado
+20386,Santa Cruz Zenzontepec,25.0,Cálido
+20037,Mesones Hidalgo,27.0,Muy cálido
+20038,Villa Hidalgo,17.0,Templado
+20040,Huautepec,23.0,Cálido
+20041,Huautla de Jiménez,23.0,Cálido
+20042,Ixtlán de Juárez,17.0,Templado
+20043,Juchitán de Zaragoza,27.0,Muy cálido
+20045,Magdalena Apasco,19.0,Semicálido
+20419,Santa María Jaltianguis,17.0,Templado
+20046,Magdalena Jaltepec,19.0,Semicálido
+20048,Magdalena Mixtepec,19.0,Semicálido
+20389,Santa Inés Yatzeche,21.0,Semicálido
+20060,Mixistlán de la Reforma,17.0,Templado
+20424,Santa María Ozolotepec,19.0,Semicálido
+20397,Heroica Ciudad de Tlaxiaco,13.0,Templado
+20398,Ayoquezco de Aldama,21.0,Semicálido
+20399,Santa María Atzompa,19.0,Semicálido
+20417,Santa María Jacatepec,23.0,Cálido
+20061,Monjas,19.0,Semicálido
+20422,Santa María Nativitas,15.0,Templado
+20426,Santa María Peñoles,13.0,Templado
+20427,Santa María Petapa,23.0,Cálido
+20062,Natividad,15.0,Templado
+20063,Nazareno Etla,19.0,Semicálido
+20428,Santa María Quiegolani,19.0,Semicálido
+20439,Santa María Tonameca,27.0,Muy cálido
+20065,Ixpantepec Nieves,17.0,Templado
+20069,La Pe,19.0,Semicálido
+20070,Pinotepa de Don Luis,25.0,Cálido
+20440,Santa María Totolapilla,27.0,Muy cálido
+20450,Santiago Amoltepec,17.0,Templado
+20459,Villa de Santiago Chazumba,17.0,Templado
+20072,San José del Progreso,17.0,Templado
+20074,Santa Catarina Quioquitani,11.0,Semifrio
+20076,La Reforma,19.0,Semicálido
+20078,Rojas de Cuauhtémoc,19.0,Semicálido
+20077,Reyes Etla,19.0,Semicálido
+20079,Salina Cruz,27.0,Muy cálido
+20206,San Juan de los Cués,25.0,Cálido
+20207,San Juan Mazatlán,21.0,Semicálido
+20090,San Andrés Huaxpaltepec,27.0,Muy cálido
+20080,San Agustín Amatengo,19.0,Semicálido
+20084,San Agustín Etla,19.0,Semicálido
+20081,San Agustín Atenango,17.0,Templado
+20091,San Andrés Huayápam,19.0,Semicálido
+20082,San Agustín Chayuco,25.0,Cálido
+20092,San Andrés Ixtlahuaca,19.0,Semicálido
+20083,San Agustín de las Juntas,19.0,Semicálido
+20087,San Agustín Yatareni,19.0,Semicálido
+20089,San Andrés Dinicuiti,17.0,Templado
+20094,San Andrés Nuxiño,17.0,Templado
+20096,San Andrés Sinaxtla,17.0,Templado
+20099,San Andrés Tepetlapa,23.0,Cálido
+20095,San Andrés Paxtlán,19.0,Semicálido
+20100,San Andrés Yaá,17.0,Templado
+20101,San Andrés Zabache,19.0,Semicálido
+20112,San Baltazar Chichicápam,21.0,Semicálido
+20102,San Andrés Zautla,19.0,Semicálido
+20131,San Dionisio Ocotepec,23.0,Cálido
+20103,San Antonino Castillo Velasco,19.0,Semicálido
+20105,San Antonino Monte Verde,15.0,Templado
+20107,San Antonio de la Cal,19.0,Semicálido
+20464,Santiago Ihuitlán Plumas,15.0,Templado
+20466,Santiago Ixtayutla,25.0,Cálido
+20477,Santiago Minas,19.0,Semicálido
+20108,San Antonio Huitepec,15.0,Templado
+20485,Santiago Tapextla,27.0,Muy cálido
+20488,Santiago Tepetlapa,15.0,Templado
+20491,Santiago Textitlán,15.0,Templado
+20492,Santiago Tilantongo,21.0,Semicálido
+20495,Santiago Xanica,19.0,Semicálido
+20534,San Vicente Coatlán,19.0,Semicálido
+20537,Silacayoápam,17.0,Templado
+20543,Tataltepec de Valdés,25.0,Cálido
+20548,Tepelmeme Villa de Morelos,15.0,Templado
+20559,San Juan Bautista Valle Nacional,23.0,Cálido
+20109,San Antonio Nanahuatípam,25.0,Cálido
+20110,San Antonio Sinicahua,13.0,Templado
+20560,Villa Díaz Ordaz,19.0,Semicálido
+20556,La Trinidad Vista Hermosa,15.0,Templado
+20565,Villa de Zaachila,19.0,Semicálido
+20002,Acatlán de Pérez Figueroa,23.0,Cálido
+20006,Asunción Nochixtlán,17.0,Templado
+20008,Asunción Tlacolulita,27.0,Muy cálido
+20009,Ayotzintepec,23.0,Cálido
+20010,El Barrio de la Soledad,23.0,Cálido
+20055,Mariscala de Juárez,19.0,Semicálido
+20039,Heroica Ciudad de Huajuapan de León,17.0,Templado
+20210,San Juan Ñumí,17.0,Templado
+20211,San Juan Ozolotepec,23.0,Cálido
+20212,San Juan Petlapa,17.0,Templado
+20213,San Juan Quiahije,25.0,Cálido
+20116,San Bartolomé Ayautla,23.0,Cálido
+20066,Santiago Niltepec,27.0,Muy cálido
+20067,Oaxaca de Juárez,19.0,Semicálido
+20068,Ocotlán de Morelos,17.0,Templado
+20071,Pluma Hidalgo,17.0,Templado
+20073,Putla Villa de Guerrero,21.0,Semicálido
+20085,San Agustín Loxicha,23.0,Cálido
+20111,San Antonio Tepetlapa,25.0,Cálido
+20118,San Bartolomé Quialana,19.0,Semicálido
+20114,San Baltazar Yatzachi el Bajo,21.0,Semicálido
+20120,San Bartolomé Zoogocho,19.0,Semicálido
+20121,San Bartolo Soyaltepec,15.0,Templado
+20115,San Bartolo Coyotepec,19.0,Semicálido
+20219,San Juan Teitipac,19.0,Semicálido
+20220,San Juan Tepeuxila,21.0,Semicálido
+20119,San Bartolomé Yucuañe,19.0,Semicálido
+20122,San Bartolo Yautepec,21.0,Semicálido
+20123,San Bernardo Mixtepec,15.0,Templado
+20233,San Lucas Quiaviní,19.0,Semicálido
+20126,San Cristóbal Amatlán,15.0,Templado
+20127,San Cristóbal Amoltepec,17.0,Templado
+20238,San Martín de los Cansecos,21.0,Semicálido
+20128,San Cristóbal Lachirioag,21.0,Semicálido
+20129,San Cristóbal Suchixtlahuaca,15.0,Templado
+20132,San Dionisio Ocotlán,19.0,Semicálido
+20086,San Agustín Tlacotepec,19.0,Semicálido
+20135,San Felipe Tejalápam,19.0,Semicálido
+20241,San Martín Lachilá,19.0,Semicálido
+20093,San Andrés Lagunas,15.0,Templado
+20088,San Andrés Cabecera Nueva,19.0,Semicálido
+20136,San Felipe Usila,23.0,Cálido
+20097,San Andrés Solaga,19.0,Semicálido
+20098,San Andrés Teotilálpam,23.0,Cálido
+20113,San Baltazar Loxicha,23.0,Cálido
+20232,San Lucas Ojitlán,23.0,Cálido
+20124,San Blas Atempa,27.0,Muy cálido
+20125,San Carlos Yautepec,27.0,Muy cálido
+20133,San Esteban Atatlahuca,15.0,Templado
+20134,San Felipe Jalapa de Díaz,23.0,Cálido
+20138,San Francisco Cajonos,17.0,Templado
+20141,San Francisco del Mar,27.0,Muy cálido
+20143,San Francisco Ixhuatán,27.0,Muy cálido
+20209,San Juan Mixtepec,15.0,Templado
+20144,San Francisco Jaltepetongo,17.0,Templado
+20178,San Juan Bautista Guelache,19.0,Semicálido
+20152,San Francisco Tlapancingo,15.0,Templado
+20153,San Gabriel Mixtepec,25.0,Cálido
+20137,San Francisco Cahuacuá,19.0,Semicálido
+20149,San Francisco Sola,19.0,Semicálido
+20161,San Jerónimo Sosola,17.0,Templado
+20159,San Jerónimo Coatlán,23.0,Cálido
+20163,San Jerónimo Tecóatl,13.0,Templado
+20164,San Jorge Nuchita,19.0,Semicálido
+20166,San José Chiltepec,23.0,Cálido
+20139,San Francisco Chapulapa,15.0,Templado
+20142,San Francisco Huehuetlán,15.0,Templado
+20221,San Juan Teposcolula,15.0,Templado
+20145,San Francisco Lachigoló,19.0,Semicálido
+20154,San Ildefonso Amatlán,15.0,Templado
+20155,San Ildefonso Sola,19.0,Semicálido
+20156,San Ildefonso Villa Alta,17.0,Templado
+20140,San Francisco Chindúa,17.0,Templado
+20222,San Juan Yaeé,21.0,Semicálido
+20146,San Francisco Logueche,15.0,Templado
+20147,San Francisco Nuxaño,15.0,Templado
+20168,San José Estancia Grande,27.0,Muy cálido
+20184,San Juan Bautista Tuxtepec,23.0,Cálido
+20185,San Juan Cacahuatepec,25.0,Cálido
+20148,San Francisco Ozolotepec,19.0,Semicálido
+20151,San Francisco Teopan,15.0,Templado
+20186,San Juan Cieneguilla,19.0,Semicálido
+20180,San Juan Bautista Lo de Soto,27.0,Muy cálido
+20106,San Antonio Acutla,15.0,Templado
+20365,Santa Catarina Lachatao,11.0,Semifrio
+20198,San Juan Guichicovi,23.0,Cálido
+20157,San Jacinto Amilpas,19.0,Semicálido
+20160,San Jerónimo Silacayoapilla,17.0,Templado
+20224,San Juan Yucuita,17.0,Templado
+20243,San Martín Tilcajete,19.0,Semicálido
+20158,San Jacinto Tlacotepec,25.0,Cálido
+20310,San Pedro Ixtlahuaca,19.0,Semicálido
+20023,Cuilápam de Guerrero,19.0,Semicálido
+20306,San Pedro el Alto,19.0,Semicálido
+20162,San Jerónimo Taviche,17.0,Templado
+20309,San Pedro Ixcatlán,23.0,Cálido
+20320,San Pedro Molinos,13.0,Templado
+20172,San Juan Achiutla,17.0,Templado
+20324,San Pedro Pochutla,27.0,Muy cálido
+20269,San Miguel el Grande,13.0,Templado
+20385,Santa Cruz Xoxocotlán,19.0,Semicálido
+20175,San Juan Bautista Atatlahuca,21.0,Semicálido
+20021,Cosolapa,21.0,Semicálido
+20270,San Miguel Huautla,15.0,Templado
+20171,San José Tenango,21.0,Semicálido
+20200,San Juan Juquila Mixes,23.0,Cálido
+20208,San Juan Mixtepec,13.0,Templado
+20226,San Lorenzo Albarradas,19.0,Semicálido
+20234,San Lucas Zoquiápam,21.0,Semicálido
+20240,San Martín Itunyoso,17.0,Templado
+20244,San Martín Toxpalan,25.0,Cálido
+20263,San Miguel Coatlán,23.0,Cálido
+20267,San Miguel del Río,15.0,Templado
+20247,Capulálpam de Méndez,15.0,Templado
+20252,San Mateo Peñasco,17.0,Templado
+20257,San Melchor Betaza,17.0,Templado
+20268,San Miguel Ejutla,21.0,Semicálido
+20274,San Miguel Piedras,17.0,Templado
+20280,Villa Talea de Castro,17.0,Templado
+20282,San Miguel Tenango,27.0,Muy cálido
+20283,San Miguel Tequixtepec,15.0,Templado
+20285,San Miguel Tlacamama,25.0,Cálido
+20289,San Nicolás,15.0,Templado
+20290,San Nicolás Hidalgo,21.0,Semicálido
+20292,San Pablo Cuatro Venados,19.0,Semicálido
+20294,San Pablo Huitzo,19.0,Semicálido
+20296,San Pablo Macuiltianguis,11.0,Semifrio
+20551,Tlacolula de Matamoros,23.0,Cálido
+20403,Santa María Coyotepec,19.0,Semicálido
+21086,Jalpan,21.0,Semicálido
+21088,Jonotla,19.0,Semicálido
+21120,San Antonio Cañada,19.0,Semicálido
+21201,Xochiltepec,19.0,Semicálido
+21077,Hueytlalpan,21.0,Semicálido
+21177,Tlacotepec de Benito Juárez,17.0,Templado
+21217,Zoquitlán,11.0,Semifrio
+21113,Piaxtla,21.0,Semicálido
+21136,San Miguel Xoxtla,15.0,Templado
+21210,Zapotitlán de Méndez,17.0,Templado
+21089,Jopala,25.0,Cálido
+21131,San Juan Atzompa,19.0,Semicálido
+21018,Atexcal,21.0,Semicálido
+21054,Chignautla,11.0,Semifrio
+21213,Zihuateutla,17.0,Templado
+21127,San Jerónimo Xayacatlán,21.0,Semicálido
+21129,San José Miahuatlán,21.0,Semicálido
+21130,San Juan Atenco,15.0,Templado
+21174,Teziutlán,21.0,Semicálido
+21176,Tilapa,23.0,Cálido
+21115,Quecholac,17.0,Templado
+21110,Palmar de Bravo,15.0,Templado
+21169,Tepexi de Rodríguez,21.0,Semicálido
+21172,Tetela de Ocampo,15.0,Templado
+21179,Tlachichuca,13.0,Templado
+21124,San Gabriel Chilac,19.0,Semicálido
+21121,San Diego la Mesa Tochimiltzingo,19.0,Semicálido
+21122,San Felipe Teotlalcingo,15.0,Templado
+21123,San Felipe Tepatlán,17.0,Templado
+21044,Cuyoaco,11.0,Semifrio
+21082,Ixcaquixtla,19.0,Semicálido
+21085,Izúcar de Matamoros,23.0,Cálido
+21036,Coyomeapan,15.0,Templado
+21202,Xochitlán de Vicente Suárez,15.0,Templado
+21203,Xochitlán Todos Santos,17.0,Templado
+21061,Eloxochitlán,15.0,Templado
+21062,Epatlán,19.0,Semicálido
+21143,San Salvador el Verde,15.0,Templado
+21060,Domingo Arenas,15.0,Templado
+21104,Nopalucan,15.0,Templado
+21075,Hueyapan,21.0,Semicálido
+21078,Huitzilan de Serdán,15.0,Templado
+21079,Huitziltepec,17.0,Templado
+21072,Huehuetla,21.0,Semicálido
+21073,Huehuetlán el Chico,23.0,Cálido
+21074,Huejotzingo,15.0,Templado
+21068,Hermenegildo Galeana,23.0,Cálido
+21070,Huatlatlauca,19.0,Semicálido
+21071,Huauchinango,13.0,Templado
+21063,Esperanza,15.0,Templado
+21064,Francisco Z. Mena,23.0,Cálido
+21067,Guadalupe Victoria,9.0,Semifrio
+21013,Altepexi,23.0,Cálido
+21015,Amozoc,15.0,Templado
+21016,Aquixtla,15.0,Templado
+21012,Aljojuca,15.0,Templado
+21197,Xicotepec,17.0,Templado
+21194,Venustiano Carranza,25.0,Cálido
+21195,Vicente Guerrero,17.0,Templado
+21188,Tochimilco,19.0,Semicálido
+21189,Tochtepec,17.0,Templado
+21190,Totoltepec de Guerrero,21.0,Semicálido
+21185,Tlapanalá,23.0,Cálido
+21186,Tlatlauquitepec,21.0,Semicálido
+21187,Tlaxco,15.0,Templado
+21183,Tlaola,15.0,Templado
+21184,Tlapacoya,21.0,Semicálido
+21142,San Salvador el Seco,15.0,Templado
+21140,San Pedro Cholula,17.0,Templado
+21141,San Pedro Yeloixtlahuaca,21.0,Semicálido
+21139,San Pablo Anicano,21.0,Semicálido
+21137,San Nicolás Buenos Aires,15.0,Templado
+21138,San Nicolás de los Ranchos,15.0,Templado
+21134,San Matías Tlalancaleca,15.0,Templado
+21135,San Miguel Ixitlán,15.0,Templado
+21126,San Jerónimo Tecuanipan,17.0,Templado
+21058,Chilchotla,13.0,Templado
+21059,Chinantla,21.0,Semicálido
+21055,Chila,21.0,Semicálido
+21056,Chila de la Sal,25.0,Cálido
+21057,Honey,13.0,Templado
+21049,Chiconcuautla,13.0,Templado
+21050,Chichiquila,21.0,Semicálido
+21051,Chietla,23.0,Cálido
+21042,Cuayuca de Andrade,19.0,Semicálido
+21043,Cuetzalan del Progreso,21.0,Semicálido
+21045,Chalchicomula de Sesma,15.0,Templado
+21039,Cuautempan,13.0,Templado
+21040,Cuautinchán,17.0,Templado
+21041,Cuautlancingo,17.0,Templado
+21020,Atoyatempan,17.0,Templado
+21116,Quimixtlán,21.0,Semicálido
+21111,Pantepec,21.0,Semicálido
+21112,Petlalcingo,19.0,Semicálido
+21114,Puebla,17.0,Templado
+21107,Olintla,21.0,Semicálido
+21108,Oriental,15.0,Templado
+21109,Pahuatlán,15.0,Templado
+21102,Nealtican,15.0,Templado
+21103,Nicolás Bravo,17.0,Templado
+21106,Ocoyucan,19.0,Semicálido
+21099,Cañada Morelos,11.0,Semifrio
+21100,Naupan,15.0,Templado
+21101,Nauzontla,15.0,Templado
+21098,Molcaxac,19.0,Semicálido
+21167,Tepetzintla,17.0,Templado
+21164,Tepeaca,17.0,Templado
+21165,Tepemaxalco,19.0,Semicálido
+21166,Tepeojuma,19.0,Semicálido
+21160,Teotlalco,23.0,Cálido
+21161,Tepanco de López,19.0,Semicálido
+21163,Tepatlaxco de Hidalgo,15.0,Templado
+21155,Tecomatlán,21.0,Semicálido
+21156,Tehuacán,19.0,Semicálido
+21159,Teopantlán,19.0,Semicálido
+21150,Huehuetlán el Grande,19.0,Semicálido
+21153,Tecali de Herrera,17.0,Templado
+21154,Tecamachalco,17.0,Templado
+21119,San Andrés Cholula,17.0,Templado
+21145,San Sebastián Tlacotepec,15.0,Templado
+21149,Santiago Miahuatlán,19.0,Semicálido
+21094,Libres,15.0,Templado
+21096,Mazapiltepec de Juárez,15.0,Templado
+21128,San José Chiapa,15.0,Templado
+21087,Jolalpan,21.0,Semicálido
+21092,Juan N. Méndez,17.0,Templado
+21093,Lafragua,13.0,Templado
+21081,Ixcamilpa de Guerrero,23.0,Cálido
+21083,Ixtacamaxtitlán,9.0,Semifrio
+21084,Ixtepec,19.0,Semicálido
+21033,Cohuecan,19.0,Semicálido
+21035,Coxcatlán,13.0,Templado
+21037,Coyotepec,19.0,Semicálido
+21029,Caxhuacan,21.0,Semicálido
+21031,Coatzingo,23.0,Cálido
+21032,Cohetzala,21.0,Semicálido
+21025,Ayotoxco de Guerrero,21.0,Semicálido
+21026,Calpan,15.0,Templado
+21027,Caltepec,15.0,Templado
+21022,Atzitzihuacán,19.0,Semicálido
+21011,Albino Zertuche,21.0,Semicálido
+21065,General Felipe Ángeles,15.0,Templado
+21066,Guadalupe,25.0,Cálido
+21007,Ahuatlán,23.0,Cálido
+21008,Ahuazotepec,13.0,Templado
+21004,Acatzingo,17.0,Templado
+21005,Acteopan,19.0,Semicálido
+21006,Ahuacatlán,19.0,Semicálido
+21001,Acajete,15.0,Templado
+21002,Acateno,21.0,Semicálido
+21003,Acatlán,21.0,Semicálido
+21010,Ajalpan,19.0,Semicálido
+21076,Hueytamalco,21.0,Semicálido
+21014,Amixtlán,17.0,Templado
+21178,Tlacuilotepec,21.0,Semicálido
+21180,Tlahuapan,15.0,Templado
+21196,Xayacatlán de Bravo,21.0,Semicálido
+21207,Zacapoaxtla,15.0,Templado
+21208,Zacatlán,15.0,Templado
+21017,Atempan,11.0,Semifrio
+21019,Atlixco,19.0,Semicálido
+21173,Teteles de Ávila Castillo,15.0,Templado
+21175,Tianguismanalco,17.0,Templado
+21158,Tenampulco,23.0,Cálido
+21069,Huaquechula,19.0,Semicálido
+21209,Zapotitlán,15.0,Templado
+21157,Tehuitzingo,21.0,Semicálido
+21162,Tepango de Rodríguez,17.0,Templado
+21053,Chignahuapan,11.0,Semifrio
+21181,Tlaltenango,15.0,Templado
+21206,Zacapala,19.0,Semicálido
+21211,Zaragoza,13.0,Templado
+21212,Zautla,15.0,Templado
+21152,Soltepec,15.0,Templado
+21205,Yehualtepec,17.0,Templado
+21024,Axutla,25.0,Cálido
+21097,Mixtla,17.0,Templado
+21046,Chapulco,17.0,Templado
+21047,Chiautla,25.0,Cálido
+21091,Juan Galindo,17.0,Templado
+21048,Chiautzingo,15.0,Templado
+21095,La Magdalena Tlatlauquitepec,19.0,Semicálido
+21193,Tzicatlacoyan,19.0,Semicálido
+21009,Ahuehuetitla,21.0,Semicálido
+21117,Rafael Lara Grajales,15.0,Templado
+21118,Los Reyes de Juárez,17.0,Templado
+21125,San Gregorio Atzompa,17.0,Templado
+21133,San Martín Totoltepec,21.0,Semicálido
+21144,San Salvador Huixcolotla,17.0,Templado
+21151,Santo Tomás Hueyotlipan,17.0,Templado
+21171,Tepeyahualco de Cuauhtémoc,17.0,Templado
+21182,Tlanepantla,17.0,Templado
+21214,Zinacatepec,23.0,Cálido
+21021,Atzala,23.0,Cálido
+21028,Camocuautla,17.0,Templado
+21030,Coatepec,19.0,Semicálido
+21034,Coronango,15.0,Templado
+21038,Cuapiaxtla de Madero,17.0,Templado
+21080,Atlequizayan,21.0,Semicálido
+21090,Juan C. Bonilla,15.0,Templado
+21170,Tepeyahualco,15.0,Templado
+21168,Tepexco,23.0,Cálido
+21052,Chigmecatitlán,19.0,Semicálido
+21023,Atzitzintla,11.0,Semifrio
+21204,Yaonáhuac,21.0,Semicálido
+21147,Santa Inés Ahuatempan,21.0,Semicálido
+21148,Santa Isabel Cholula,17.0,Templado
+21200,Xochiapulco,15.0,Templado
+21132,San Martín Texmelucan,15.0,Templado
+21146,Santa Catarina Tlaltempan,19.0,Semicálido
+21198,Xicotlán,21.0,Semicálido
+21199,Xiutetelco,11.0,Semifrio
+21105,Ocotepec,11.0,Semifrio
+21216,Zoquiapan,17.0,Templado
+21215,Zongozotla,15.0,Templado
+21191,Tulcingo,19.0,Semicálido
+21192,Tuzamapan de Galeana,21.0,Semicálido
+22012,Pedro Escobedo,15.0,Templado
+22013,Peñamiller,15.0,Templado
+22014,Querétaro,15.0,Templado
+22015,San Joaquín,15.0,Templado
+22016,San Juan del Río,15.0,Templado
+22017,Tequisquiapan,15.0,Templado
+22018,Tolimán,15.0,Templado
+22003,Arroyo Seco,19.0,Semicálido
+22006,Corregidora,19.0,Semicálido
+22007,Ezequiel Montes,19.0,Semicálido
+22009,Jalpan de Serra,19.0,Semicálido
+22011,El Marqués,15.0,Templado
+22001,Amealco de Bonfil,15.0,Templado
+22002,Pinal de Amoles,19.0,Semicálido
+22004,Cadereyta de Montes,17.0,Templado
+22005,Colón,15.0,Templado
+22008,Huimilpan,15.0,Templado
+22010,Landa de Matamoros,19.0,Semicálido
+23002,Felipe Carrillo Puerto,25.0,Cálido
+23007,Lázaro Cárdenas,25.0,Cálido
+23005,Benito Juárez,25.0,Cálido
+23010,Bacalar,25.0,Cálido
+23009,Tulum,25.0,Cálido
+23001,Cozumel,25.0,Cálido
+23003,Isla Mujeres,25.0,Cálido
+23004,Othón P. Blanco,23.0,Cálido
+23008,Solidaridad,25.0,Cálido
+23011,Puerto Morelos,25.0,Cálido
+23006,José María Morelos,25.0,Cálido
+24034,San Vicente Tancuayalab,23.0,Cálido
+24035,Soledad de Graciano Sánchez,17.0,Templado
+24039,Tampamolón Corona,23.0,Cálido
+24040,Tamuín,25.0,Cálido
+24041,Tanlajás,23.0,Cálido
+24028,San Luis Potosí,13.0,Templado
+24030,San Nicolás Tolentino,19.0,Semicálido
+24031,Santa Catarina,23.0,Cálido
+24008,Cerritos,17.0,Templado
+24010,Ciudad del Maíz,21.0,Semicálido
+24011,Ciudad Fernández,13.0,Templado
+24013,Ciudad Valles,25.0,Cálido
+24016,Ebano,25.0,Cálido
+24020,Matehuala,19.0,Semicálido
+24022,Moctezuma,19.0,Semicálido
+24054,Xilitla,23.0,Cálido
+24055,Zaragoza,15.0,Templado
+24015,Charcas,13.0,Templado
+24053,Axtla de Terrazas,23.0,Cálido
+24036,Tamasopo,25.0,Cálido
+24023,Rayón,21.0,Semicálido
+24021,Mexquitic de Carmona,15.0,Templado
+24042,Tanquián de Escobedo,23.0,Cálido
+24043,Tierra Nueva,15.0,Templado
+24029,San Martín Chalchicuautla,23.0,Cálido
+24026,San Antonio,23.0,Cálido
+24024,Rioverde,21.0,Semicálido
+24052,Villa Juárez,19.0,Semicálido
+24017,Guadalcázar,21.0,Semicálido
+24019,Lagunillas,23.0,Cálido
+24012,Tancanhuitz,25.0,Cálido
+24009,Cerro de San Pedro,15.0,Templado
+24003,Aquismón,19.0,Semicálido
+24004,Armadillo de los Infante,15.0,Templado
+24002,Alaquines,21.0,Semicálido
+24037,Tamazunchale,23.0,Cálido
+24038,Tampacán,23.0,Cálido
+24056,Villa de Arista,15.0,Templado
+24058,El Naranjo,17.0,Templado
+24025,Salinas,15.0,Templado
+24027,San Ciro de Acosta,23.0,Cálido
+24032,Santa María del Río,15.0,Templado
+24051,Villa Hidalgo,15.0,Templado
+24048,Villa de la Paz,19.0,Semicálido
+24006,Catorce,17.0,Templado
+24005,Cárdenas,21.0,Semicálido
+24007,Cedral,19.0,Semicálido
+24047,Villa de Guadalupe,19.0,Semicálido
+24018,Huehuetlán,23.0,Cálido
+24044,Vanegas,15.0,Templado
+24045,Venado,15.0,Templado
+24049,Villa de Ramos,15.0,Templado
+24050,Villa de Reyes,15.0,Templado
+24046,Villa de Arriaga,15.0,Templado
+24014,Coxcatlán,25.0,Cálido
+24033,Santo Domingo,13.0,Templado
+24057,Matlapa,23.0,Cálido
+24001,Ahualulco del Sonido 13,15.0,Templado
+25018,Navolato,25.0,Cálido
+25003,Badiraguato,25.0,Cálido
+25001,Ahome,25.0,Cálido
+25006,Culiacán,23.0,Cálido
+25007,Choix,23.0,Cálido
+25008,Elota,23.0,Cálido
+25010,El Fuerte,25.0,Cálido
+25011,Guasave,25.0,Cálido
+25012,Mazatlán,23.0,Cálido
+25013,Mocorito,25.0,Cálido
+25014,Rosario,23.0,Cálido
+25002,Angostura,25.0,Cálido
+25017,Sinaloa,25.0,Cálido
+25004,Concordia,23.0,Cálido
+25005,Cosalá,25.0,Cálido
+25015,Salvador Alvarado,25.0,Cálido
+25016,San Ignacio,23.0,Cálido
+25009,Escuinapa,23.0,Cálido
+26003,Álamos,23.0,Cálido
+26055,San Luis Río Colorado,21.0,Semicálido
+26008,Bacadéhuachi,23.0,Cálido
+26026,Etchojoa,23.0,Cálido
+26053,San Felipe de Jesús,15.0,Templado
+26014,Baviácora,19.0,Semicálido
+26023,Cumpas,15.0,Templado
+26033,Huatabampo,23.0,Cálido
+26045,Opodepe,21.0,Semicálido
+26063,Tepache,17.0,Templado
+26042,Navojoa,21.0,Semicálido
+26015,Bavispe,15.0,Templado
+26018,Cajeme,23.0,Cálido
+26069,Yécora,23.0,Cálido
+26058,Santa Ana,21.0,Semicálido
+26002,Agua Prieta,15.0,Templado
+26037,Mazatán,19.0,Semicálido
+26022,Cucurpe,21.0,Semicálido
+26039,Naco,17.0,Templado
+26072,San Ignacio Río Muerto,23.0,Cálido
+26006,Arizpe,17.0,Templado
+26012,Bácum,23.0,Cálido
+26013,Banámichi,15.0,Templado
+26004,Altar,21.0,Semicálido
+26048,Puerto Peñasco,21.0,Semicálido
+26017,Caborca,19.0,Semicálido
+26044,Ónavas,23.0,Cálido
+26007,Atil,21.0,Semicálido
+26061,Soyopa,23.0,Cálido
+26036,Magdalena,17.0,Templado
+26019,Cananea,17.0,Templado
+26028,Granados,23.0,Cálido
+26043,Nogales,19.0,Semicálido
+26041,Nacozari de García,17.0,Templado
+26050,Rayón,19.0,Semicálido
+26054,San Javier,23.0,Cálido
+26038,Moctezuma,17.0,Templado
+26071,Benito Juárez,23.0,Cálido
+26056,San Miguel de Horcasitas,23.0,Cálido
+26031,Huachinera,11.0,Semifrio
+26059,Santa Cruz,17.0,Templado
+26060,Sáric,19.0,Semicálido
+26065,Tubutama,21.0,Semicálido
+26029,Guaymas,23.0,Cálido
+26030,Hermosillo,23.0,Cálido
+26049,Quiriego,21.0,Semicálido
+26040,Nácori Chico,11.0,Semifrio
+26024,Divisaderos,21.0,Semicálido
+26025,Empalme,23.0,Cálido
+26021,La Colorada,23.0,Cálido
+26051,Rosario,23.0,Cálido
+26052,Sahuaripa,19.0,Semicálido
+26062,Suaqui Grande,23.0,Cálido
+26064,Trincheras,19.0,Semicálido
+26035,Imuris,19.0,Semicálido
+26005,Arivechi,15.0,Templado
+26009,Bacanora,23.0,Cálido
+26020,Carbó,19.0,Semicálido
+26046,Oquitoa,21.0,Semicálido
+26047,Pitiquito,19.0,Semicálido
+26057,San Pedro de la Cueva,23.0,Cálido
+26066,Ures,23.0,Cálido
+26070,General Plutarco Elías Calles,21.0,Semicálido
+26001,Aconchi,17.0,Templado
+26016,Benjamín Hill,19.0,Semicálido
+26032,Huásabas,17.0,Templado
+26011,Bacoachi,19.0,Semicálido
+26068,Villa Pesqueira,19.0,Semicálido
+26010,Bacerac,15.0,Templado
+26067,Villa Hidalgo,19.0,Semicálido
+26027,Fronteras,19.0,Semicálido
+26034,Huépac,19.0,Semicálido
+27006,Cunduacán,27.0,Muy cálido
+27007,Emiliano Zapata,25.0,Cálido
+27008,Huimanguillo,23.0,Cálido
+27009,Jalapa,27.0,Muy cálido
+27010,Jalpa de Méndez,27.0,Muy cálido
+27011,Jonuta,27.0,Muy cálido
+27001,Balancán,25.0,Cálido
+27004,Centro,27.0,Muy cálido
+27005,Comalcalco,27.0,Muy cálido
+27002,Cárdenas,25.0,Cálido
+27013,Nacajuca,27.0,Muy cálido
+27003,Centla,27.0,Muy cálido
+27012,Macuspana,27.0,Muy cálido
+27014,Paraíso,27.0,Muy cálido
+27015,Tacotalpa,23.0,Cálido
+27016,Teapa,23.0,Cálido
+27017,Tenosique,23.0,Cálido
+28001,Abasolo,21.0,Semicálido
+28002,Aldama,23.0,Cálido
+28036,San Nicolás,21.0,Semicálido
+28027,Nuevo Laredo,23.0,Cálido
+28032,Reynosa,23.0,Cálido
+28035,San Fernando,23.0,Cálido
+28042,Villagrán,21.0,Semicálido
+28010,Cruillas,21.0,Semicálido
+28011,Gómez Farías,25.0,Cálido
+28012,González,25.0,Cálido
+28021,El Mante,25.0,Cálido
+28023,Méndez,23.0,Cálido
+28003,Altamira,23.0,Cálido
+28005,Burgos,21.0,Semicálido
+28007,Camargo,23.0,Cálido
+28013,Güémez,21.0,Semicálido
+28014,Guerrero,23.0,Cálido
+28015,Gustavo Díaz Ordaz,23.0,Cálido
+28016,Hidalgo,15.0,Templado
+28022,Matamoros,23.0,Cálido
+28017,Jaumave,13.0,Templado
+28034,San Carlos,21.0,Semicálido
+28043,Xicoténcatl,25.0,Cálido
+28029,Ocampo,21.0,Semicálido
+28031,Palmillas,13.0,Templado
+28024,Mier,23.0,Cálido
+28025,Miguel Alemán,23.0,Cálido
+28037,Soto la Marina,23.0,Cálido
+28038,Tampico,23.0,Cálido
+28039,Tula,21.0,Semicálido
+28030,Padilla,23.0,Cálido
+28033,Río Bravo,23.0,Cálido
+28004,Antiguo Morelos,25.0,Cálido
+28020,Mainero,21.0,Semicálido
+28026,Miquihuana,13.0,Templado
+28009,Ciudad Madero,23.0,Cálido
+28018,Jiménez,21.0,Semicálido
+28019,Llera,25.0,Cálido
+28040,Valle Hermoso,23.0,Cálido
+28041,Victoria,21.0,Semicálido
+28008,Casas,23.0,Cálido
+28006,Bustamante,17.0,Templado
+28028,Nuevo Morelos,21.0,Semicálido
+29031,Tetla de la Solidaridad,15.0,Templado
+29026,Santa Cruz Tlaxcala,15.0,Templado
+29007,El Carmen Tequexquitla,15.0,Templado
+29012,Españita,15.0,Templado
+29037,Ziltlaltépec de Trinidad Sánchez Santos,15.0,Templado
+29054,San Lorenzo Axocomanitla,15.0,Templado
+29024,Panotla,15.0,Templado
+29030,Terrenate,15.0,Templado
+29045,Benito Juárez,13.0,Templado
+29057,Santa Apolonia Teacalco,15.0,Templado
+29059,Santa Cruz Quilehtla,15.0,Templado
+29021,Nanacamilpa de Mariano Arista,11.0,Semifrio
+29048,La Magdalena Tlaltelulco,15.0,Templado
+29018,Contla de Juan Cuamatzi,15.0,Templado
+29047,Lázaro Cárdenas,15.0,Templado
+29014,Hueyotlipan,13.0,Templado
+29015,Ixtacuixtla de Mariano Matamoros,15.0,Templado
+29060,Santa Isabel Xiloxoxtla,15.0,Templado
+29034,Tlaxco,11.0,Semifrio
+29032,Tetlatlahuca,15.0,Templado
+29013,Huamantla,15.0,Templado
+29008,Cuapiaxtla,15.0,Templado
+29009,Cuaxomulco,15.0,Templado
+29005,Apizaco,15.0,Templado
+29003,Atlangatepec,13.0,Templado
+29004,Atltzayanca,15.0,Templado
+29002,Apetatitlán de Antonio Carvajal,15.0,Templado
+29043,Yauhquemehcan,15.0,Templado
+29038,Tzompantepec,15.0,Templado
+29040,Xaltocan,15.0,Templado
+29028,Teolocholco,15.0,Templado
+29029,Tepeyanco,15.0,Templado
+29022,Acuamanala de Miguel Hidalgo,15.0,Templado
+29023,Natívitas,15.0,Templado
+29017,Mazatecochco de José María Morelos,15.0,Templado
+29016,Ixtenco,15.0,Templado
+29055,San Lucas Tecopilco,13.0,Templado
+29020,Sanctórum de Lázaro Cárdenas,11.0,Semifrio
+29044,Zacatelco,15.0,Templado
+29041,Papalotla de Xicohténcatl,15.0,Templado
+29011,Muñoz de Domingo Arenas,13.0,Templado
+29039,Xaloztoc,15.0,Templado
+29001,Amaxac de Guerrero,15.0,Templado
+29058,Santa Catarina Ayometla,15.0,Templado
+29006,Calpulalpan,11.0,Semifrio
+29046,Emiliano Zapata,11.0,Semifrio
+29025,San Pablo del Monte,15.0,Templado
+29019,Tepetitla de Lardizábal,15.0,Templado
+29035,Tocatlán,15.0,Templado
+29049,San Damián Texóloc,15.0,Templado
+29051,San Jerónimo Zacualpan,15.0,Templado
+29053,San Juan Huactzinco,15.0,Templado
+29056,Santa Ana Nopalucan,15.0,Templado
+29027,Tenancingo,15.0,Templado
+29050,San Francisco Tetlanohcan,15.0,Templado
+29052,San José Teacalco,15.0,Templado
+29033,Tlaxcala,15.0,Templado
+29036,Totolac,15.0,Templado
+29010,Chiautempan,15.0,Templado
+29042,Xicohtzinco,15.0,Templado
+30070,Hidalgotitlán,23.0,Cálido
+30048,Cosoleacaque,25.0,Cálido
+30152,Tampico Alto,23.0,Cálido
+30156,Tatatila,13.0,Templado
+30157,Castillo de Teayo,23.0,Cálido
+30160,Álamo Temapache,23.0,Cálido
+30007,Camarón de Tejeda,25.0,Cálido
+30008,Alpatláhuac,13.0,Templado
+30009,Alto Lucero de Gutiérrez Barrios,25.0,Cálido
+30010,Altotonga,21.0,Semicálido
+30011,Alvarado,25.0,Cálido
+30012,Amatitlán,25.0,Cálido
+30015,Angel R. Cabada,23.0,Cálido
+30067,Filomeno Mata,25.0,Cálido
+30068,Fortín,21.0,Semicálido
+30072,Huayacocotla,15.0,Templado
+30073,Hueyapan de Ocampo,25.0,Cálido
+30091,Jesús Carranza,23.0,Cálido
+30151,Tamiahua,23.0,Cálido
+30101,Mariano Escobedo,19.0,Semicálido
+30103,Mecatlán,25.0,Cálido
+30123,Pánuco,23.0,Cálido
+30016,La Antigua,25.0,Cálido
+30017,Apazapan,25.0,Cálido
+30090,Jamapa,25.0,Cálido
+30114,Nautla,21.0,Semicálido
+30019,Astacinga,13.0,Templado
+30020,Atlahuilco,13.0,Templado
+30022,Atzacan,19.0,Semicálido
+30023,Atzalan,15.0,Templado
+30099,Maltrata,15.0,Templado
+30100,Manlio Fabio Altamirano,25.0,Cálido
+30124,Papantla,23.0,Cálido
+30133,Pueblo Viejo,23.0,Cálido
+30137,Los Reyes,13.0,Templado
+30139,Saltabarranca,25.0,Cálido
+30188,Totutla,21.0,Semicálido
+30189,Tuxpan,23.0,Cálido
+30191,Ursulo Galván,25.0,Cálido
+30200,Zentla,21.0,Semicálido
+30201,Zongolica,15.0,Templado
+30204,Agua Dulce,25.0,Cálido
+30208,Carlos A. Carrillo,25.0,Cálido
+30211,San Rafael,23.0,Cálido
+30047,Coscomatepec,19.0,Semicálido
+30049,Cotaxtla,25.0,Cálido
+30043,Comapa,21.0,Semicálido
+30184,Tlaquilpa,13.0,Templado
+30197,Yecuatla,19.0,Semicálido
+30132,Las Vigas de Ramírez,13.0,Templado
+30125,Paso del Macho,23.0,Cálido
+30163,Tenochtitlán,13.0,Templado
+30196,Yanga,21.0,Semicálido
+30059,Chinameca,25.0,Cálido
+30062,Chocamán,19.0,Semicálido
+30118,Orizaba,15.0,Templado
+30209,Tatahuicapan de Juárez,21.0,Semicálido
+30210,Uxpanapa,23.0,Cálido
+30212,Santiago Sochiapan,25.0,Cálido
+30092,Xico,21.0,Semicálido
+30077,Isla,25.0,Cálido
+30097,Lerdo de Tejada,25.0,Cálido
+30117,Omealca,19.0,Semicálido
+30076,Ilamatlán,23.0,Cálido
+30105,Medellín de Bravo,25.0,Cálido
+30109,Misantla,15.0,Templado
+30110,Mixtla de Altamirano,19.0,Semicálido
+30111,Moloacán,25.0,Cálido
+30112,Naolinco,19.0,Semicálido
+30113,Naranjal,19.0,Semicálido
+30115,Nogales,13.0,Templado
+30119,Otatitlán,25.0,Cálido
+30122,Pajapan,23.0,Cálido
+30108,Minatitlán,23.0,Cálido
+30134,Puente Nacional,25.0,Cálido
+30162,Tenampa,21.0,Semicálido
+30167,Tepetzintla,23.0,Cálido
+30170,Texcatepec,17.0,Templado
+30171,Texhuacán,13.0,Templado
+30187,Tonayán,13.0,Templado
+30193,Veracruz,25.0,Cálido
+30195,Xoxocotla,13.0,Templado
+30066,Espinal,23.0,Cálido
+30120,Oteapan,25.0,Cálido
+30161,Tempoal,23.0,Cálido
+30153,Tancoco,23.0,Cálido
+30155,Tantoyuca,23.0,Cálido
+30192,Vega de Alatorre,25.0,Cálido
+30207,Tres Valles,25.0,Cálido
+30065,Emiliano Zapata,21.0,Semicálido
+30003,Acayucan,25.0,Cálido
+30121,Ozuluama de Mascareñas,23.0,Cálido
+30158,Tecolutla,23.0,Cálido
+30159,Tehuipango,15.0,Templado
+30052,Cuichapa,21.0,Semicálido
+30005,Acula,25.0,Cálido
+30006,Acultzingo,13.0,Templado
+30021,Atoyac,21.0,Semicálido
+30093,Jilotepec,19.0,Semicálido
+30094,Juan Rodríguez Clara,25.0,Cálido
+30095,Juchique de Ferrer,19.0,Semicálido
+30096,Landero y Coss,13.0,Templado
+30141,San Andrés Tuxtla,25.0,Cálido
+30142,San Juan Evangelista,25.0,Cálido
+30143,Santiago Tuxtla,23.0,Cálido
+30144,Sayula de Alemán,25.0,Cálido
+30202,Zontecomatlán de López y Fuentes,23.0,Cálido
+30018,Aquila,15.0,Templado
+30127,La Perla,19.0,Semicálido
+30129,Platón Sánchez,23.0,Cálido
+30175,Tihuatlán,25.0,Cálido
+30178,Tlacotalpan,25.0,Cálido
+30180,Tlachichilco,21.0,Semicálido
+30181,Tlalixcoyan,25.0,Cálido
+30182,Tlalnelhuayocan,19.0,Semicálido
+30183,Tlapacoyan,21.0,Semicálido
+30098,Magdalena,15.0,Templado
+30013,Naranjos Amatlán,23.0,Cálido
+30014,Amatlán de los Reyes,21.0,Semicálido
+30045,Cosamaloapan de Carpio,25.0,Cálido
+30051,Coyutla,25.0,Cálido
+30053,Cuitláhuac,25.0,Cálido
+30057,Chiconquiaco,13.0,Templado
+30060,Chinampa de Gorostiza,23.0,Cálido
+30089,Jáltipan,25.0,Cálido
+30154,Tantima,23.0,Cálido
+30128,Perote,11.0,Semifrio
+30046,Cosautlán de Carvajal,21.0,Semicálido
+30050,Coxquihui,23.0,Cálido
+30126,Paso de Ovejas,25.0,Cálido
+30131,Poza Rica de Hidalgo,25.0,Cálido
+30164,Teocelo,21.0,Semicálido
+30165,Tepatlaxco,19.0,Semicálido
+30166,Tepetlán,13.0,Templado
+30168,Tequila,13.0,Templado
+30087,Xalapa,19.0,Semicálido
+30169,José Azueta,25.0,Cálido
+30172,Texistepec,25.0,Cálido
+30173,Tezonapa,21.0,Semicálido
+30174,Tierra Blanca,25.0,Cálido
+30036,Coacoatzintla,13.0,Templado
+30176,Tlacojalpan,25.0,Cálido
+30177,Tlacolulan,13.0,Templado
+30179,Tlacotepec de Mejía,23.0,Cálido
+30186,Tomatlán,19.0,Semicálido
+30135,Rafael Delgado,13.0,Templado
+30001,Acajete,13.0,Templado
+30004,Actopan,23.0,Cálido
+30145,Soconusco,25.0,Cálido
+30146,Sochiapa,19.0,Semicálido
+30147,Soledad Atzompa,13.0,Templado
+30148,Soledad de Doblado,25.0,Cálido
+30149,Soteapan,25.0,Cálido
+30150,Tamalín,23.0,Cálido
+30198,Zacualpan,13.0,Templado
+30130,Playa Vicente,25.0,Cálido
+30002,Acatlán,17.0,Templado
+30054,Chacaltianguis,25.0,Cálido
+30055,Chalma,23.0,Cálido
+30056,Chiconamel,23.0,Cálido
+30058,Chicontepec,23.0,Cálido
+30061,Las Choapas,23.0,Cálido
+30063,Chontla,23.0,Cálido
+30078,Ixcatepec,23.0,Cálido
+30079,Ixhuacán de los Reyes,21.0,Semicálido
+30064,Chumatlán,25.0,Cálido
+30080,Ixhuatlán del Café,19.0,Semicálido
+30081,Ixhuatlancillo,15.0,Templado
+30082,Ixhuatlán del Sureste,25.0,Cálido
+30083,Ixhuatlán de Madero,21.0,Semicálido
+30084,Ixmatlahuacan,25.0,Cálido
+30085,Ixtaczoquitlán,19.0,Semicálido
+30086,Jalacingo,21.0,Semicálido
+30088,Jalcomulco,21.0,Semicálido
+30024,Tlaltetela,25.0,Cálido
+30025,Ayahualulco,13.0,Templado
+30026,Banderilla,19.0,Semicálido
+30027,Benito Juárez,23.0,Cálido
+30028,Boca del Río,25.0,Cálido
+30029,Calcahualco,13.0,Templado
+30030,Camerino Z. Mendoza,13.0,Templado
+30203,Zozocolco de Hidalgo,21.0,Semicálido
+30205,El Higo,23.0,Cálido
+30074,Huiloapan de Cuauhtémoc,15.0,Templado
+30075,Ignacio de la Llave,25.0,Cálido
+30107,Las Minas,21.0,Semicálido
+30116,Oluta,25.0,Cálido
+30136,Rafael Lucio,13.0,Templado
+30138,Río Blanco,15.0,Templado
+30140,San Andrés Tenejapan,13.0,Templado
+30199,Zaragoza,25.0,Cálido
+30185,Tlilapan,19.0,Semicálido
+30190,Tuxtilla,25.0,Cálido
+30194,Villa Aldama,11.0,Semifrio
+30206,Nanchital de Lázaro Cárdenas del Río,25.0,Cálido
+30102,Martínez de la Torre,23.0,Cálido
+30104,Mecayapan,23.0,Cálido
+30106,Miahuatlán,13.0,Templado
+30069,Gutiérrez Zamora,25.0,Cálido
+30071,Huatusco,21.0,Semicálido
+30031,Carrillo Puerto,25.0,Cálido
+30032,Catemaco,21.0,Semicálido
+30033,Cazones de Herrera,25.0,Cálido
+30034,Cerro Azul,23.0,Cálido
+30035,Citlaltépetl,23.0,Cálido
+30037,Coahuitlán,21.0,Semicálido
+30038,Coatepec,21.0,Semicálido
+30039,Coatzacoalcos,25.0,Cálido
+30040,Coatzintla,25.0,Cálido
+30042,Colipa,21.0,Semicálido
+30044,Córdoba,19.0,Semicálido
+30041,Coetzala,19.0,Semicálido
+31025,Dzan,25.0,Cálido
+31040,Izamal,25.0,Cálido
+31050,Mérida,25.0,Cálido
+31014,Cuncunul,25.0,Cálido
+31100,Ucú,25.0,Cálido
+31039,Ixil,25.0,Cálido
+31060,Quintana Roo,25.0,Cálido
+31085,Temozón,25.0,Cálido
+31091,Tinum,25.0,Cálido
+31058,Peto,25.0,Cálido
+31052,Motul,25.0,Cálido
+31047,Maní,25.0,Cálido
+31048,Maxcanú,25.0,Cálido
+31032,Espita,25.0,Cálido
+31036,Homún,25.0,Cálido
+31103,Xocchel,25.0,Cálido
+31099,Uayma,25.0,Cálido
+31098,Tzucacab,25.0,Cálido
+31076,Tecoh,25.0,Cálido
+31019,Chemax,25.0,Cálido
+31028,Dzilam de Bravo,25.0,Cálido
+31002,Acanceh,25.0,Cálido
+31006,Buctzotz,25.0,Cálido
+31104,Yaxcabá,25.0,Cálido
+31056,Oxkutzcab,25.0,Cálido
+31057,Panabá,25.0,Cálido
+31096,Tizimín,25.0,Cálido
+31005,Bokobá,25.0,Cálido
+31093,Tixkokob,25.0,Cálido
+31092,Tixcacalcupul,25.0,Cálido
+31084,Temax,25.0,Cálido
+31089,Ticul,25.0,Cálido
+31079,Tekax,25.0,Cálido
+31101,Umán,25.0,Cálido
+31102,Valladolid,25.0,Cálido
+31071,Sudzal,25.0,Cálido
+31069,Sotuta,25.0,Cálido
+31061,Río Lagartos,25.0,Cálido
+31067,Seyé,25.0,Cálido
+31059,Progreso,25.0,Cálido
+31065,San Felipe,25.0,Cálido
+31018,Chapab,25.0,Cálido
+31017,Chankom,25.0,Cálido
+31011,Celestún,25.0,Cálido
+31008,Calotmul,25.0,Cálido
+31062,Sacalum,25.0,Cálido
+31038,Hunucmá,25.0,Cálido
+31090,Timucuy,25.0,Cálido
+31034,Hocabá,25.0,Cálido
+31075,Teabo,25.0,Cálido
+31030,Dzitás,25.0,Cálido
+31041,Kanasín,25.0,Cálido
+31042,Kantunil,25.0,Cálido
+31021,Chichimilá,25.0,Cálido
+31024,Chumayel,25.0,Cálido
+31045,Kopomá,25.0,Cálido
+31022,Chikindzonot,25.0,Cálido
+31073,Tahdziú,25.0,Cálido
+31081,Tekom,25.0,Cálido
+31083,Telchac Puerto,25.0,Cálido
+31044,Kinchil,25.0,Cálido
+31001,Abalá,25.0,Cálido
+31003,Akil,25.0,Cálido
+31004,Baca,25.0,Cálido
+31007,Cacalchén,25.0,Cálido
+31009,Cansahcab,25.0,Cálido
+31016,Chacsinkín,25.0,Cálido
+31010,Cantamayec,25.0,Cálido
+31012,Cenotillo,25.0,Cálido
+31013,Conkal,25.0,Cálido
+31015,Cuzamá,25.0,Cálido
+31023,Chocholá,25.0,Cálido
+31026,Dzemul,25.0,Cálido
+31027,Dzidzantún,25.0,Cálido
+31031,Dzoncauich,25.0,Cálido
+31033,Halachó,25.0,Cálido
+31035,Hoctún,25.0,Cálido
+31037,Huhí,25.0,Cálido
+31043,Kaua,25.0,Cálido
+31046,Mama,25.0,Cálido
+31051,Mocochá,25.0,Cálido
+31053,Muna,25.0,Cálido
+31054,Muxupip,25.0,Cálido
+31063,Samahil,25.0,Cálido
+31068,Sinanché,25.0,Cálido
+31020,Chicxulub Pueblo,25.0,Cálido
+31070,Sucilá,25.0,Cálido
+31072,Suma,25.0,Cálido
+31074,Tahmek,25.0,Cálido
+31077,Tekal de Venegas,25.0,Cálido
+31078,Tekantó,25.0,Cálido
+31080,Tekit,25.0,Cálido
+31082,Telchac Pueblo,25.0,Cálido
+31064,Sanahcat,25.0,Cálido
+31086,Tepakán,25.0,Cálido
+31087,Tetiz,25.0,Cálido
+31055,Opichén,25.0,Cálido
+31029,Dzilam González,25.0,Cálido
+31088,Teya,25.0,Cálido
+31094,Tixmehuac,25.0,Cálido
+31095,Tixpéhual,25.0,Cálido
+31097,Tunkás,25.0,Cálido
+31105,Yaxkukul,25.0,Cálido
+31106,Yobaín,25.0,Cálido
+31066,Santa Elena,25.0,Cálido
+31049,Mayapán,25.0,Cálido
+32057,Trancoso,15.0,Templado
+32015,El Plateado de Joaquín Amaro,19.0,Semicálido
+32017,Guadalupe,13.0,Templado
+32019,Jalpa,21.0,Semicálido
+32020,Jerez,17.0,Templado
+32021,Jiménez del Teul,17.0,Templado
+32026,Mazapil,15.0,Templado
+32027,Melchor Ocampo,15.0,Templado
+32028,Mezquital del Oro,23.0,Cálido
+32029,Miguel Auza,15.0,Templado
+32038,Pinos,15.0,Templado
+32039,Río Grande,15.0,Templado
+32003,Atolinga,17.0,Templado
+32022,Juan Aldama,15.0,Templado
+32048,Tlaltenango de Sánchez Román,19.0,Semicálido
+32042,Sombrerete,13.0,Templado
+32044,Tabasco,19.0,Semicálido
+32049,Valparaíso,15.0,Templado
+32050,Vetagrande,15.0,Templado
+32051,Villa de Cos,13.0,Templado
+32030,Momax,15.0,Templado
+32032,Morelos,15.0,Templado
+32056,Zacatecas,13.0,Templado
+32007,Concepción del Oro,13.0,Templado
+32008,Cuauhtémoc,17.0,Templado
+32009,Chalchihuites,17.0,Templado
+32004,Benito Juárez,15.0,Templado
+32054,Villa Hidalgo,15.0,Templado
+32024,Loreto,15.0,Templado
+32031,Monte Escobedo,19.0,Semicálido
+32037,Pánuco,15.0,Templado
+32040,Sain Alto,15.0,Templado
+32018,Huanusco,19.0,Semicálido
+32023,Juchipila,17.0,Templado
+32025,Luis Moya,15.0,Templado
+32033,Moyahua de Estrada,21.0,Semicálido
+32010,Fresnillo,13.0,Templado
+32011,Trinidad García de la Cadena,17.0,Templado
+32012,Genaro Codina,13.0,Templado
+32005,Calera,15.0,Templado
+32052,Villa García,15.0,Templado
+32013,General Enrique Estrada,15.0,Templado
+32041,El Salvador,15.0,Templado
+32058,Santa María de la Paz,17.0,Templado
+32055,Villanueva,19.0,Semicálido
+32053,Villa González Ortega,15.0,Templado
+32001,Apozol,17.0,Templado
+32002,Apulco,19.0,Semicálido
+32016,General Pánfilo Natera,15.0,Templado
+32034,Nochistlán de Mejía,19.0,Semicálido
+32006,Cañitas de Felipe Pescador,15.0,Templado
+32035,Noria de Ángeles,15.0,Templado
+32036,Ojocaliente,15.0,Templado
+32014,General Francisco R. Murguía,15.0,Templado
+32043,Susticacán,15.0,Templado
+32045,Tepechitlán,19.0,Semicálido
+32046,Tepetongo,15.0,Templado
+32047,Teúl de González Ortega,17.0,Templado

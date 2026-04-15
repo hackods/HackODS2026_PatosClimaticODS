@@ -1,0 +1,106 @@
+<table><tr><td colspan=6 align='center' style='font-weight: bold; font-size: 12pt'>SISTEMA EDUCATIVO NACIONAL</td></tr><tr><td colspan=6 align='center' style='font-weight: bold; font-size: 12pt'>CICLO ESCOLAR 2023-2024</td></tr><tr height=10><td aling="center"></td></tr></table><table>
+	<tr>
+		<td colspan="16"><span class="Titulos_principales2" style="font-size:8pt;"> CONTROL: TODOS;     SOSTENIMIENTO: TODOS;     ENTIDAD: BAJA CALIFORNIA SUR</span></td>
+	</tr>
+	<tr bgcolor="#666666">
+		<td width="300" align="center"><span class="Titulos_principales2" style="color:White;">Municipio</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Escuelas</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Alumnos</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Alumnos Mujeres</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Alumnos Hombres</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Docentes¹</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Inscripción Total</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Mujeres Inscritas</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Hombres Inscritos</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Alumnos aprobados</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Aprobados mujeres</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Aprobados hombres</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Directivos con grupo</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Directivos sin grupo</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Servicios especiales</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Personal Administrativo</span></td>
+		<td width="100" align="center"><span class="Titulos_principales2" style="color:White;">Total de grupos</span></td>
+	</tr>
+	<tr bgcolor="white">
+		<td align="Left" style="padding-right:5px;padding-left:5px;"><span class="FontRow">COMONDÚ</span></td>
+		<td align="Right"><span class="FontRow">1</span></td>
+		<td align="Right"><span class="FontRow">4,520</span></td>
+		<td align="Right"><span class="FontRow">2,879</span></td>
+		<td align="Right"><span class="FontRow">1,641</span></td>
+		<td align="Right"><span class="FontRow">53</span></td>
+		<td align="Right"><span class="FontRow">4,536</span></td>
+		<td align="Right"><span class="FontRow">2,879</span></td>
+		<td align="Right"><span class="FontRow">1,657</span></td>
+		<td align="Right"><span class="FontRow">3,630</span></td>
+		<td align="Right"><span class="FontRow">2,231</span></td>
+		<td align="Right"><span class="FontRow">1,399</span></td>
+		<td align="Right"><span class="FontRow">0</span></td>
+		<td align="Right"><span class="FontRow">0</span></td>
+		<td align="Right"><span class="FontRow">0</span></td>
+		<td align="Right"><span class="FontRow">4</span></td>
+		<td align="Right"><span class="FontRow">112</span></td>
+	</tr>
+	<tr bgcolor="#B3B6B7">
+		<td align="Left" style="padding-right:5px;padding-left:5px;"><span class="FontRow">LA PAZ</span></td>
+		<td align="Right"><span class="FontRow">12</span></td>
+		<td align="Right"><span class="FontRow">13,982</span></td>
+		<td align="Right"><span class="FontRow">9,709</span></td>
+		<td align="Right"><span class="FontRow">4,273</span></td>
+		<td align="Right"><span class="FontRow">233</span></td>
+		<td align="Right"><span class="FontRow">21,715</span></td>
+		<td align="Right"><span class="FontRow">11,358</span></td>
+		<td align="Right"><span class="FontRow">10,357</span></td>
+		<td align="Right"><span class="FontRow">12,541</span></td>
+		<td align="Right"><span class="FontRow">8,676</span></td>
+		<td align="Right"><span class="FontRow">3,865</span></td>
+		<td align="Right"><span class="FontRow">3</span></td>
+		<td align="Right"><span class="FontRow">17</span></td>
+		<td align="Right"><span class="FontRow">6</span></td>
+		<td align="Right"><span class="FontRow">90</span></td>
+		<td align="Right"><span class="FontRow">1,223</span></td>
+	</tr>
+	<tr bgcolor="white">
+		<td align="Left" style="padding-right:5px;padding-left:5px;"><span class="FontRow">LOS CABOS</span></td>
+		<td align="Right"><span class="FontRow">7</span></td>
+		<td align="Right"><span class="FontRow">3,955</span></td>
+		<td align="Right"><span class="FontRow">2,970</span></td>
+		<td align="Right"><span class="FontRow">985</span></td>
+		<td align="Right"><span class="FontRow">79</span></td>
+		<td align="Right"><span class="FontRow">6,126</span></td>
+		<td align="Right"><span class="FontRow">3,390</span></td>
+		<td align="Right"><span class="FontRow">2,736</span></td>
+		<td align="Right"><span class="FontRow">2,703</span></td>
+		<td align="Right"><span class="FontRow">2,063</span></td>
+		<td align="Right"><span class="FontRow">640</span></td>
+		<td align="Right"><span class="FontRow">3</span></td>
+		<td align="Right"><span class="FontRow">7</span></td>
+		<td align="Right"><span class="FontRow">0</span></td>
+		<td align="Right"><span class="FontRow">23</span></td>
+		<td align="Right"><span class="FontRow">354</span></td>
+	</tr>
+	<tr bgcolor="#B3B6B7">
+		<td align="Left" style="padding-right:5px;padding-left:5px;"><span class="FontRow">TOTAL</span></td>
+		<td align="Right"><span class="FontRow">20</span></td>
+		<td align="Right"><span class="FontRow">22,457</span></td>
+		<td align="Right"><span class="FontRow">15,558</span></td>
+		<td align="Right"><span class="FontRow">6,899</span></td>
+		<td align="Right"><span class="FontRow">365</span></td>
+		<td align="Right"><span class="FontRow">32,377</span></td>
+		<td align="Right"><span class="FontRow">17,627</span></td>
+		<td align="Right"><span class="FontRow">14,750</span></td>
+		<td align="Right"><span class="FontRow">18,874</span></td>
+		<td align="Right"><span class="FontRow">12,970</span></td>
+		<td align="Right"><span class="FontRow">5,904</span></td>
+		<td align="Right"><span class="FontRow">6</span></td>
+		<td align="Right"><span class="FontRow">24</span></td>
+		<td align="Right"><span class="FontRow">6</span></td>
+		<td align="Right"><span class="FontRow">117</span></td>
+		<td align="Right"><span class="FontRow">1,689</span></td>
+	</tr>
+	<tr>
+		<td align="left" colspan="17"><span class="Titulos_listas2" style="font-size:8pt;">¹   Conjunto de individuos adscritos a un centro de trabajo, de acuerdo a la función que realizan en el mismo. A cada uno se le considera tantas veces como en centros de trabajo esté adscrito.</span></td>
+	</tr>
+	<tr>
+		<td align="left" colspan="17"><span class="Titulos_listas2" style="font-size:8pt;">  Fuente: Sistema de Estadísticas Continuas de Educación del Formato 911, DGPPyEE, SEP.</span></td>
+	</tr>
+</table>
