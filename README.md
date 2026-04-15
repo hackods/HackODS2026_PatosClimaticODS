@@ -250,7 +250,7 @@ Ubicar salidas finales en `data/resultados/`:
 
 ### Nota sobre archivos pesados
 
-Algunos archivos geoespaciales pesados (por ejemplo `.geojson` y componentes de shapefile) no se versionan en GitHub por limites de tamano de archivo. El repositorio incluye scripts y pipeline para regenerar estos resultados localmente.
+Por limites de tamano de GitHub, los archivos GeoJSON de gran tamano en `data/resultados/` no se versionan. Los insumos geoespaciales de `data/temperatura_municipio/` si forman parte del repositorio para facilitar la reproducibilidad del cruce espacial. El pipeline incluye scripts para regenerar resultados derivados localmente.
 
 ---
 
