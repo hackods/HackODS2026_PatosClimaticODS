@@ -9,6 +9,29 @@ La IA se uso como apoyo tecnico para depuracion, instalacion de dependencias, es
 
 ## Registro de uso
 
+### 2026-04-23 | GitHub Copilot Chat | Integracion INIFED-911 y agregacion municipal
+- **Tarea**: Construir pipeline para integrar datos de INIFED con 911 por CCT y generar salida a nivel municipal.
+- **Prompts**: Solicitudes para estandarizar `cve_ent/cve_mun/cve_mun_full`, unir por CCT, incluir sostenimiento (publico/privado), y conservar variables de infraestructura (bebederos, techumbre, luz, agua, ambito).
+- **Resultado**: Se creo `scripts/procesamiento_infied.py` con lectura robusta de CSV, normalizacion de claves, merge por CCT, reporte de no coincidencias y agregacion municipal en `data/resultados/infied_municipio.csv`.
+- **Modificacion del equipo**: Se decidio que la unificacion final con la base maestra se ejecute en Quarto, no dentro del script de INIFED.
+- **Decision propia**: Mantener separadas la capa de procesamiento (script) y la capa de integracion narrativa (Quarto) para mejorar trazabilidad y control.
+
+### 2026-04-23 | GitHub Copilot Chat | Quarto con doble salida de datos
+- **Tarea**: Generar automaticamente dos salidas municipales desde `dashboard/index.qmd`.
+- **Prompts**: Solicitud para producir una base completa integrada y otra base tematica de infraestructura.
+- **Resultado**: En Quarto se agrego un bloque de merge que genera:
+	- `data/resultados/base_datos_final_con_infied.csv`
+	- `data/resultados/base_infraestructura_municipal.csv`
+- **Modificacion del equipo**: Se validaron llaves municipales y cobertura de municipios con datos INIFED antes de usar los archivos en narrativa.
+- **Decision propia**: Adoptar estrategia hibrida (base maestra + base tematica) para balancear analisis integral y rapidez de visualizacion.
+
+### 2026-04-23 | GitHub Copilot Chat | Limpieza de commit y sincronizacion con GitHub
+- **Tarea**: Resolver fallo de push por archivos mayores a 100 MB y ordenar commits.
+- **Prompts**: Solicitudes para identificar conflicto de sync, limpiar `.gitignore`, quitar artefactos pesados y rehacer commit con mensaje en espanol.
+- **Resultado**: Se excluyeron archivos grandes crudos/derivados de INIFED del versionado, se rehizo el commit sin archivos bloqueantes y se completo el push exitoso a `origin/main`.
+- **Modificacion del equipo**: Se pidio evitar la firma `Co-authored-by` y conservar mensajes de commit en espanol.
+- **Decision propia**: Priorizar commits reproducibles y ligeros, documentando en README como regenerar localmente los archivos no versionados.
+
 ### 2026-04-13 | GitHub Copilot Chat | Instalacion de dependencias en el entorno
 - **Tarea**: Instalar `plotly` para ejecutar el notebook Quarto.
 - **Prompt**: El entorno mostraba `ModuleNotFoundError: No module named 'plotly'`.
@@ -57,6 +80,8 @@ La IA se uso como apoyo tecnico para depuracion, instalacion de dependencias, es
 - Las dependencias se fijaron en `requirements.txt` para replicabilidad.
 - Las graficas fueron construidas con apoyo de IA, pero cada salida fue revisada manualmente antes de integrarla al tablero.
 - La consistencia de datos entre las tres bases se valido por muestreo y revision del equipo.
+- Se agrego una estrategia de dos salidas municipales: base maestra integrada y base tematica de infraestructura.
+- Se decidio no versionar insumos/salidas pesadas de INIFED por limites de GitHub, dejando su regeneracion documentada.
 
 ## NO se uso IA para
 - La interpretacion final de los hallazgos del proyecto.

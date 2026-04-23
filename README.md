@@ -18,6 +18,7 @@ python scripts/procesamiento_temperatura.py
 python scripts/procesamiento_temperatura2.py
 python scripts/matricula_procesamiento.py
 python scripts/procesamiento -copia.py
+python scripts/procesamiento_infied.py
 
 # 3. Abre la narrativa interactiva en Jupyter:
 jupyter notebook dashboard/HackODS.ipynb
@@ -130,6 +131,9 @@ jupyter notebook dashboard/HackODS.ipynb
 - `scripts/matricula_procesamiento.py`: procesa los archivos `salida (x).xls` de matricula.
 - `scripts/procesamiento_temperatura.py`: cruza shapefiles (join espacial) y genera clima por municipio.
 - `scripts/procesamiento_temperatura2.py`: limpia/estandariza clima para merge final.
+- `scripts/procesamiento_infied.py`: integra INIFED con 911 por CCT y genera salida por escuela y agregada por municipio.
+- `dashboard/index.qmd`: documento Quarto principal con carga de datos, validaciones y merges municipales.
+- `dashboard/styles.css`: estilos del dashboard Quarto.
 - `data/matricula/`: archivos fuente de matricula (`salida (2).xls` ... `salida (33).xls`).
 - `data/temperatura_municipio/`: insumos de clima (SHP/DBF/PRJ/SHX y CSV).
 - `data/resultados/`: salidas finales/intermedias de analisis.
@@ -223,6 +227,40 @@ uv run python "scripts/procesamiento - copia.py"
 
 ---
 
+## Paso D. INIFED + 911 (por CCT)
+
+### Insumos
+- `data/INFIED/INIFED_2020-2022_CSV.csv`
+- `data/INFIED/ESTANDAR_BASICA_I2324.csv`
+
+### Ejecucion
+
+```bash
+uv run python scripts/procesamiento_infied.py
+```
+
+### Salidas esperadas
+- `data/resultados/infied_servicios_con_clave_municipio.csv` (nivel escuela con cve_mun_full)
+- `data/resultados/infied_servicios_con_clave_municipio_cct_sin_match.csv` (reporte sin match)
+- `data/resultados/infied_municipio.csv` (agregado municipal de infraestructura)
+
+---
+
+## Paso E. Salidas duales desde Quarto
+
+Al renderizar `dashboard/index.qmd` se generan dos bases municipales:
+
+- `data/resultados/base_datos_final_con_infied.csv` (base maestra integrada)
+- `data/resultados/base_infraestructura_municipal.csv` (base tematica de infraestructura)
+
+Ejecucion:
+
+```bash
+uv run quarto render dashboard/index.qmd
+```
+
+---
+
 ## 4) Unificacion final para analisis
 
 Llave comun entre fuentes:
@@ -235,6 +273,8 @@ Fuentes ya procesadas:
 
 Puedes generar una tabla final (ej. `data/resultados/base_datos_final.csv`) con un merge por `cve_mun_full`.
 
+Desde la version actual, el merge con INIFED a nivel municipal se automatiza en Quarto y produce una base maestra y una base tematica.
+
 ---
 
 ## 5) Resultados finales sugeridos
@@ -245,11 +285,25 @@ Ubicar salidas finales en `data/resultados/`:
 - `clima_municipal.csv`
 - `atlas_datos_unificado.xlsx`
 - `base_datos_final.csv`
+- `base_datos_final_con_infied.csv`
+- `base_infraestructura_municipal.csv`
 - `MASTER_DB_HACKODS_2026.csv`
 
 ### Nota sobre archivos pesados
 
 Por limites de tamano de GitHub, los archivos GeoJSON de gran tamano en `data/resultados/` no se versionan. Los insumos geoespaciales de `data/temperatura_municipio/` si forman parte del repositorio para facilitar la reproducibilidad del cruce espacial. El pipeline incluye scripts para regenerar resultados derivados localmente.
+
+Adicionalmente, por limite de 100 MB de GitHub y para mantener commits limpios:
+
+- No se versionan los insumos crudos grandes de INIFED en `data/INFIED/`.
+- No se versionan salidas derivadas de INIFED en `data/resultados/infied_*.csv`.
+
+Si estos archivos no aparecen en GitHub, se regeneran localmente con:
+
+```bash
+uv run python scripts/procesamiento_infied.py
+uv run quarto render dashboard/index.qmd
+```
 
 ---
 
