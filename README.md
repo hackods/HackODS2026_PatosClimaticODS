@@ -28,11 +28,10 @@ jupyter notebook dashboard/HackODS.ipynb
 ## Datos del equipo
 
 - Nombre del equipo: PatosClimaticODS
-- Integrantes y rol: [Completar nombres] - (Data Engineering, Data Analysis, Storytelling)
 - ODS elegidos:
 	- ODS 4: Educacion de Calidad (Meta 4.a: Instalaciones educativas adecuadas)
 	- ODS 13: Accion por el Clima (Meta 13.1: Resiliencia y adaptacion)
-- URL del repositorio: [Insertar URL de GitHub]
+- URL del repositorio: 
 
 ## Pregunta central del proyecto
 

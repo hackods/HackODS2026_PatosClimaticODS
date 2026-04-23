@@ -1,0 +1,264 @@
+
+---
+title: "HackODS"
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+<!-- Carga de datos y configuración inicial (oculta en la salida final) -->
+
+```{python}
+#| label: setup-carga
+#| include: false
+from pathlib import Path
+import pandas as pd
+import glob
+import unicodedata
+import re
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. Definir la ruta base del proyecto relativa a este archivo
+# En Quarto/Jupyter, __file__ no siempre existe, por eso buscamos de forma robusta
+if '__file__' in locals():
+	project_candidates = [Path(__file__).resolve().parent.parent]
+else:
+	project_candidates = [
+		Path.cwd(),
+		Path.cwd().parent,
+		Path.cwd().parent.parent,
+		Path('../..').resolve(),
+	]
+
+PROJECT_ROOT = None
+for candidate in project_candidates:
+	if (candidate / 'data' / 'resultados').exists():
+		PROJECT_ROOT = candidate
+		break
+
+if PROJECT_ROOT is None:
+	# Fallback para no romper ejecución si aún no existen los datos
+	PROJECT_ROOT = Path.cwd()
+
+BASE_DIR = PROJECT_ROOT / 'data' / 'resultados'
+
+print(f"Ruta base detectada: {BASE_DIR}")
+if not BASE_DIR.exists():
+	print(f"ADVERTENCIA: No se encontró la carpeta en {BASE_DIR}. Verifica que los archivos estén en ../data/resultados/")
+else:
+	print(f"Carpeta de datos detectada con éxito.")
+```
+
+```{python}
+#| label: carga-atlas
+#| include: false
+# Configuración de rutas
+ruta_matricula = BASE_DIR / "matricula_unificada_final.csv"
+ruta_atlas = BASE_DIR / "atlas_datos_unificado.xlsx" # Tu archivo del Atlas
+
+# 1. Cargar bases de datos
+df_mat = pd.read_csv(ruta_matricula)
+# Asegurar que la clave de municipio sea string con ceros a la izquierda
+df_mat['cve_mun_full'] = df_mat['cve_mun_full'].astype(str).str.zfill(5)
+
+# Cargar Atlas (Asumiendo que tienes una columna 'tipo' para diferenciar 'edu' e 'inf')
+df_atlas_raw = pd.read_excel(ruta_atlas)
+
+# 1. Mapeo de nombres reales para las columnas placeholder (V1, V2...)
+# Basado en la estructura oficial que proporcionaste:
+cols_educacion = {
+	'CVEGEO': 'cve_mun_full',
+	'V1': 'no_asistencia_3_5_pct',
+	'V2': 'no_asistencia_6_11_pct',
+	'V3': 'no_asistencia_12_14_pct',
+	'V4': 'asistencia_15_17_pct',
+	'V5': 'analfabetismo_pct',
+	'V6': 'grado_escolaridad',
+	'V7': 'marginacion'
+}
+cols_infraestructura = {
+	'CVEGEO': 'cve_mun_full',
+	'V1': 'electricidad_pct',
+	'V2': 'computadoras_pct',
+	'V3': 'internet_pct',
+	'V4': 'infra_adaptada_pct',
+	'V5': 'material_adaptado_pct',
+	'V6': 'agua_potable_pct',
+	'V7': 'lavabo_manos_pct',
+	'V8': 'indice_infra_sep'
+}
+
+# 2. Separar el DataFrame original por tipo de tabla
+df_edu_raw = df_atlas_raw[df_atlas_raw['Tipo'] == 'edu'].copy()
+df_inf_raw = df_atlas_raw[df_atlas_raw['Tipo'] == 'inf'].copy()
+
+# 3. Renombrar columnas usando los diccionarios
+df_edu = df_edu_raw.rename(columns=cols_educacion)[list(cols_educacion.values())]
+df_inf = df_inf_raw.rename(columns=cols_infraestructura)[list(cols_infraestructura.values())]
+
+# 4. Asegurar que las claves tengan el formato de 5 dígitos (01001) para el cruce
+df_edu['cve_mun_full'] = df_edu['cve_mun_full'].astype(str).str.zfill(5)
+df_inf['cve_mun_full'] = df_inf['cve_mun_full'].astype(str).str.zfill(5)
+
+# 5. MERGE HORIZONTAL: Unir indicadores de Educación e Infraestructura por Municipio
+df_atlas_final = pd.merge(df_edu, df_inf, on='cve_mun_full', how='inner')
+
+# 6. Transformación Narrativa: Convertir inasistencia en asistencia para primaria
+df_atlas_final['asistencia_primaria_pct'] = 100 - df_atlas_final['no_asistencia_6_11_pct'].astype(float)
+
+print("Dataset del Atlas unificado y renombrado con éxito.")
+df_atlas_final.head()
+```
+
+```{python}
+#| label: validacion-archivos
+#| include: false
+# Verificar que los archivos necesarios existan
+print("=" * 60)
+print("VALIDACIÓN DE ARCHIVOS REQUERIDOS")
+print("=" * 60)
+
+archivos_requeridos = {
+	"matricula_unificada_final.csv": BASE_DIR / "matricula_unificada_final.csv",
+	"atlas_datos_unificado.xlsx": BASE_DIR / "atlas_datos_unificado.xlsx",
+	"clima_municipal.csv": BASE_DIR / "clima_municipal.csv"
+}
+
+archivos_faltantes = []
+for nombre, ruta in archivos_requeridos.items():
+	if ruta.exists():
+		print(f"✓ {nombre}")
+	else:
+		print(f"✗ FALTA: {nombre}")
+		archivos_faltantes.append(nombre)
+
+if archivos_faltantes:
+	print("\n⚠️  ADVERTENCIA: Faltan los siguientes archivos:")
+	for arch in archivos_faltantes:
+		print(f"   - {arch}")
+	print("\nEjecuta los scripts de procesamiento en esta orden:")
+	print("  1. python ../scripts/procesamiento_temperatura.py")
+	print("  2. python ../scripts/procesamiento_temperatura2.py")
+	print("  3. python ../scripts/matricula_procesamiento.py")
+	print("  4. python ../scripts/procesamiento -copia.py")
+else:
+	print("\n✓ Todos los archivos requeridos están disponibles. Procediendo...")
+print("=" * 60)
+```
+
+## 1. APERTURA - El problema dual
+
+# Cuando el calor entra al aula, la desigualdad también
+
+En México, el calor extremo y la infraestructura escolar precaria ya no son dos problemas separados. Son una misma barrera para aprender.
+
+### Bloque 1 - Clima
+
+En regiones como el norte del país, las temperaturas superan los 40°C de forma sostenida. En agosto de 2025, Mexicali registró un récord histórico.
+
+Las escuelas están operando en condiciones para las que no fueron diseñadas.
+
+```{python}
+#| label: metricas-nacionales-bloque-2
+#| include: false
+# Cálculo específico para el Bloque 2 (nivel México)
+cols_nacionales = ['cve_mun_full', 'Escuelas']
+df_escuelas = df_mat[cols_nacionales].copy() if all(c in df_mat.columns for c in cols_nacionales) else None
+
+df_metricas = df_atlas_final.copy()
+for col in ['agua_potable_pct', 'lavabo_manos_pct', 'electricidad_pct']:
+	df_metricas[col] = pd.to_numeric(df_metricas[col], errors='coerce')
+
+if df_escuelas is not None:
+	df_escuelas['Escuelas'] = pd.to_numeric(df_escuelas['Escuelas'], errors='coerce')
+	df_metricas = df_metricas.merge(df_escuelas, on='cve_mun_full', how='left')
+
+def pct_sin_servicio(df, col):
+	# Preferimos promedio ponderado por escuelas; si no existe, usamos promedio simple.
+	if 'Escuelas' in df.columns and df['Escuelas'].notna().any() and (df['Escuelas'].fillna(0) > 0).any():
+		valid = df[[col, 'Escuelas']].dropna()
+		valid = valid[valid['Escuelas'] > 0]
+		if not valid.empty:
+			return 100 - np.average(valid[col], weights=valid['Escuelas'])
+	return 100 - df[col].mean(skipna=True)
+
+pct_sin_agua = round(pct_sin_servicio(df_metricas, 'agua_potable_pct'), 1)
+pct_sin_lavamanos = round(pct_sin_servicio(df_metricas, 'lavabo_manos_pct'), 1)
+pct_sin_electricidad = round(pct_sin_servicio(df_metricas, 'electricidad_pct'), 1)
+
+escuelas_total = None
+if df_escuelas is not None:
+	escuelas_total = pd.to_numeric(df_escuelas['Escuelas'], errors='coerce').sum()
+
+if pd.notna(escuelas_total) and escuelas_total > 0:
+	escuelas_sin_agua = int(round(escuelas_total * (pct_sin_agua / 100)))
+	escuelas_sin_lavamanos = int(round(escuelas_total * (pct_sin_lavamanos / 100)))
+	escuelas_sin_electricidad = int(round(escuelas_total * (pct_sin_electricidad / 100)))
+else:
+	escuelas_sin_agua = None
+	escuelas_sin_lavamanos = None
+	escuelas_sin_electricidad = None
+
+def fmt_miles(n):
+	if n is None:
+		return "s/d"
+	return f"{n:,.0f}".replace(",", ".")
+
+txt_sin_agua = fmt_miles(escuelas_sin_agua)
+txt_sin_lavamanos = fmt_miles(escuelas_sin_lavamanos)
+txt_sin_electricidad = fmt_miles(escuelas_sin_electricidad)
+```
+
+### Bloque 2 - Infraestructura
+
+::: {.infra-panel}
+Aunque México ha expandido el acceso (ODS 4), más de una de cada cinco escuelas carece de agua potable para enfrentar olas de calor (ODS 4.a).
+
+```{python}
+#| fig-width: 9
+#| fig-height: 4.8
+labels = ["SIN AGUA POTABLE", "SIN LAVAMANOS", "SIN ELECTRICIDAD"]
+values = [pct_sin_agua, pct_sin_lavamanos, pct_sin_electricidad]
+afectadas = [txt_sin_agua, txt_sin_lavamanos, txt_sin_electricidad]
+
+y = np.arange(len(labels))
+
+fig, ax = plt.subplots(figsize=(9, 4.8))
+fig.patch.set_facecolor('#f4f1ec')
+ax.set_facecolor('#f4f1ec')
+
+# Barra base (100%) y barra de valor real
+ax.barh(y, [100] * len(labels), color='#e6e2db', height=0.22)
+ax.barh(y, values, color='#f35b04', height=0.22)
+
+# Etiquetas y porcentajes
+for i, (lbl, val, esc) in enumerate(zip(labels, values, afectadas)):
+	ax.text(0.0, i - 0.24, lbl, fontsize=11, fontweight='bold', color='#1f1f1f', ha='left', va='center')
+	ax.text(100, i - 0.24, f"{val:.1f}%", fontsize=19, fontstyle='italic', color='#121212', ha='right', va='center')
+	ax.text(0.0, i + 0.30, f"~{esc} ESCUELAS AFECTADAS", fontsize=9.5, color='#8d8d8d', ha='left', va='center')
+
+ax.set_xlim(0, 100)
+ax.set_ylim(-0.6, len(labels) - 0.4)
+ax.invert_yaxis()
+ax.set_xticks([])
+ax.set_yticks([])
+for spine in ax.spines.values():
+	spine.set_visible(False)
+
+plt.tight_layout()
+plt.show()
+```
+
+No es solo falta de infraestructura. Es falta de condiciones para enfrentar el calor.
+:::

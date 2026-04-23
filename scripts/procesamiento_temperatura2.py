@@ -6,8 +6,7 @@ TEMP_DIR = PROJECT_ROOT / "data" / "temperatura_municipio"
 RESULTADOS_DIR = PROJECT_ROOT / "data" / "resultados"
 RESULTADOS_DIR.mkdir(parents=True, exist_ok=True)
 
-# 1. Cargar el dataframe (sustituye 'tu_archivo.csv' por el nombre real de tu resultado del spatial join)
-# Si ya lo tienes en memoria en Colab, puedes saltar este paso.
+# 1. Cargar el dataframe 
 df_clima = pd.read_csv(TEMP_DIR / 'municipios_temperatura_final.csv')
 
 def limpiar_datos_clima(df):
@@ -34,7 +33,7 @@ def limpiar_datos_clima(df):
 
     df_clean['temp_media_anual'] = df_clean['TEM_C'].apply(parse_temp)
 
-    # 4. Limpieza de nombres de municipios (Quitar caracteres extraños de codificación)
+    # 4. Limpieza de nombres de municipios
     # La imagen mostraba "TepezalÃfÂ¡", esto intenta corregir errores comunes de encoding
     def corregir_texto(texto):
         if pd.isna(texto): return texto

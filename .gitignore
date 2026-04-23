@@ -25,3 +25,22 @@ Thumbs.db
 # Large geospatial/raw data (GitHub size limits)
 data/resultados/*.geojson
 *.geojson
+
+# Quarto artifacts (generated)
+/.quarto/
+dashboard/index.html
+dashboard/index.ipynb
+dashboard/index_files/
+dashboard/index.quarto_ipynb_*
+**/*.quarto_ipynb
+**/*.quarto_ipynb_*
+
+# INIFED raw data (too large for GitHub)
+data/INFIED/ESTANDAR_BASICA_I2324.csv
+data/INFIED/INIFED_2020-2022_CSV.csv
+
+# Generated INIFED outputs
+data/resultados/infied_servicios_con_clave_municipio.csv
+data/resultados/infied_servicios_con_clave_municipio_cct_sin_match.csv
+data/resultados/infied_municipio.csv
+
