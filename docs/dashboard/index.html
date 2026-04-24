@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>HackODS</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">HackODS</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- Carga de datos y configuración inicial (oculta en la salida final) -->
+<div class="hero-cover">
+<p class="hero-kicker">
+DIAGNOSTICO ESTRATEGICO | HACKODS UNAM 2026
+</p>
+<h1 class="hero-title">
+Cuando el calor entra al aula, la desigualdad también
+</h1>
+<p class="hero-subtitle">
+Tablero de alerta territorial para proteger el ODS 4 frente al cambio climatico.
+</p>
+</div>
+<section id="crecer-no-siempre-significa-estar-preparados" class="level1">
+<h1>Crecer no siempre significa estar preparados</h1>
+<p>Durante años, la política educativa se ha enfocado en lograr que más estudiantes lleguen a la escuela. El avance del ODS 4 es innegable.</p>
+<div id="cell-avance-educativo-cifras" class="cell" data-fig-height="3.8" data-fig-width="10" data-execution_count="5">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/avance-educativo-cifras-output-1.png" id="avance-educativo-cifras" width="950" height="346" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="pero-también-ha-mejorado-la-infraestructura-que-soporta-esta-educación" class="level1">
+<h1>Pero, también ha mejorado la infraestructura que soporta esta educación?</h1>
+<p>En agosto de 2025, Mexicali registró un récord histórico de temperaturas históricas, alcanzado los 45.2°C. No es un caso aislado, varias aulas educativas en México operan bajo temperaturas máximas de más de 40°C en México en los meses más calurosos.</p>
+<div id="cell-top-municipios-tmax-estaciones" class="cell" data-fig-height="5.4" data-fig-width="9.4" data-execution_count="6">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/top-municipios-tmax-estaciones-output-1.png" id="top-municipios-tmax-estaciones" width="893" height="509" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Dato:</strong> ranking descendente de municipios con temperatura pico municipal promedio, sin valores repetidos. <strong>Referencia:</strong> +40°C = riesgo extremo.</p>
+<div class="infra-panel">
+<p>Aunque México ha expandido el acceso (ODS 4), más de una de cada cinco escuelas carece de agua potable para enfrentar olas de calor (ODS 4.a).</p>
+<div id="fd80b34f" class="cell" data-fig-height="4.8" data-fig-width="9" data-execution_count="8">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-9-output-1.png" width="854" height="451" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>No es solo falta de infraestructura. Es falta de condiciones para enfrentar el calor.</p>
+</div>
+<section id="el-calor-no-afecta-igual-a-todos" class="level2">
+<h2 class="anchored" data-anchor-id="el-calor-no-afecta-igual-a-todos">El calor no afecta igual a todos</h2>
+<div class="impact-panel">
+<p>No todas las escuelas enfrentan la misma exposición ni tienen la misma capacidad de respuesta. Las escuelas rurales y comunitarias concentran mayores carencias, convirtiendo al riesgo en un tema de <strong>desigualdad territorial</strong>.</p>
+<div class="impact-finding">
+<p><strong>EL HALLAZGO</strong></p>
+<p>“El problema no es dónde hace más calor.<br>
+Es dónde hace calor y <strong>no hay cómo enfrentarlo</strong>.”</p>
+</div>
+<div class="impact-wrap">
+<div class="impact-right">
+<div id="cell-comparativa-grupos-deficiencias" class="cell" data-fig-height="4.2" data-fig-width="6.2" data-execution_count="10">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/comparativa-grupos-deficiencias-output-1.png" id="comparativa-grupos-deficiencias" width="777" height="450" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="cell-comparativa-rural-urbano-deficiencias" class="cell" data-fig-height="4.2" data-fig-width="6.2" data-execution_count="11">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/comparativa-rural-urbano-deficiencias-output-1.png" id="comparativa-rural-urbano-deficiencias" width="777" height="450" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>La vulnerabilidad de escuelas al cambio climático coincide con rezagos de infraestructura y vulnerabilidad territorial.</p>
+</div>
+</section>
+<section id="confort-termico---el-cuerpo-en-el-aula" class="level2">
+<h2 class="anchored" data-anchor-id="confort-termico---el-cuerpo-en-el-aula">2. CONFORT TERMICO - El cuerpo en el aula</h2>
+<p>La evidencia fisiologica muestra que el calor puede convertirse en una barrera biologica para el aprendizaje<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<section id="limites-de-operacion-biologica" class="level3">
+<h3 class="anchored" data-anchor-id="limites-de-operacion-biologica">Limites de operacion biologica</h3>
+</section>
+<section id="c---27.7c" class="level3 thermal-threshold thermal-safe">
+<h3 class="anchored" data-anchor-id="c---27.7c">19.7C - 27.7C</h3>
+<p><strong>ZONA DE CONFORT</strong></p>
+<p>El cerebro procesa informacion sin estres.</p>
+</section>
+<section id="c" class="level3 thermal-threshold thermal-danger">
+<h3 class="anchored" data-anchor-id="c">+27.8C</h3>
+<p><strong>UMBRAL CRITICO</strong></p>
+<p>El cuerpo detiene el aprendizaje para enfocarse en sobrevivir al calor.</p>
+</section>
+<section id="consecuencias-del-estres-termico-en-aula" class="level3">
+<h3 class="anchored" data-anchor-id="consecuencias-del-estres-termico-en-aula">Consecuencias del estres termico en aula</h3>
+<div class="thermal-grid">
+<div class="thermal-card">
+<p><strong>50%</strong></p>
+<p>Alumnos con incomodidad física inmediata.</p>
+</div>
+<div class="thermal-card">
+<p><strong>45%</strong></p>
+<p>Senalan el calor como el <strong>principal obstaculo</strong> cognitivo.</p>
+</div>
+<div class="thermal-card">
+<p><strong>SUDORACION</strong></p>
+<p>Agota reservas de energia vitales para concentrarse.</p>
+</div>
+<div class="thermal-card">
+<p><strong>BAJA OXIGENACION</strong></p>
+<p>El flujo sanguineo va a la piel, restando oxigeno al cerebro.</p>
+</div>
+</div>
+</section>
+<section id="contexto-nacional" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-nacional">Contexto nacional</h3>
+<div class="thermal-context">
+<p>En zonas con alta humedad (costas y sur), el estres termico impacta antes y agrava el riesgo para salud y aprendizaje.</p>
+</div>
+</section>
+</section>
+<section id="tablero-de-alerta-territorial" class="level2">
+<h2 class="anchored" data-anchor-id="tablero-de-alerta-territorial">3. TABLERO DE ALERTA TERRITORIAL</h2>
+<p>El riesgo no depende solo de la temperatura, sino de la capacidad de respuesta de los planteles. Este tablero cruza el clima extremo con el rezago en infraestructura para identificar dónde el calor se convierte en una barrera educativa. <strong>El problema no es solo dónde hace más calor; es dónde hace calor y no hay cómo enfrentarlo.</strong></p>
+<div id="cell-dispersion-principal-alerta" class="cell" data-fig-height="6" data-fig-width="10" data-execution_count="13">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/dispersion-principal-alerta-output-1.png" id="dispersion-principal-alerta" width="947" height="565" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Esta gráfica principal cruza la temperatura máxima extrema con la capacidad de respuesta escolar. Los puntos rojos concentran municipios donde coinciden alta exposición térmica y rezago de infraestructura, es decir, los casos con mayor prioridad de intervención.</p>
+<div id="cell-mapas-secundarios-alerta" class="cell" data-fig-height="4.2" data-fig-width="12" data-execution_count="14">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/mapas-secundarios-alerta-output-1.png" id="mapas-secundarios-alerta" width="1141" height="419" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Estas vistas secundarias ayudan a entender qué servicio está más comprometido frente al calor. A mayor temperatura y menor cobertura de agua, electricidad o techumbre, mayor fragilidad operativa de las escuelas.</p>
+<div id="cell-mapa-territorial-alerta" class="cell" data-fig-height="5.8" data-fig-width="9" data-execution_count="15">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/mapa-territorial-alerta-output-1.png" id="mapa-territorial-alerta" width="832" height="551" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Este mapa no busca ser una verdad absoluta del confort térmico. Funciona como una herramienta de priorización territorial para orientar dónde revisar primero condiciones escolares frente al calor extremo.</p>
+<section id="interpretación-de-niveles-de-riesgo" class="level3">
+<h3 class="anchored" data-anchor-id="interpretación-de-niveles-de-riesgo">Interpretación de Niveles de Riesgo</h3>
+<ul>
+<li><strong>Riesgo Crítico (Rojo):</strong> Municipios con temperaturas extremas y carencia total de servicios básicos.</li>
+<li><strong>Riesgo Alto (Naranja):</strong> Alta exposición térmica y deficiencias en infraestructura de hidratación.</li>
+<li><strong>Riesgo Medio (Amarillo):</strong> Temperaturas elevadas con mayor capacidad de respuesta institucional.</li>
+</ul>
+<div id="cell-top-municipios-riesgo-critico" class="cell" data-execution_count="16">
+<div id="top-municipios-riesgo-critico" class="cell-output cell-output-display">
+<style type="text/css">
+#T_f6874 th {
+  background-color: #f4f1ec;
+  color: #1b2630;
+  font-weight: 700;
+}
+#T_f6874 td {
+  padding: 6px 8px;
+}
+#T_f6874_row0_col0, #T_f6874_row0_col1, #T_f6874_row0_col2, #T_f6874_row1_col0, #T_f6874_row1_col1, #T_f6874_row1_col2, #T_f6874_row2_col0, #T_f6874_row2_col1, #T_f6874_row2_col2, #T_f6874_row3_col0, #T_f6874_row3_col1, #T_f6874_row3_col2, #T_f6874_row4_col0, #T_f6874_row4_col1, #T_f6874_row4_col2, #T_f6874_row5_col0, #T_f6874_row5_col1, #T_f6874_row5_col2, #T_f6874_row6_col0, #T_f6874_row6_col1, #T_f6874_row6_col2, #T_f6874_row7_col0, #T_f6874_row7_col1, #T_f6874_row7_col2, #T_f6874_row8_col0, #T_f6874_row8_col1, #T_f6874_row8_col2, #T_f6874_row9_col0, #T_f6874_row9_col1, #T_f6874_row9_col2 {
+  text-align: center;
+}
+#T_f6874_row0_col3, #T_f6874_row1_col3 {
+  background-color: #7f0000;
+  color: #f1f1f1;
+  text-align: center;
+}
+#T_f6874_row0_col4, #T_f6874_row1_col4 {
+  background-color: #800026;
+  color: #f1f1f1;
+  text-align: center;
+}
+#T_f6874_row2_col3, #T_f6874_row7_col3 {
+  background-color: #ed6145;
+  color: #f1f1f1;
+  text-align: center;
+}
+#T_f6874_row2_col4 {
+  background-color: #e41c1d;
+  color: #f1f1f1;
+  text-align: center;
+}
+#T_f6874_row3_col3 {
+  background-color: #fedfb5;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row3_col4 {
+  background-color: #fea446;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row4_col3 {
+  background-color: #fff2e0;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row4_col4 {
+  background-color: #feba55;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row5_col3 {
+  background-color: #fff7ec;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row5_col4 {
+  background-color: #fec45f;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row6_col3 {
+  background-color: #b50302;
+  color: #f1f1f1;
+  text-align: center;
+}
+#T_f6874_row6_col4 {
+  background-color: #feca66;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row7_col4 {
+  background-color: #ffeb9c;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row8_col3 {
+  background-color: #fc8e5a;
+  color: #f1f1f1;
+  text-align: center;
+}
+#T_f6874_row8_col4 {
+  background-color: #fff8ba;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row9_col3 {
+  background-color: #fdaf79;
+  color: #000000;
+  text-align: center;
+}
+#T_f6874_row9_col4 {
+  background-color: #ffffcc;
+  color: #000000;
+  text-align: center;
+}
+</style>
+
+<table id="T_f6874" class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th id="T_f6874_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Rank</th>
+<th id="T_f6874_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Municipio</th>
+<th id="T_f6874_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">Estado</th>
+<th id="T_f6874_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">Temperatura maxima extrema (°C)</th>
+<th id="T_f6874_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">Indice de priorizacion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td id="T_f6874_row0_col0" class="data row0 col0">1</td>
+<td id="T_f6874_row0_col1" class="data row0 col1">SANTIAGO IXCUINTLA</td>
+<td id="T_f6874_row0_col2" class="data row0 col2">Nayarit</td>
+<td id="T_f6874_row0_col3" class="data row0 col3">41.400000</td>
+<td id="T_f6874_row0_col4" class="data row0 col4">88.6</td>
+</tr>
+<tr class="even">
+<td id="T_f6874_row1_col0" class="data row1 col0">2</td>
+<td id="T_f6874_row1_col1" class="data row1 col1">SANTIAGO IXCUINTLA</td>
+<td id="T_f6874_row1_col2" class="data row1 col2">Nayarit</td>
+<td id="T_f6874_row1_col3" class="data row1 col3">41.400000</td>
+<td id="T_f6874_row1_col4" class="data row1 col4">88.6</td>
+</tr>
+<tr class="odd">
+<td id="T_f6874_row2_col0" class="data row2 col0">3</td>
+<td id="T_f6874_row2_col1" class="data row2 col1">ZIHUATANEJO DE AZUETA</td>
+<td id="T_f6874_row2_col2" class="data row2 col2">Guerrero</td>
+<td id="T_f6874_row2_col3" class="data row2 col3">40.600000</td>
+<td id="T_f6874_row2_col4" class="data row2 col4">86.2</td>
+</tr>
+<tr class="even">
+<td id="T_f6874_row3_col0" class="data row3 col0">4</td>
+<td id="T_f6874_row3_col1" class="data row3 col1">ATOYAC DE ÁLVAREZ</td>
+<td id="T_f6874_row3_col2" class="data row3 col2">Guerrero</td>
+<td id="T_f6874_row3_col3" class="data row3 col3">39.600000</td>
+<td id="T_f6874_row3_col4" class="data row3 col4">83.2</td>
+</tr>
+<tr class="odd">
+<td id="T_f6874_row4_col0" class="data row4 col0">5</td>
+<td id="T_f6874_row4_col1" class="data row4 col1">SAN JULIÁN</td>
+<td id="T_f6874_row4_col2" class="data row4 col2">Jalisco</td>
+<td id="T_f6874_row4_col3" class="data row4 col3">39.300000</td>
+<td id="T_f6874_row4_col4" class="data row4 col4">82.5</td>
+</tr>
+<tr class="even">
+<td id="T_f6874_row5_col0" class="data row5 col0">6</td>
+<td id="T_f6874_row5_col1" class="data row5 col1">TANHUATO</td>
+<td id="T_f6874_row5_col2" class="data row5 col2">Michoacan</td>
+<td id="T_f6874_row5_col3" class="data row5 col3">39.200000</td>
+<td id="T_f6874_row5_col4" class="data row5 col4">82.2</td>
+</tr>
+<tr class="odd">
+<td id="T_f6874_row6_col0" class="data row6 col0">7</td>
+<td id="T_f6874_row6_col1" class="data row6 col1">ZACAPU</td>
+<td id="T_f6874_row6_col2" class="data row6 col2">Michoacan</td>
+<td id="T_f6874_row6_col3" class="data row6 col3">41.100000</td>
+<td id="T_f6874_row6_col4" class="data row6 col4">82.0</td>
+</tr>
+<tr class="even">
+<td id="T_f6874_row7_col0" class="data row7 col0">8</td>
+<td id="T_f6874_row7_col1" class="data row7 col1">CULIACÁN</td>
+<td id="T_f6874_row7_col2" class="data row7 col2">Sinaloa</td>
+<td id="T_f6874_row7_col3" class="data row7 col3">40.600000</td>
+<td id="T_f6874_row7_col4" class="data row7 col4">80.5</td>
+</tr>
+<tr class="odd">
+<td id="T_f6874_row8_col0" class="data row8 col0">9</td>
+<td id="T_f6874_row8_col1" class="data row8 col1">LA HUACANA</td>
+<td id="T_f6874_row8_col2" class="data row8 col2">Michoacan</td>
+<td id="T_f6874_row8_col3" class="data row8 col3">40.300000</td>
+<td id="T_f6874_row8_col4" class="data row8 col4">79.7</td>
+</tr>
+<tr class="even">
+<td id="T_f6874_row9_col0" class="data row9 col0">10</td>
+<td id="T_f6874_row9_col1" class="data row9 col1">COYUCA DE BENÍTEZ</td>
+<td id="T_f6874_row9_col2" class="data row9 col2">Guerrero</td>
+<td id="T_f6874_row9_col3" class="data row9 col3">40.100000</td>
+<td id="T_f6874_row9_col4" class="data row9 col4">79.2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="municipios-gemelos" class="level2">
+<h2 class="anchored" data-anchor-id="municipios-gemelos">Municipios Gemelos?</h2>
+<div class="gemelos-section">
+<div class="gemelos-head">
+<p>Dos municipios con temperatura parecida pueden tener riesgos distintos según sus servicios básicos escolares.</p>
+</div>
+<div class="gemelos-grid">
+<section id="tlaquiltenango-morelos" class="level3 gemelo-card gemelo-bajo">
+<h3 class="anchored" data-anchor-id="tlaquiltenango-morelos">TLAQUILTENANGO (Morelos)</h3>
+<div class="gemelo-temp">
+<p>20.8°C</p>
+</div>
+<div class="gemelo-badge badge-bajo">
+<p>Identificada como: Bajo riesgo</p>
+</div>
+<div class="gemelo-metrics">
+<ul>
+<li>Agua potable: <strong>62.5%</strong></li>
+<li>Electricidad: <strong>87.5%</strong></li>
+<li>Techumbre: <strong>s/d</strong></li>
+<li>Infraestructura adaptada: <strong>37.5%</strong></li>
+</ul>
+</div>
+</section>
+<section id="santiago-ixcuintla-nayarit" class="level3 gemelo-card gemelo-alto">
+<h3 class="anchored" data-anchor-id="santiago-ixcuintla-nayarit">SANTIAGO IXCUINTLA (Nayarit)</h3>
+<div class="gemelo-temp">
+<p>41.4°C</p>
+</div>
+<div class="gemelo-badge badge-alto">
+<p>Identificada como: Alto riesgo</p>
+</div>
+<div class="gemelo-metrics">
+<ul>
+<li>Agua potable: <strong>48.2%</strong></li>
+<li>Electricidad: <strong>56.9%</strong></li>
+<li>Techumbre: <strong>s/d</strong></li>
+<li>Infraestructura adaptada: <strong>4.7%</strong></li>
+</ul>
+</div>
+</section>
+</div>
+</div>
+</section>
+<section id="visibilizar-lo-que-es-invisible" class="level2">
+<h2 class="anchored" data-anchor-id="visibilizar-lo-que-es-invisible">Visibilizar lo que es invisible</h2>
+<div class="cierre-sub">
+<p>Una alerta temprana frente a una nueva forma de exclusión educativa.</p>
+</div>
+<div class="cierre-divider">
+
+</div>
+<div class="cierre-grid">
+<section id="dónde-mirar-primero" class="level3 cierre-card">
+<h3 class="anchored" data-anchor-id="dónde-mirar-primero">¿Dónde mirar primero?</h3>
+<p><strong>URGENCIA</strong></p>
+<p>Municipios con alta exposicion térmica y baja capacidad de respuesta.</p>
+</section>
+<section id="qué-necesita-cambiar" class="level3 cierre-card">
+<h3 class="anchored" data-anchor-id="qué-necesita-cambiar">¿Qué necesita cambiar?</h3>
+<p><strong>INTERVENCION</strong></p>
+<p>Agua, ventilación, sombra y adecuación climatica.</p>
+</section>
+<section id="cómo-medir-avance" class="level3 cierre-card">
+<h3 class="anchored" data-anchor-id="cómo-medir-avance">¿Cómo medir avance?</h3>
+<p><strong>INDICADOR</strong></p>
+<p>Porcentaje de escuelas con condiciones de confort termico.</p>
+</section>
+</div>
+<div class="cierre-frase">
+<p>“México ya logró que millones de estudiantes lleguen a la escuela. El siguiente paso es asegurar que puedan aprender dentro de ella.”</p>
+<p><strong>PORQUE HOY, EL DERECHO A APRENDER TODAVIA DEPENDE DEL CLIMA.</strong></p>
+</div>
+</section>
+<section id="sobre-los-datos" class="level2">
+<h2 class="anchored" data-anchor-id="sobre-los-datos">Sobre los datos</h2>
+<section id="fuentes-y-cobertura" class="level3">
+<h3 class="anchored" data-anchor-id="fuentes-y-cobertura">Fuentes y Cobertura</h3>
+<ul>
+<li><strong>Educacion e Infraestructura (2023-2024):</strong> SEP - Direccion General de Planeacion, Programacion y Estadistica Educativa (DGPPyEE). Datos a nivel plantel.</li>
+<li><strong>Matricula y Centros de Trabajo (Ciclo 2024-2025):</strong> Sistema de Estadisticas Continuas (Formato 911), SEP.</li>
+<li><strong>Climatologia (Historico 2019-2024):</strong> CONAGUA (Servicio Meteorologico Nacional), CONABIO e INEGI.</li>
+<li><strong>Infraestructura Fisica (Actualizacion 2024):</strong> SIGED (INIFED) para indicadores de techumbres, bebederos y materialidad.</li>
+<li><strong>Referencia Cientifica:</strong> SciELO México. Fundamentacion para habitabilidad y confort termico escolar.</li>
+</ul>
+</section>
+<section id="metodologia-y-limitaciones" class="level3">
+<h3 class="anchored" data-anchor-id="metodologia-y-limitaciones">Metodologia y Limitaciones</h3>
+<ul>
+<li><strong>Interoperabilidad:</strong> Integracion nacional mediante Clave Geoelectoral Municipal (CVEGEO) a 5 dígitos como llave primaria.</li>
+<li><strong>Cobertura Territorial:</strong> Alcance nacional con desagregacion a nivel municipal y por tipo de centro de trabajo.</li>
+<li><strong>Limitaciones:</strong> Los indicadores de infraestructura dependen del ultimo ciclo de carga del Formato 911. Se reconoce un subregistro potencial en planteles de comunidades indígenas de alta dispersion geográfica o zonas con reporte administrativo incompleto.</li>
+<li><strong>Consulta:</strong> Datasets procesados íntegramente el 14 de abril de 2026.</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>De la Cruz-Chaidez, M. T., et al.&nbsp;(2022). <em>Evaluacion del confort termico y luminico en aulas universitarias</em>. RECIT. https://doi.org/10.37636/recit.v5n4e233<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

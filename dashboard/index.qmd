@@ -1,4 +1,4 @@
-
+﻿
 ---
 title: "HackODS"
 format:
@@ -15,6 +15,13 @@ execute:
 ---
 
 <!-- Carga de datos y configuración inicial (oculta en la salida final) -->
+
+::: {.hero-cover}
+<p class="hero-kicker">DIAGNOSTICO ESTRATEGICO | HACKODS UNAM 2026</p>
+
+<h1 class="hero-title">Cuando el calor entra al aula, la desigualdad también</h1>
+
+<p class="hero-subtitle">Tablero de alerta territorial para proteger el ODS 4 frente al cambio climatico.</p>
 
 ```{python}
 #| label: setup-carga
@@ -55,7 +62,7 @@ BASE_DIR = PROJECT_ROOT / 'data' / 'resultados'
 
 print(f"Ruta base detectada: {BASE_DIR}")
 if not BASE_DIR.exists():
-	print(f"ADVERTENCIA: No se encontró la carpeta en {BASE_DIR}. Verifica que los archivos estén en ../data/resultados/")
+	print(f"ADVERTENCIA: No se encontró la carpeta en {BASE_DIR}. Verifica que los archivos están en ../data/resultados/")
 else:
 	print(f"Carpeta de datos detectada con éxito.")
 ```
@@ -132,7 +139,9 @@ print("=" * 60)
 archivos_requeridos = {
 	"matricula_unificada_final.csv": BASE_DIR / "matricula_unificada_final.csv",
 	"atlas_datos_unificado.xlsx": BASE_DIR / "atlas_datos_unificado.xlsx",
-	"clima_municipal.csv": BASE_DIR / "clima_municipal.csv"
+	"clima_municipal.csv": BASE_DIR / "clima_municipal.csv",
+	"base_datos_final.csv": BASE_DIR / "base_datos_final.csv",
+	"infied_municipio.csv": BASE_DIR / "infied_municipio.csv"
 }
 
 archivos_faltantes = []
@@ -144,7 +153,7 @@ for nombre, ruta in archivos_requeridos.items():
 		archivos_faltantes.append(nombre)
 
 if archivos_faltantes:
-	print("\n⚠️  ADVERTENCIA: Faltan los siguientes archivos:")
+	print("\nADVERTENCIA: Faltan los siguientes archivos:")
 	for arch in archivos_faltantes:
 		print(f"   - {arch}")
 	print("\nEjecuta los scripts de procesamiento en esta orden:")
@@ -157,17 +166,197 @@ else:
 print("=" * 60)
 ```
 
-## 1. APERTURA - El problema dual
+```{python}
+#| label: merge-base-final-infied
+#| include: false
+ruta_base_final = BASE_DIR / "base_datos_final.csv"
+ruta_infied_mun = BASE_DIR / "infied_municipio.csv"
+ruta_salida_merge = BASE_DIR / "base_datos_final_con_infied.csv"
+ruta_salida_infra = BASE_DIR / "base_infraestructura_municipal.csv"
 
-# Cuando el calor entra al aula, la desigualdad también
+if ruta_base_final.exists() and ruta_infied_mun.exists():
+	df_base_final = pd.read_csv(ruta_base_final)
+	df_infied_mun = pd.read_csv(ruta_infied_mun)
 
-En México, el calor extremo y la infraestructura escolar precaria ya no son dos problemas separados. Son una misma barrera para aprender.
+	# Estandarizar llave municipal para asegurar cruce correcto
+	df_base_final['cve_mun_full'] = df_base_final['cve_mun_full'].astype(str).str.zfill(5)
+	df_infied_mun['cve_mun_full'] = df_infied_mun['cve_mun_full'].astype(str).str.zfill(5)
 
-### Bloque 1 - Clima
+	df_base_final_infied = df_base_final.merge(df_infied_mun, on='cve_mun_full', how='left')
+	df_base_final_infied.to_csv(ruta_salida_merge, index=False, encoding='utf-8-sig')
 
-En regiones como el norte del país, las temperaturas superan los 40°C de forma sostenida. En agosto de 2025, Mexicali registró un récord histórico.
+	# Base temática de infraestructura municipal
+	cols_infra = [
+		'cve_mun_full',
+		'Municipio',
+		'NOM_MUN_CLEAN',
+		'temp_media_anual',
+		'ZON_TER',
+		'marginacion',
+		'electricidad_pct',
+		'computadoras_pct',
+		'internet_pct',
+		'infra_adaptada_pct',
+		'material_adaptado_pct',
+		'agua_potable_pct',
+		'lavabo_manos_pct',
+		'indice_infra_sep',
+		'escuelas_infied',
+		'luz_con_pct_infied',
+		'agua_red_pct_infied',
+		'bebederos_con_pct_infied',
+		'techumbre_con_pct_infied',
+		'ambito_urbano_pct_infied',
+		'ambito_rural_pct_infied',
+		'ambito_predominante_infied',
+		'control_predominante_infied'
+	]
 
-Las escuelas están operando en condiciones para las que no fueron diseñadas.
+	cols_infra_presentes = [c for c in cols_infra if c in df_base_final_infied.columns]
+	df_infra_municipal = df_base_final_infied[cols_infra_presentes].copy()
+	df_infra_municipal.to_csv(ruta_salida_infra, index=False, encoding='utf-8-sig')
+
+	match_municipios = df_base_final_infied['escuelas_infied'].notna().sum() if 'escuelas_infied' in df_base_final_infied.columns else 0
+	print(f"Base final + INIFED municipal generada: {ruta_salida_merge}")
+	print(f"Base temática de infraestructura generada: {ruta_salida_infra}")
+	print(f"Municipios con datos de INIFED: {match_municipios} de {len(df_base_final_infied)}")
+else:
+	print("No se generó base_datos_final_con_infied.csv porque faltan archivos de entrada.")
+```
+::::
+
+
+# Crecer no siempre significa estar preparados
+
+Durante años, la política educativa se ha enfocado en lograr que más estudiantes lleguen a la escuela. El avance del ODS 4 es innegable.
+
+```{python}
+#| label: avance-educativo-cifras
+#| fig-width: 10
+#| fig-height: 3.8
+ruta_base_final = BASE_DIR / "base_datos_final.csv"
+
+if ruta_base_final.exists():
+	df_avance = pd.read_csv(ruta_base_final)
+
+	for col in ['no_asistencia_6_11_pct', 'Escuelas', 'Alumnos', 'Alumnos Mujeres', 'electricidad_pct']:
+		if col in df_avance.columns:
+			df_avance[col] = pd.to_numeric(df_avance[col], errors='coerce')
+
+	def promedio_ponderado(df, valor_col, peso_col):
+		if valor_col not in df.columns:
+			return np.nan
+		if peso_col in df.columns:
+			valid = df[[valor_col, peso_col]].dropna()
+			valid = valid[valid[peso_col] > 0]
+			if not valid.empty:
+				return np.average(valid[valor_col], weights=valid[peso_col])
+		return df[valor_col].mean(skipna=True)
+
+	asistencia_6_11 = 100 - promedio_ponderado(df_avance, 'no_asistencia_6_11_pct', 'Alumnos')
+	pct_ninas = (df_avance['Alumnos Mujeres'].sum(skipna=True) / df_avance['Alumnos'].sum(skipna=True)) * 100
+	cobertura_electricidad = promedio_ponderado(df_avance, 'electricidad_pct', 'Escuelas')
+
+	metricas = [
+		("ASISTENCIA 6-11", asistencia_6_11, "#2a9d8f"),
+		("% DE NIÑAS MATRICULADAS", pct_ninas, "#c81d31"),
+		("ESCUELAS CON ELECTRICIDAD", cobertura_electricidad, "#f35b04"),
+	]
+
+	fig, axes = plt.subplots(1, 3, figsize=(10, 3.8), subplot_kw=dict(aspect="equal"))
+	fig.patch.set_facecolor('#f7f1ea')
+
+	for ax, (label, valor, color) in zip(axes, metricas):
+		resto = max(0, 100 - valor)
+		ax.pie(
+			[valor, resto],
+			startangle=90,
+			counterclock=False,
+			colors=[color, "#eadfd5"],
+			wedgeprops=dict(width=0.32, edgecolor="#f7f1ea")
+		)
+		ax.text(0, 0.05, f"{valor:.1f}%", ha="center", va="center", fontsize=16, fontweight="bold", color="#1f1f1f")
+		ax.text(0, -0.30, "PROMEDIO MEXICO", ha="center", va="center", fontsize=8.6, color="#6b6b6b")
+		ax.set_title(label, fontsize=10, fontweight="bold", color="#374151", pad=12)
+
+	plt.tight_layout()
+	plt.show()
+else:
+	print("No se pudo generar el bloque de avance educativo: falta base_datos_final.csv")
+```
+
+# Pero, también ha mejorado la infraestructura que soporta esta educación?
+
+En agosto de 2025, Mexicali registró un récord histórico de temperaturas históricas, alcanzado los 45.2°C. No es un caso aislado, varias aulas educativas en México operan bajo temperaturas máximas de más de 40°C en México en los meses más calurosos.
+
+```{python}
+#| label: top-municipios-tmax-estaciones
+#| fig-width: 9.4
+#| fig-height: 5.4
+ruta_tmax_est = BASE_DIR / "tmax_promedio_municipal_estaciones.csv"
+ruta_base_final = BASE_DIR / "base_datos_final.csv"
+
+if ruta_tmax_est.exists() and ruta_base_final.exists():
+	df_tmax_est = pd.read_csv(ruta_tmax_est)
+	df_base_ref = pd.read_csv(ruta_base_final, usecols=['cve_mun_full', 'Municipio'])
+
+	df_tmax_est['cve_mun_full'] = df_tmax_est['cve_mun_full'].astype(str).str.zfill(5)
+	df_base_ref['cve_mun_full'] = df_base_ref['cve_mun_full'].astype(str).str.zfill(5)
+
+	cols_tmax = [c for c in df_tmax_est.columns if c.startswith('tmax_abs_p')]
+	df_tmax_est[cols_tmax] = df_tmax_est[cols_tmax].apply(pd.to_numeric, errors='coerce')
+	df_tmax_est['tmax_promedio_municipal'] = df_tmax_est[cols_tmax].max(axis=1, skipna=True)
+
+	df_top_tmax = df_tmax_est[['cve_mun_full', 'tmax_promedio_municipal']].dropna()
+	df_top_tmax = df_top_tmax.merge(df_base_ref, on='cve_mun_full', how='inner')
+	df_top_tmax['Municipio'] = df_top_tmax['Municipio'].astype(str).str.strip()
+	df_top_tmax = df_top_tmax[df_top_tmax['Municipio'].notna() & (df_top_tmax['Municipio'] != '')]
+
+	# Orden descendente y sin empates repetidos en el ranking visual.
+	df_top_tmax['tmax_rank_key'] = df_top_tmax['tmax_promedio_municipal'].round(1)
+	df_top_tmax = (
+		df_top_tmax
+		.sort_values('tmax_promedio_municipal', ascending=False)
+		.drop_duplicates(subset=['tmax_rank_key'], keep='first')
+		.head(8)
+		.sort_values('tmax_promedio_municipal', ascending=True)
+	)
+
+	fig, ax = plt.subplots(figsize=(9.4, 5.4))
+	fig.patch.set_facecolor('#f7f1ea')
+	ax.set_facecolor('#f7f1ea')
+
+	ax.barh(
+		df_top_tmax['Municipio'],
+		df_top_tmax['tmax_promedio_municipal'],
+		color='#c81d31',
+		height=0.72,
+		zorder=3
+	)
+
+	ref_umbral = 40
+	max_plot = max(ref_umbral + 2, float(df_top_tmax['tmax_promedio_municipal'].max()) + 1)
+	ax.set_xlim(0, max_plot)
+	ax.axvspan(ref_umbral, max_plot, color='#fde8df', zorder=0)
+	ax.axvline(ref_umbral, color='#e3b9aa', linewidth=2.2, zorder=1)
+
+	for y, v in enumerate(df_top_tmax['tmax_promedio_municipal']):
+		ax.text(v + 0.18, y, f"{v:.1f}°C", va='center', ha='left', fontsize=10.5, color='#3a3a3a')
+
+	ax.set_xlabel("")
+	ax.set_ylabel("")
+	ax.set_xticks([])
+	for spine in ax.spines.values():
+		spine.set_visible(False)
+	ax.tick_params(axis='y', labelsize=10)
+
+	plt.tight_layout()
+	plt.show()
+else:
+	print("No se pudo generar el ranking de tmax: faltan tmax_promedio_municipal_estaciones.csv o base_datos_final.csv")
+```
+
+**Dato:** ranking descendente de municipios con temperatura pico municipal promedio, sin valores repetidos. **Referencia:** +40°C = riesgo extremo.
 
 ```{python}
 #| label: metricas-nacionales-bloque-2
@@ -220,8 +409,6 @@ txt_sin_lavamanos = fmt_miles(escuelas_sin_lavamanos)
 txt_sin_electricidad = fmt_miles(escuelas_sin_electricidad)
 ```
 
-### Bloque 2 - Infraestructura
-
 ::: {.infra-panel}
 Aunque México ha expandido el acceso (ODS 4), más de una de cada cinco escuelas carece de agua potable para enfrentar olas de calor (ODS 4.a).
 
@@ -262,3 +449,693 @@ plt.show()
 
 No es solo falta de infraestructura. Es falta de condiciones para enfrentar el calor.
 :::
+
+## El calor no afecta igual a todos
+
+::: {.impact-panel}
+No todas las escuelas enfrentan la misma exposición ni tienen la misma capacidad de respuesta. Las escuelas rurales y comunitarias concentran mayores carencias, convirtiendo al riesgo en un tema de **desigualdad territorial**.
+
+::: {.impact-finding}
+**EL HALLAZGO**
+
+"El problema no es dónde hace más calor.  
+Es dónde hace calor y **no hay cómo enfrentarlo**."
+:::
+
+```{python}
+#| label: brechas-afectacion-territorial
+#| include: false
+ruta_base_infied = BASE_DIR / "base_datos_final_con_infied.csv"
+
+pct_mujeres_nacional = np.nan
+pct_hombres_nacional = np.nan
+pct_mun_alta_marginacion = np.nan
+pct_alumnos_alta_marginacion = np.nan
+pct_control_publico = np.nan
+
+if ruta_base_infied.exists():
+	df_brecha = pd.read_csv(ruta_base_infied)
+
+	if {'Alumnos', 'Alumnos Mujeres'}.issubset(df_brecha.columns):
+		alumnos_total = pd.to_numeric(df_brecha['Alumnos'], errors='coerce').sum(skipna=True)
+		alumnas_total = pd.to_numeric(df_brecha['Alumnos Mujeres'], errors='coerce').sum(skipna=True)
+		if alumnos_total > 0:
+			pct_mujeres_nacional = (alumnas_total / alumnos_total) * 100
+			pct_hombres_nacional = 100 - pct_mujeres_nacional
+
+	if 'marginacion' in df_brecha.columns:
+		serie_marginacion = df_brecha['marginacion'].astype(str).str.strip().str.lower()
+		mask_alta_marginacion = serie_marginacion.isin(['alto', 'muy alto'])
+		pct_mun_alta_marginacion = mask_alta_marginacion.mean() * 100
+		if 'Alumnos' in df_brecha.columns:
+			alumnos_col = pd.to_numeric(df_brecha['Alumnos'], errors='coerce')
+			alumnos_tot = alumnos_col.sum(skipna=True)
+			if alumnos_tot > 0:
+				pct_alumnos_alta_marginacion = (alumnos_col[mask_alta_marginacion].sum(skipna=True) / alumnos_tot) * 100
+
+	if 'control_predominante_infied' in df_brecha.columns:
+		serie_control = (
+			df_brecha['control_predominante_infied']
+			.dropna()
+			.astype(str)
+			.apply(lambda x: unicodedata.normalize('NFKD', x).encode('ascii', 'ignore').decode('utf-8'))
+			.str.strip()
+			.str.upper()
+		)
+		if len(serie_control) > 0:
+			pct_control_publico = (serie_control == 'PUBLICO').mean() * 100
+```
+
+::: {.impact-wrap}
+::: {.impact-right}
+```{python}
+#| label: comparativa-grupos-deficiencias
+#| fig-width: 6.2
+#| fig-height: 4.2
+#| out-width: 100%
+if ruta_base_infied.exists():
+	df_cmp = pd.read_csv(ruta_base_infied)
+	cols_eval = [
+		'agua_red_pct_infied', 'luz_con_pct_infied', 'techumbre_con_pct_infied', 'infra_adaptada_pct',
+		'electricidad_pct', 'escuelas_infied', 'Escuelas', 'Alumnos', 'Alumnos Mujeres'
+	]
+	for c in cols_eval:
+		if c in df_cmp.columns:
+			df_cmp[c] = pd.to_numeric(df_cmp[c], errors='coerce')
+
+	# Derivar alumnos hombres cuando no viene como columna confiable
+	df_cmp['Alumnos Hombres calc'] = df_cmp['Alumnos'] - df_cmp['Alumnos Mujeres']
+
+	serie_marginacion = (
+		df_cmp['marginacion']
+		.fillna('')
+		.astype(str)
+		.str.strip()
+		.str.lower()
+		.apply(lambda x: unicodedata.normalize('NFKD', x).encode('ascii', 'ignore').decode('utf-8'))
+	)
+
+	def cobertura_ponderada(df, col):
+		if col not in df.columns:
+			return np.nan
+		peso_col = 'escuelas_infied' if col.endswith('_infied') else 'Escuelas'
+		if peso_col in df.columns:
+			sub = df[[col, peso_col]].dropna()
+			sub = sub[sub[peso_col] > 0]
+			if not sub.empty:
+				return np.average(sub[col], weights=sub[peso_col])
+		return pd.to_numeric(df[col], errors='coerce').mean(skipna=True)
+
+	luz_nuniq = df_cmp['luz_con_pct_infied'].dropna().nunique() if 'luz_con_pct_infied' in df_cmp.columns else 0
+	col_electricidad = 'luz_con_pct_infied' if luz_nuniq > 1 else 'electricidad_pct'
+	lbl_electricidad = 'Sin electricidad (INIFED)' if col_electricidad == 'luz_con_pct_infied' else 'Sin electricidad (SEP)'
+
+	servicios = [
+		('agua_red_pct_infied', 'Sin agua'),
+		(col_electricidad, lbl_electricidad),
+		('techumbre_con_pct_infied', 'Sin techumbre')
+	]
+
+	grupos = {
+		'Mayoria mujeres': df_cmp[df_cmp['Alumnos Mujeres'] > df_cmp['Alumnos Hombres calc']],
+		'Mayoria hombres': df_cmp[df_cmp['Alumnos Mujeres'] < df_cmp['Alumnos Hombres calc']],
+		'Marginacion alta': df_cmp[serie_marginacion.isin(['alto', 'muy alto'])],
+		'Marginacion baja': df_cmp[serie_marginacion.isin(['bajo', 'muy bajo'])]
+	}
+
+	mat_def = []
+	for nombre, sub in grupos.items():
+		row = []
+		for col, _ in servicios:
+			cov = cobertura_ponderada(sub, col)
+			row.append(100 - cov if pd.notna(cov) else np.nan)
+		mat_def.append(row)
+
+	mat_def = np.array(mat_def, dtype=float)
+	x = np.arange(len(grupos))
+	w = 0.22
+
+	fig, ax = plt.subplots(figsize=(8.2, 4.8))
+	fig.patch.set_facecolor('#f7f1ea')
+	ax.set_facecolor('#f7f1ea')
+
+	colores = ['#2a9d8f', '#c81d31', '#f4a261']
+	labels_serv = [s[1] for s in servicios]
+	for i in range(len(servicios)):
+		xb = x + (i - 1) * w
+		ax.bar(xb, mat_def[:, i], width=w, color=colores[i], label=labels_serv[i])
+		for xx, yy in zip(xb, mat_def[:, i]):
+			if pd.notna(yy):
+				ax.text(xx, yy + 1.2, f"{yy:.1f}%", ha='center', va='bottom', fontsize=8, color='#4b5563')
+
+	ax.set_xticks(x)
+	ax.set_xticklabels(list(grupos.keys()), fontsize=9.2)
+	ax.set_ylabel('% de deficiencia', fontsize=10)
+	ax.set_title('Comparativa de deficiencias por tipo de territorio', fontsize=12, fontweight='bold')
+	ax.legend(frameon=False, loc='upper right', ncol=1)
+
+	max_val = np.nanmax(mat_def) if np.isfinite(mat_def).any() else 0
+	ax.set_ylim(0, min(100, max_val + 12 if pd.notna(max_val) else 100))
+
+	for spine in ax.spines.values():
+		spine.set_visible(False)
+
+	ax.grid(axis='y', color='#eadfd5', linewidth=0.7, alpha=0.7)
+	plt.tight_layout()
+	plt.show()
+
+else:
+	print("No se pudo generar la comparacion por grupos: falta base_datos_final_con_infied.csv")
+```
+
+```{python}
+#| label: comparativa-rural-urbano-deficiencias
+#| fig-width: 6.2
+#| fig-height: 4.2
+#| out-width: 100%
+if ruta_base_infied.exists():
+	df_ru = pd.read_csv(ruta_base_infied)
+	cols_eval_ru = [
+		'agua_red_pct_infied', 'luz_con_pct_infied', 'techumbre_con_pct_infied', 'infra_adaptada_pct',
+		'electricidad_pct', 'escuelas_infied', 'Escuelas', 'ambito_predominante_infied'
+	]
+	for c in cols_eval_ru:
+		if c in df_ru.columns and c != 'ambito_predominante_infied':
+			df_ru[c] = pd.to_numeric(df_ru[c], errors='coerce')
+
+	df_ru['ambito_predominante_infied'] = (
+		df_ru['ambito_predominante_infied']
+		.fillna('')
+		.astype(str)
+		.str.strip()
+		.str.upper()
+	)
+	df_ru = df_ru[df_ru['ambito_predominante_infied'].isin(['RURAL', 'URBANO'])].copy()
+
+	def cobertura_ponderada_ru(df, col):
+		if col not in df.columns:
+			return np.nan
+		peso_col = 'escuelas_infied' if col.endswith('_infied') else 'Escuelas'
+		if peso_col in df.columns:
+			sub = df[[col, peso_col]].dropna()
+			sub = sub[sub[peso_col] > 0]
+			if not sub.empty:
+				return np.average(sub[col], weights=sub[peso_col])
+		return pd.to_numeric(df[col], errors='coerce').mean(skipna=True)
+
+	luz_nuniq_ru = df_ru['luz_con_pct_infied'].dropna().nunique() if 'luz_con_pct_infied' in df_ru.columns else 0
+	col_electricidad_ru = 'luz_con_pct_infied' if luz_nuniq_ru > 1 else 'electricidad_pct'
+	lbl_electricidad_ru = 'Sin electricidad (INIFED)' if col_electricidad_ru == 'luz_con_pct_infied' else 'Sin electricidad (SEP)'
+
+	metricas_ru = [
+		('agua_red_pct_infied', 'Sin agua'),
+		(col_electricidad_ru, lbl_electricidad_ru),
+		('techumbre_con_pct_infied', 'Sin techumbre'),
+		('infra_adaptada_pct', 'Infra no adaptada')
+	]
+
+	df_rural = df_ru[df_ru['ambito_predominante_infied'] == 'RURAL']
+	df_urbano = df_ru[df_ru['ambito_predominante_infied'] == 'URBANO']
+
+	def_rural = []
+	def_urbano = []
+	for col, _ in metricas_ru:
+		cov_r = cobertura_ponderada_ru(df_rural, col)
+		cov_u = cobertura_ponderada_ru(df_urbano, col)
+		def_rural.append(100 - cov_r if pd.notna(cov_r) else np.nan)
+		def_urbano.append(100 - cov_u if pd.notna(cov_u) else np.nan)
+
+	x = np.arange(len(metricas_ru))
+	w = 0.36
+
+	fig, ax = plt.subplots(figsize=(8.2, 4.8))
+	fig.patch.set_facecolor('#f7f1ea')
+	ax.set_facecolor('#f7f1ea')
+
+	ax.bar(x - w/2, def_rural, width=w, color='#c81d31', label='Rural')
+	ax.bar(x + w/2, def_urbano, width=w, color='#f4a261', label='Urbano')
+
+	for xx, yy in zip(x - w/2, def_rural):
+		if pd.notna(yy):
+			ax.text(xx, yy + 1.2, f"{yy:.1f}%", ha='center', va='bottom', fontsize=8, color='#4b5563')
+	for xx, yy in zip(x + w/2, def_urbano):
+		if pd.notna(yy):
+			ax.text(xx, yy + 1.2, f"{yy:.1f}%", ha='center', va='bottom', fontsize=8, color='#4b5563')
+
+	ax.set_xticks(x)
+	ax.set_xticklabels([m[1] for m in metricas_ru], fontsize=9.2)
+	ax.set_ylabel('% de deficiencia', fontsize=10)
+	ax.set_title('Deficiencias de infraestructura: rural vs urbano', fontsize=12, fontweight='bold')
+	ax.legend(frameon=False, loc='upper right')
+
+	max_val = np.nanmax(def_rural + def_urbano) if len(def_rural + def_urbano) else 0
+	ax.set_ylim(0, min(100, max_val + 12 if pd.notna(max_val) else 100))
+
+	for spine in ax.spines.values():
+		spine.set_visible(False)
+	ax.grid(axis='y', color='#eadfd5', linewidth=0.7, alpha=0.7)
+
+	plt.tight_layout()
+	plt.show()
+
+else:
+	print("No se pudo generar la comparacion rural vs urbano: falta base_datos_final_con_infied.csv")
+```
+:::
+:::
+
+La vulnerabilidad de escuelas al cambio climático coincide con rezagos de infraestructura y vulnerabilidad territorial.
+:::
+
+## 2. CONFORT TERMICO - El cuerpo en el aula
+
+
+La evidencia fisiologica muestra que el calor puede convertirse en una barrera biologica para el aprendizaje[^1].
+
+### Limites de operacion biologica
+
+::: {.thermal-threshold .thermal-safe}
+### 19.7C - 27.7C
+
+**ZONA DE CONFORT**
+
+El cerebro procesa informacion sin estres.
+:::
+
+::: {.thermal-threshold .thermal-danger}
+### +27.8C
+
+**UMBRAL CRITICO**
+
+El cuerpo detiene el aprendizaje para enfocarse en sobrevivir al calor.
+:::
+
+### Consecuencias del estres termico en aula
+
+:::: {.thermal-grid}
+::: {.thermal-card}
+**50%**
+
+Alumnos con incomodidad física inmediata.
+:::
+
+::: {.thermal-card}
+**45%**
+
+Senalan el calor como el **principal obstaculo** cognitivo.
+:::
+
+::: {.thermal-card}
+**SUDORACION**
+
+Agota reservas de energia vitales para concentrarse.
+:::
+
+::: {.thermal-card}
+**BAJA OXIGENACION**
+
+El flujo sanguineo va a la piel, restando oxigeno al cerebro.
+:::
+::::
+
+### Contexto nacional
+
+::: {.thermal-context}
+En zonas con alta humedad (costas y sur), el estres termico impacta antes y agrava el riesgo para salud y aprendizaje.
+:::
+
+## 3. TABLERO DE ALERTA TERRITORIAL
+El riesgo no depende solo de la temperatura, sino de la capacidad de respuesta de los planteles. Este tablero cruza el clima extremo con el rezago en infraestructura para identificar dónde el calor se convierte en una barrera educativa.
+**El problema no es solo dónde hace más calor; es dónde hace calor y no hay cómo enfrentarlo.**
+
+```{python}
+#| label: datos-alerta-territorial
+#| include: false
+ruta_tmax_est = BASE_DIR / "tmax_promedio_municipal_estaciones.csv"
+ruta_base_infied = BASE_DIR / "base_datos_final_con_infied.csv"
+
+if ruta_tmax_est.exists() and ruta_base_infied.exists():
+	df_tmax = pd.read_csv(ruta_tmax_est)
+	df_cap = pd.read_csv(ruta_base_infied)
+
+	df_tmax['cve_mun_full'] = df_tmax['cve_mun_full'].astype(str).str.zfill(5)
+	df_cap['cve_mun_full'] = df_cap['cve_mun_full'].astype(str).str.zfill(5)
+
+	cols_tmax = [c for c in df_tmax.columns if c.startswith('tmax_abs_p')]
+	df_tmax[cols_tmax] = df_tmax[cols_tmax].apply(pd.to_numeric, errors='coerce')
+	df_tmax['tmax_extrema'] = df_tmax[cols_tmax].max(axis=1, skipna=True)
+
+	cols_resp = ['indice_infra_sep', 'agua_potable_pct', 'electricidad_pct', 'techumbre_con_pct_infied', 'Alumnos']
+	for c in cols_resp:
+		if c in df_cap.columns:
+			df_cap[c] = pd.to_numeric(df_cap[c], errors='coerce')
+
+	df_alerta = df_tmax[['cve_mun_full', 'tmax_extrema']].merge(
+		df_cap[['cve_mun_full', 'Municipio'] + cols_resp + ['NOM_MUN_CLEAN']],
+		on='cve_mun_full',
+		how='inner'
+	)
+	df_alerta['Municipio'] = df_alerta['Municipio'].astype(str).str.strip()
+	df_alerta['NOM_MUN_CLEAN'] = df_alerta['NOM_MUN_CLEAN'].astype(str).str.strip()
+	df_alerta = df_alerta[df_alerta['Municipio'] != ""].copy()
+
+	df_alerta = df_alerta.dropna(subset=['tmax_extrema', 'indice_infra_sep'])
+	df_alerta['size_alumnos'] = np.sqrt(df_alerta['Alumnos'].fillna(df_alerta['Alumnos'].median()).clip(lower=1))
+	df_alerta['size_alumnos'] = (df_alerta['size_alumnos'] / df_alerta['size_alumnos'].max()) * 260
+
+	umbral_exposicion = df_alerta['tmax_extrema'].quantile(0.75)
+	umbral_infra = df_alerta['indice_infra_sep'].quantile(0.25)
+
+	cond_alto = (df_alerta['tmax_extrema'] >= umbral_exposicion) & (df_alerta['indice_infra_sep'] <= umbral_infra)
+	cond_medio = (df_alerta['tmax_extrema'] >= umbral_exposicion) | (df_alerta['indice_infra_sep'] <= umbral_infra)
+
+	df_alerta['nivel_riesgo'] = np.select(
+		[cond_alto, cond_medio],
+		['Territorios de Riesgo Educativo', 'Prioridad media'],
+		default='Prioridad baja'
+	)
+```
+
+```{python}
+#| label: dispersion-principal-alerta
+#| fig-width: 10
+#| fig-height: 6
+if 'df_alerta' in locals() and not df_alerta.empty:
+
+	paleta = {
+		'Territorios de Riesgo Educativo': '#c81d31',
+		'Prioridad media': '#f4a261',
+		'Prioridad baja': '#2a9d8f'
+	}
+
+	fig, ax = plt.subplots(figsize=(10, 6))
+	fig.patch.set_facecolor('#f7f1ea')
+	ax.set_facecolor('#f7f1ea')
+
+	for nivel in ['Territorios de Riesgo Educativo', 'Prioridad media', 'Prioridad baja']:
+		sub = df_alerta[df_alerta['nivel_riesgo'] == nivel]
+		ax.scatter(
+			sub['tmax_extrema'],
+			sub['indice_infra_sep'],
+			s=sub['size_alumnos'],
+			alpha=0.8,
+			color=paleta[nivel],
+			label=f"{nivel} ({len(sub)})",
+			edgecolor='white',
+			linewidth=0.4
+		)
+
+	ax.axvline(umbral_exposicion, linestyle='--', linewidth=1.4, color='#8d8d8d')
+	ax.axhline(umbral_infra, linestyle='--', linewidth=1.4, color='#8d8d8d')
+	ax.text(umbral_exposicion + 0.08, ax.get_ylim()[1] - 0.03, "Alta exposición térmica", fontsize=9, color='#666666')
+	ax.text(ax.get_xlim()[0] + 0.02, umbral_infra + 0.01, "Baja capacidad de respuesta", fontsize=9, color='#666666')
+
+	# Etiquetas de cuadrantes narrativos
+	x0, x1 = ax.get_xlim()
+	y0, y1 = ax.get_ylim()
+	ax.text(x0 + 0.02*(x1-x0), y1 - 0.06*(y1-y0), "Zona estable", fontsize=9, color='#4b5563')
+	ax.text(umbral_exposicion + 0.02*(x1-x0), y1 - 0.06*(y1-y0), "Calor alto con capacidad", fontsize=9, color='#4b5563')
+	ax.text(x0 + 0.02*(x1-x0), y0 + 0.05*(y1-y0), "Rezago estructural", fontsize=9, color='#4b5563')
+	ax.text(umbral_exposicion + 0.02*(x1-x0), y0 + 0.05*(y1-y0), "Territorios de Riesgo Educativo", fontsize=9, color='#a31621', fontweight='bold')
+
+	ax.set_xlabel("Temperatura máxima extrema municipal (°C)", fontsize=11)
+	ax.set_ylabel("Índice de infraestructura escolar (SEP)", fontsize=11)
+	ax.set_title("Diagnóstico territorial: exposición térmica + capacidad de respuesta", fontsize=13, fontweight='bold', color='#1f1f1f', pad=12)
+	ax.legend(frameon=False, loc='lower left', fontsize=9)
+
+	for spine in ax.spines.values():
+		spine.set_visible(False)
+
+	plt.tight_layout()
+	plt.show()
+else:
+	print("No se pudo generar la dispersión principal del tablero territorial.")
+```
+
+Esta gráfica principal cruza la temperatura máxima extrema con la capacidad de respuesta escolar. Los puntos rojos concentran municipios donde coinciden alta exposición térmica y rezago de infraestructura, es decir, los casos con mayor prioridad de intervención.
+
+```{python}
+#| label: mapas-secundarios-alerta
+#| fig-width: 12
+#| fig-height: 4.2
+if ruta_tmax_est.exists() and ruta_base_infied.exists() and 'df_alerta' in locals():
+	vars_sec = [
+		('agua_potable_pct', 'Agua vs calor'),
+		('electricidad_pct', 'Electricidad vs calor'),
+		('techumbre_con_pct_infied', 'Techumbre vs calor')
+	]
+	colores = ['#2a9d8f', '#264653', '#e76f51']
+
+	fig, axes = plt.subplots(1, 3, figsize=(12, 4.2), sharex=True, sharey=True)
+	fig.patch.set_facecolor('#f7f1ea')
+
+	for ax, (var, titulo), color in zip(axes, vars_sec, colores):
+		sub = df_alerta.dropna(subset=[var, 'tmax_extrema'])
+		ax.set_facecolor('#f7f1ea')
+		ax.scatter(sub['tmax_extrema'], sub[var], s=18, alpha=0.55, color=color, edgecolor='none')
+		ax.set_title(titulo, fontsize=10.5, fontweight='bold')
+		ax.set_xlabel("Tmax extrema (°C)", fontsize=9.5)
+		ax.set_ylabel("% cobertura", fontsize=9.5)
+		ax.axvline(umbral_exposicion, linestyle='--', linewidth=1.1, color='#8d8d8d')
+		for spine in ax.spines.values():
+			spine.set_visible(False)
+
+	plt.suptitle("Vistas de apoyo para la priorización territorial", fontsize=12.5, fontweight='bold', y=1.03)
+	plt.tight_layout()
+	plt.show()
+else:
+	print("No se pudieron generar las vistas secundarias de alerta.")
+```
+
+Estas vistas secundarias ayudan a entender qué servicio está más comprometido frente al calor. A mayor temperatura y menor cobertura de agua, electricidad o techumbre, mayor fragilidad operativa de las escuelas.
+
+```{python}
+#| label: mapa-territorial-alerta
+#| fig-width: 9
+#| fig-height: 5.8
+if 'df_alerta' in locals() and not df_alerta.empty:
+	import geopandas as gpd
+
+	candidatos_shp = [
+		PROJECT_ROOT / "data" / "temperatura_municipio" / "mun21gw.shp",
+		PROJECT_ROOT / "data" / "temperatura_municipio" / "mun21gw" / "mun21gw.shp",
+		PROJECT_ROOT / "mun21gw.shp"
+	]
+	ruta_mapa = next((p for p in candidatos_shp if p.exists()), None)
+
+	if ruta_mapa is not None:
+		gdf_mun = gpd.read_file(ruta_mapa)
+		col_id = 'CVEGEO' if 'CVEGEO' in gdf_mun.columns else ('CVE_MUN' if 'CVE_MUN' in gdf_mun.columns else None)
+
+		if col_id is not None:
+			gdf_mun['cve_mun_full'] = gdf_mun[col_id].astype(str).str.zfill(5)
+			gdf_plot = gdf_mun.merge(
+				df_alerta[['cve_mun_full', 'nivel_riesgo']],
+				on='cve_mun_full',
+				how='left'
+			)
+			gdf_plot['nivel_riesgo'] = gdf_plot['nivel_riesgo'].fillna('Prioridad media')
+
+			color_map = {
+				'Territorios de Riesgo Educativo': '#c81d31',
+				'Prioridad media': '#f4a261',
+				'Prioridad baja': '#2a9d8f'
+			}
+
+			fig, ax = plt.subplots(figsize=(9, 5.8))
+			fig.patch.set_facecolor('#f7f1ea')
+			ax.set_facecolor('#f7f1ea')
+
+			gdf_plot.plot(
+				ax=ax,
+				column='nivel_riesgo',
+				categorical=True,
+				legend=True,
+				legend_kwds={'loc': 'lower left', 'frameon': False, 'title': 'Prioridad'},
+				color=gdf_plot['nivel_riesgo'].map(color_map),
+				linewidth=0.1,
+				edgecolor='#fff9f2'
+			)
+
+			ax.set_title("Mapa de priorización territorial: calor extremo + infraestructura", fontsize=12.5, fontweight='bold')
+			ax.set_axis_off()
+			plt.tight_layout()
+			plt.show()
+		else:
+			print("No se encontró la columna de clave municipal en el shapefile.")
+	else:
+		print("No se encontró un shapefile municipal (mun21gw.shp) para renderizar el mapa territorial.")
+else:
+	print("No se pudo generar el bloque territorial de municipios prioritarios.")
+```
+
+Este mapa no busca ser una verdad absoluta del confort térmico. Funciona como una herramienta de priorización territorial para orientar dónde revisar primero condiciones escolares frente al calor extremo.
+
+### Interpretación de Niveles de Riesgo
+
+- **Riesgo Crítico (Rojo):** Municipios con temperaturas extremas y carencia total de servicios básicos.
+- **Riesgo Alto (Naranja):** Alta exposición térmica y deficiencias en infraestructura de hidratación.
+- **Riesgo Medio (Amarillo):** Temperaturas elevadas con mayor capacidad de respuesta institucional.
+
+```{python}
+#| label: top-municipios-riesgo-critico
+if 'df_alerta' in locals() and not df_alerta.empty:
+	df_top_riesgo = df_alerta[df_alerta['nivel_riesgo'] == 'Territorios de Riesgo Educativo'].copy()
+	if not df_top_riesgo.empty:
+		estados = {
+			'01':'Aguascalientes','02':'Baja California','03':'Baja California Sur','04':'Campeche','05':'Coahuila','06':'Colima',
+			'07':'Chiapas','08':'Chihuahua','09':'Ciudad de México','10':'Durango','11':'Guanajuato','12':'Guerrero','13':'Hidalgo',
+			'14':'Jalisco','15':'Estado de México','16':'Michoacan','17':'Morelos','18':'Nayarit','19':'Nuevo Leon','20':'Oaxaca',
+			'21':'Puebla','22':'Queretaro','23':'Quintana Roo','24':'San Luis Potosi','25':'Sinaloa','26':'Sonora','27':'Tabasco',
+			'28':'Tamaulipas','29':'Tlaxcala','30':'Veracruz','31':'Yucatan','32':'Zacatecas'
+		}
+		df_top_riesgo['Estado'] = df_top_riesgo['cve_mun_full'].astype(str).str[:2].map(estados).fillna('Estado no identificado')
+
+		# Indice alineado con la logica del mapa:
+		# mayor temperatura extrema + menor indice de infraestructura.
+		den_t = (df_alerta['tmax_extrema'].max() - df_alerta['tmax_extrema'].min())
+		den_i = (df_alerta['indice_infra_sep'].max() - df_alerta['indice_infra_sep'].min())
+		df_top_riesgo['score_temp'] = (
+			(df_top_riesgo['tmax_extrema'] - df_alerta['tmax_extrema'].min()) / den_t
+			if den_t and den_t > 0 else 0
+		)
+		df_top_riesgo['score_infra'] = (
+			(df_alerta['indice_infra_sep'].max() - df_top_riesgo['indice_infra_sep']) / den_i
+			if den_i and den_i > 0 else 0
+		)
+		df_top_riesgo['indice_priorizacion'] = (0.6 * df_top_riesgo['score_temp']) + (0.4 * df_top_riesgo['score_infra'])
+
+		df_top_riesgo = (
+			df_top_riesgo
+			.sort_values(['indice_priorizacion', 'tmax_extrema'], ascending=[False, False])
+			.head(10)
+			.reset_index(drop=True)
+		)
+		df_top_riesgo['Rank'] = df_top_riesgo.index + 1
+
+		df_top_show = df_top_riesgo[['Rank', 'Municipio', 'Estado', 'tmax_extrema', 'indice_priorizacion']].rename(
+			columns={
+				'tmax_extrema': 'Temperatura maxima extrema (°C)',
+				'indice_priorizacion': 'Indice de priorizacion'
+			}
+		)
+		df_top_show['Temperatura maxima extrema (°C)'] = df_top_show['Temperatura maxima extrema (°C)'].round(1)
+		df_top_show['Indice de priorizacion'] = (df_top_show['Indice de priorizacion'] * 100).round(1)
+
+		styled = (
+			df_top_show.style
+			.hide(axis='index')
+			.background_gradient(subset=['Indice de priorizacion'], cmap='YlOrRd')
+			.background_gradient(subset=['Temperatura maxima extrema (°C)'], cmap='OrRd')
+			.format({'Indice de priorizacion': '{:.1f}'})
+			.set_properties(**{'text-align': 'center'})
+			.set_table_styles([
+				{'selector': 'th', 'props': [('background-color', '#f4f1ec'), ('color', '#1b2630'), ('font-weight', '700')]},
+				{'selector': 'td', 'props': [('padding', '6px 8px')]},
+			])
+		)
+		display(styled)
+	else:
+		print("No se identificaron municipios en riesgo crítico con los umbrales actuales.")
+else:
+	print("No se pudo generar el top de municipios en riesgo: falta df_alerta.")
+```
+
+## Municipios Gemelos?
+
+::: {.gemelos-section}
+::: {.gemelos-head}
+Dos municipios con temperatura parecida pueden tener riesgos distintos según sus servicios básicos escolares.
+:::
+
+::: {.gemelos-grid}
+::: {.gemelo-card .gemelo-bajo}
+### TLAQUILTENANGO (Morelos)
+::: {.gemelo-temp}
+20.8°C
+:::
+::: {.gemelo-badge .badge-bajo}
+Identificada como: Bajo riesgo
+:::
+::: {.gemelo-metrics}
+- Agua potable: **62.5%**
+- Electricidad: **87.5%**
+- Techumbre: **s/d**
+- Infraestructura adaptada: **37.5%**
+:::
+:::
+
+::: {.gemelo-card .gemelo-alto}
+### SANTIAGO IXCUINTLA (Nayarit)
+::: {.gemelo-temp}
+41.4°C
+:::
+::: {.gemelo-badge .badge-alto}
+Identificada como: Alto riesgo
+:::
+::: {.gemelo-metrics}
+- Agua potable: **48.2%**
+- Electricidad: **56.9%**
+- Techumbre: **s/d**
+- Infraestructura adaptada: **4.7%**
+:::
+:::
+:::
+:::
+
+## Visibilizar lo que es invisible
+
+::: {.cierre-sub}
+Una alerta temprana frente a una nueva forma de exclusión educativa.
+:::
+
+::: {.cierre-divider}
+:::
+
+::: {.cierre-grid}
+::: {.cierre-card}
+### ¿Dónde mirar primero?
+**URGENCIA**
+
+Municipios con alta exposicion térmica y baja capacidad de respuesta.
+:::
+
+::: {.cierre-card}
+### ¿Qué necesita cambiar?
+**INTERVENCION**
+
+Agua, ventilación, sombra y adecuación climatica.
+:::
+
+::: {.cierre-card}
+### ¿Cómo medir avance?
+**INDICADOR**
+
+Porcentaje de escuelas con condiciones de confort termico.
+:::
+:::
+
+::: {.cierre-frase}
+"México ya logró que millones de estudiantes lleguen a la escuela. El siguiente paso es asegurar que puedan aprender dentro de ella."
+
+**PORQUE HOY, EL DERECHO A APRENDER TODAVIA DEPENDE DEL CLIMA.**
+:::
+## Sobre los datos
+
+### Fuentes y Cobertura
+
+- **Educacion e Infraestructura (2023-2024):** SEP - Direccion General de Planeacion, Programacion y Estadistica Educativa (DGPPyEE). Datos a nivel plantel.
+- **Matricula y Centros de Trabajo (Ciclo 2024-2025):** Sistema de Estadisticas Continuas (Formato 911), SEP.
+- **Climatologia (Historico 2019-2024):** CONAGUA (Servicio Meteorologico Nacional), CONABIO e INEGI.
+- **Infraestructura Fisica (Actualizacion 2024):** SIGED (INIFED) para indicadores de techumbres, bebederos y materialidad.
+- **Referencia Cientifica:** SciELO México. Fundamentacion para habitabilidad y confort termico escolar.
+
+### Metodologia y Limitaciones
+
+- **Interoperabilidad:** Integracion nacional mediante Clave Geoelectoral Municipal (CVEGEO) a 5 dígitos como llave primaria.
+- **Cobertura Territorial:** Alcance nacional con desagregacion a nivel municipal y por tipo de centro de trabajo.
+- **Limitaciones:** Los indicadores de infraestructura dependen del ultimo ciclo de carga del Formato 911. Se reconoce un subregistro potencial en planteles de comunidades indígenas de alta dispersion geográfica o zonas con reporte administrativo incompleto.
+- **Consulta:** Datasets procesados íntegramente el 14 de abril de 2026.
+
+
+[^1]: De la Cruz-Chaidez, M. T., et al. (2022). *Evaluacion del confort termico y luminico en aulas universitarias*. RECIT. https://doi.org/10.37636/recit.v5n4e233

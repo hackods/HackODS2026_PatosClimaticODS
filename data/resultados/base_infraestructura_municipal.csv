@@ -1,0 +1,733 @@
+﻿cve_mun_full,Municipio,NOM_MUN_CLEAN,temp_media_anual,ZON_TER,marginacion,electricidad_pct,computadoras_pct,internet_pct,infra_adaptada_pct,material_adaptado_pct,agua_potable_pct,lavabo_manos_pct,indice_infra_sep,escuelas_infied,luz_con_pct_infied,agua_red_pct_infied,bebederos_con_pct_infied,techumbre_con_pct_infied,ambito_urbano_pct_infied,ambito_rural_pct_infied,ambito_predominante_infied,control_predominante_infied
+01001,AGUASCALIENTES,Aguascalientes,15.0,Templado,Muy bajo,99.6,76.5,86.6,59.8,31.7,98.9,98.5,0.8,74.0,100.0,98.65,51.35,55.41,63.51,36.49,URBANO,PÚBLICO
+01002,CALVILLO,Asientos,15.0,Templado,Muy bajo,100.0,71.6,74.1,39.5,8.6,93.8,98.8,0.7,43.0,100.0,97.67,30.23,53.49,4.65,95.35,RURAL,PÚBLICO
+01003,COSÍO,Calvillo,19.0,Semicálido,Muy bajo,97.6,72.0,64.6,42.7,26.8,91.5,95.1,0.7,42.0,100.0,100.0,23.81,69.05,23.81,76.19,RURAL,PÚBLICO
+01004,JESÚS MARÍA,Cosío,15.0,Templado,Muy bajo,100.0,94.7,89.5,68.4,21.1,100.0,94.7,0.8,11.0,100.0,100.0,72.73,45.45,0.0,100.0,RURAL,PÚBLICO
+01005,PABELLÓN DE ARTEAGA,Jesús María,15.0,Templado,Muy bajo,100.0,65.5,84.5,55.5,28.2,95.5,95.5,0.7,31.0,100.0,100.0,25.81,74.19,35.48,64.52,RURAL,PÚBLICO
+01006,RINCÓN DE ROMOS,Pabellón de Arteaga,17.0,Templado,Muy bajo,100.0,79.5,76.9,51.3,10.3,100.0,97.4,0.7,14.0,100.0,100.0,57.14,85.71,50.0,50.0,RURAL,PÚBLICO
+01007,SAN FRANCISCO DE LOS ROMO,Rincón de Romos,17.0,Templado,Muy bajo,98.3,71.7,68.3,51.7,15.0,96.7,98.3,0.7,29.0,100.0,100.0,37.93,89.66,17.24,82.76,RURAL,PÚBLICO
+02001,ENSENADA,Ensenada,19.0,Semicálido,Muy bajo,94.3,69.3,67.3,50.7,27.2,88.5,92.8,0.7,,,,,,,,,
+02002,MEXICALI,Mexicali,19.0,Semicálido,Muy bajo,98.9,76.6,81.8,53.0,25.6,96.5,97.1,0.8,5.0,100.0,100.0,40.0,100.0,80.0,20.0,URBANO,PÚBLICO
+02003,PLAYAS DE ROSARITO,Tecate,21.0,Semicálido,Muy bajo,94.6,73.1,72.0,57.0,31.2,92.5,93.5,0.7,,,,,,,,,
+02004,TECATE,Tijuana,17.0,Templado,Muy bajo,99.1,76.3,74.4,50.6,22.3,98.2,96.4,0.7,,,,,,,,,
+02005,TIJUANA,Playas de Rosarito,17.0,Templado,Muy bajo,98.8,70.6,76.5,56.5,32.9,89.4,98.8,0.7,,,,,,,,,
+03001,COMONDÚ,Comondú,19.0,Semicálido,Muy bajo,86.9,66.7,22.6,34.5,15.5,88.1,91.7,0.6,22.0,100.0,95.45,27.27,100.0,40.91,59.09,RURAL,PÚBLICO
+03002,LA PAZ,Mulegé,23.0,Cálido,Muy bajo,86.1,71.3,41.6,33.7,19.8,80.2,90.1,0.6,4.0,100.0,100.0,25.0,100.0,25.0,75.0,RURAL,PÚBLICO
+03003,LOS CABOS,La Paz,21.0,Semicálido,Muy bajo,86.6,65.9,40.1,58.6,34.1,88.4,92.7,0.7,28.0,100.0,96.43,35.71,96.43,46.43,53.57,RURAL,PÚBLICO
+04001,CALAKMUL,Calkiní,25.0,Cálido,Bajo,100.0,56.1,24.4,43.9,7.3,90.2,92.7,0.6,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+04002,CALKINÍ,Campeche,25.0,Cálido,Muy bajo,94.8,63.4,40.8,54.5,28.8,94.2,86.4,0.7,1.0,100.0,100.0,100.0,100.0,100.0,0.0,URBANO,PÚBLICO
+04003,CAMPECHE,Carmen,27.0,Muy cálido,Muy bajo,91.2,62.3,41.4,47.0,20.9,80.5,81.4,0.6,1.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+04004,CANDELARIA,Champotón,27.0,Muy cálido,Bajo,86.2,44.0,10.3,37.9,18.1,88.8,81.0,0.5,2.0,100.0,100.0,0.0,50.0,0.0,100.0,RURAL,PÚBLICO
+04005,CARMEN,Hecelchakán,25.0,Cálido,Bajo,100.0,62.1,17.2,55.2,13.8,93.1,82.8,0.6,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+04006,CHAMPOTÓN,Hopelchén,25.0,Cálido,Medio,96.5,71.9,7.0,33.3,10.5,89.5,89.5,0.6,2.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+04007,DZITBALCHÉ,Palizada,27.0,Muy cálido,Medio,83.7,41.9,0.0,11.6,14.0,46.5,65.1,0.4,2.0,100.0,50.0,0.0,50.0,0.0,100.0,RURAL,PÚBLICO
+04008,ESCÁRCEGA,Tenabo,25.0,Cálido,Bajo,84.6,69.2,7.7,38.5,30.8,69.2,92.3,0.6,,,,,,,,,
+04009,HECELCHAKÁN,Escárcega,25.0,Cálido,Bajo,91.8,56.7,6.2,30.9,11.3,83.5,80.4,0.5,,,,,,,,,
+04010,HOPELCHÉN,Calakmul,23.0,Cálido,Alto,94.5,71.4,2.2,13.2,13.2,38.5,75.8,0.4,3.0,100.0,66.67,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+04011,PALIZADA,Candelaria,23.0,Cálido,Alto,78.7,41.1,4.5,15.3,25.2,75.2,78.7,0.5,,,,,,,,,
+04012,SEYBAPLAYA,Seybaplaya,25.0,Cálido,Bajo,80.0,50.0,10.0,80.0,40.0,100.0,90.0,0.6,,,,,,,,,
+04013,TENABO,Dzitbalché,25.0,Cálido,,,,,,,,,,,,,,,,,,
+05001,ACUÑA,Abasolo,21.0,Semicálido,Muy bajo,100.0,50.0,0.0,25.0,25.0,100.0,100.0,0.6,,,,,,,,,
+05002,FRANCISCO I. MADERO,Acuña,21.0,Semicálido,Muy bajo,97.0,35.0,35.0,55.0,19.0,97.0,81.0,0.6,,,,,,,,,
+05003,FRONTERA,Allende,21.0,Semicálido,Muy bajo,100.0,57.9,36.8,68.4,31.6,94.7,94.7,0.7,,,,,,,,,
+05004,MATAMOROS,Arteaga,15.0,Templado,Muy bajo,100.0,68.8,14.6,37.5,16.7,75.0,81.3,0.6,3.0,100.0,100.0,66.67,33.33,100.0,0.0,URBANO,PÚBLICO
+05005,MONCLOVA,Candela,19.0,Semicálido,Bajo,100.0,75.0,0.0,75.0,25.0,75.0,100.0,0.6,,,,,,,,,
+05006,MÚZQUIZ,Castaños,17.0,Templado,Muy bajo,100.0,43.3,36.7,53.3,16.7,86.7,76.7,0.6,,,,,,,,,
+05007,PIEDRAS NEGRAS,Cuatro Ciénegas,17.0,Templado,Muy bajo,86.7,70.0,13.3,20.0,0.0,53.3,63.3,0.4,,,,,,,,,
+05008,RAMOS ARIZPE,Escobedo,21.0,Semicálido,Bajo,100.0,60.0,0.0,40.0,20.0,60.0,80.0,0.5,,,,,,,,,
+05009,SALTILLO,Francisco I. Madero,21.0,Semicálido,Muy bajo,93.0,32.4,15.5,49.3,19.7,84.5,85.9,0.5,,,,,,,,,
+05010,SAN JUAN DE SABINAS,Frontera,19.0,Semicálido,Muy bajo,97.9,27.7,34.0,76.6,25.5,95.7,80.9,0.6,,,,,,,,,
+05011,SAN PEDRO,General Cepeda,15.0,Templado,Muy bajo,100.0,45.7,8.6,31.4,8.6,77.1,77.1,0.5,2.0,100.0,100.0,50.0,50.0,50.0,50.0,RURAL,PÚBLICO
+05012,TORREÓN,Guerrero,21.0,Semicálido,Bajo,100.0,71.4,14.3,42.9,14.3,100.0,100.0,0.6,,,,,,,,,
+06001,ARMERÍA,Armería,23.0,Cálido,Bajo,100.0,57.1,39.3,71.4,32.1,100.0,100.0,0.7,,,,,,,,,
+06002,COLIMA,Colima,27.0,Muy cálido,Muy bajo,99.3,74.3,50.7,68.4,30.9,97.4,94.7,0.7,,,,,,,,,
+06003,COMALA,Comala,25.0,Cálido,Muy bajo,100.0,76.0,40.0,80.0,40.0,88.0,92.0,0.7,,,,,,,,,
+06004,COQUIMATLÁN,Coquimatlán,21.0,Semicálido,Muy bajo,100.0,63.0,37.0,66.7,11.1,92.6,92.6,0.7,,,,,,,,,
+06005,CUAUHTÉMOC,Cuauhtémoc,25.0,Cálido,Muy bajo,96.8,77.4,51.6,71.0,32.3,87.1,93.5,0.7,,,,,,,,,
+06006,IXTLAHUACÁN,Ixtlahuacán,27.0,Muy cálido,Bajo,94.1,64.7,17.6,52.9,41.2,88.2,82.4,0.6,,,,,,,,,
+06007,MANZANILLO,Manzanillo,23.0,Cálido,Muy bajo,98.8,68.8,46.8,56.1,22.0,91.9,93.6,0.7,,,,,,,,,
+06008,MINATITLÁN,Minatitlán,25.0,Cálido,Muy bajo,100.0,78.3,17.4,39.1,13.0,82.6,91.3,0.6,,,,,,,,,
+06009,TECOMÁN,Tecomán,23.0,Cálido,Muy bajo,94.3,52.4,34.3,47.6,23.8,95.2,95.2,0.6,,,,,,,,,
+06010,VILLA DE ÁLVAREZ,Villa de Álvarez,25.0,Cálido,Muy bajo,100.0,72.0,48.0,74.7,32.0,97.3,93.3,0.7,,,,,,,,,
+07001,ACACOYAGUA,Acacoyagua,25.0,Cálido,Medio,83.3,12.5,2.1,4.2,22.9,41.7,47.9,0.3,,,,,,,,,
+07002,ACALA,Acala,25.0,Cálido,Medio,91.7,13.9,5.6,5.6,13.9,52.8,75.0,0.4,,,,,,,,,
+07003,ÁNGEL ALBINO CORZO,Acapetahua,23.0,Cálido,Alto,93.2,16.9,3.4,8.5,8.5,35.6,67.8,0.3,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+07004,ARRIAGA,Altamirano,17.0,Templado,Alto,96.8,15.8,2.1,1.1,4.2,41.1,47.4,0.3,,,,,,,,,
+07005,BERRIOZÁBAL,Amatán,17.0,Templado,Alto,85.8,16.0,0.9,0.0,17.0,25.5,49.1,0.3,2.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+07006,BOCHIL,Amatenango de la Frontera,19.0,Semicálido,Alto,94.8,27.8,1.0,0.0,6.2,57.7,50.5,0.3,,,,,,,,,
+07007,CACAHOATÁN,Amatenango del Valle,23.0,Cálido,Muy alto,92.0,20.0,0.0,0.0,4.0,36.0,60.0,0.3,,,,,,,,,
+07008,CATAZAJÁ,Ángel Albino Corzo,21.0,Semicálido,Alto,92.3,21.2,0.0,7.7,1.9,59.6,57.7,0.3,,,,,,,,,
+07009,CHAMULA,Arriaga,27.0,Muy cálido,Medio,93.2,28.8,11.9,11.9,5.1,52.5,67.8,0.4,,,,,,,,,
+07010,CHIAPA DE CORZO,Bejucal de Ocampo,19.0,Semicálido,Alto,97.1,22.9,2.9,0.0,11.4,25.7,45.7,0.3,,,,,,,,,
+07011,CHICOMUSELO,Bella Vista,15.0,Templado,Alto,91.7,12.5,0.0,0.0,15.3,45.8,56.9,0.3,,,,,,,,,
+07012,CINTALAPA DE FIGUEROA,Berriozábal,25.0,Cálido,Medio,89.8,30.6,12.0,13.9,28.7,39.8,52.8,0.4,,,,,,,,,
+07013,COMITÁN DE DOMÍNGUEZ,Bochil,21.0,Semicálido,Alto,85.6,15.6,4.4,3.3,12.2,43.3,53.3,0.3,1.0,100.0,0.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+07014,COPAINALÁ,El Bosque,17.0,Templado,Alto,91.5,25.5,0.0,2.1,2.1,44.7,55.3,0.3,,,,,,,,,
+07015,ESCUINTLA,Cacahoatán,19.0,Semicálido,Medio,95.8,12.5,2.8,5.6,2.8,58.3,51.4,0.3,,,,,,,,,
+07016,FRONTERA COMALAPA,Catazajá,25.0,Cálido,Alto,86.8,28.3,3.8,1.9,11.3,43.4,58.5,0.3,2.0,100.0,100.0,0.0,50.0,0.0,100.0,RURAL,PÚBLICO
+07017,HUEHUETÁN,Cintalapa,25.0,Cálido,Medio,86.1,26.1,6.7,7.8,9.4,54.4,58.9,0.4,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+07018,HUIXTLA,Coapilla,25.0,Cálido,Alto,96.0,24.0,8.0,0.0,4.0,60.0,52.0,0.3,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+07019,JIQUIPILAS,Comitán de Domínguez,23.0,Cálido,Bajo,95.0,34.3,17.4,14.4,13.4,53.7,65.2,0.4,,,,,,,,,
+07020,JITOTOL,La Concordia,19.0,Semicálido,Alto,75.3,19.2,3.4,5.5,27.4,26.0,63.0,0.3,,,,,,,,,
+07021,JUÁREZ,Copainalá,27.0,Muy cálido,Medio,89.7,19.1,4.4,4.4,1.5,58.8,67.6,0.4,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+07022,LA CONCORDIA,Chalchihuitán,21.0,Semicálido,Muy alto,86.7,26.7,0.0,3.3,0.0,40.0,23.3,0.3,,,,,,,,,
+07023,LAS MARGARITAS,Chamula,15.0,Templado,Muy alto,97.2,29.8,2.2,1.7,5.0,36.5,57.5,0.3,2.0,100.0,0.0,50.0,0.0,0.0,100.0,RURAL,PÚBLICO
+07024,MAPASTEPEC,Chanal,17.0,Templado,Muy alto,90.3,9.7,6.5,3.2,3.2,25.8,41.9,0.3,,,,,,,,,
+07025,MAZATÁN,Chapultenango,19.0,Semicálido,Alto,86.2,3.4,0.0,0.0,0.0,41.4,37.9,0.2,,,,,,,,,
+07026,MOTOZINTLA,Chenalhó,15.0,Templado,Muy alto,95.5,30.0,0.9,0.0,7.3,41.8,47.3,0.3,,,,,,,,,
+07027,OCOSINGO,Chiapa de Corzo,25.0,Cálido,Bajo,89.8,25.0,7.8,4.7,6.3,60.9,68.0,0.4,1.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+07028,OCOZOCOAUTLA DE ESPINOSA,Chiapilla,25.0,Cálido,Alto,100.0,42.9,14.3,14.3,14.3,85.7,100.0,0.5,,,,,,,,,
+07029,OSTUACÁN,Chicoasén,23.0,Cálido,Medio,100.0,23.5,5.9,5.9,5.9,35.3,100.0,0.4,,,,,,,,,
+07030,OXCHUC,Chicomuselo,23.0,Cálido,Alto,94.1,14.7,1.5,0.7,27.2,30.9,73.5,0.3,,,,,,,,,
+07031,PALENQUE,Chilón,19.0,Semicálido,Muy alto,83.0,11.6,0.4,0.8,9.5,32.2,30.7,0.2,,,,,,,,,
+07032,PICHUCALCO,Escuintla,23.0,Cálido,Alto,92.2,7.8,2.9,6.8,24.3,44.7,37.9,0.3,,,,,,,,,
+07033,PIJIJIAPAN,Francisco León,23.0,Cálido,Alto,92.5,7.5,0.0,0.0,2.5,30.0,60.0,0.3,,,,,,,,,
+07034,REFORMA,Frontera Comalapa,23.0,Cálido,Medio,97.5,31.1,8.2,4.1,2.5,68.0,57.4,0.4,,,,,,,,,
+07035,SALTO DE AGUA,Frontera Hidalgo,27.0,Muy cálido,Alto,93.8,12.5,0.0,0.0,0.0,50.0,68.8,0.3,,,,,,,,,
+07036,SAN CRISTÓBAL DE LAS CASAS,La Grandeza,13.0,Templado,Alto,96.6,13.8,0.0,0.0,3.4,34.5,48.3,0.3,,,,,,,,,
+07037,SIMOJOVEL,Huehuetán,25.0,Cálido,Alto,93.8,15.4,9.2,10.8,10.8,35.4,63.1,0.3,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+07038,SOYALÓ,Huixtán,15.0,Templado,Muy alto,95.3,20.3,3.1,1.6,4.7,42.2,45.3,0.3,,,,,,,,,
+07039,SUCHIATE,Huitiupán,25.0,Cálido,Alto,92.1,25.8,1.1,0.0,6.7,47.2,52.8,0.3,,,,,,,,,
+07040,TAPACHULA,Huixtla,25.0,Cálido,Medio,88.9,21.1,10.0,10.0,13.3,47.8,68.9,0.4,1.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+07041,TAPILULA,La Independencia,17.0,Templado,Alto,91.8,28.6,1.0,4.1,10.2,49.0,65.3,0.4,,,,,,,,,
+07042,TECPATÁN,Ixhuatán,15.0,Templado,Medio,96.6,34.5,3.4,3.4,34.5,58.6,82.8,0.4,,,,,,,,,
+07043,TEOPISCA,Ixtacomitán,23.0,Cálido,Medio,77.3,6.8,0.0,6.8,2.3,38.6,63.6,0.3,,,,,,,,,
+07044,TILA,Ixtapa,25.0,Cálido,Alto,96.2,24.5,0.0,1.9,7.5,52.8,50.9,0.3,,,,,,,,,
+07045,TONALÁ,Ixtapangajoya,23.0,Cálido,Alto,86.4,18.2,0.0,0.0,27.3,22.7,63.6,0.3,,,,,,,,,
+07046,TUXTLA CHICO,Jiquipilas,25.0,Cálido,Medio,90.4,28.9,4.8,9.6,2.4,60.2,59.0,0.4,,,,,,,,,
+07047,TUXTLA GUTIÉRREZ,Jitotol,15.0,Templado,Alto,84.9,9.4,1.9,1.9,7.5,34.0,60.4,0.3,,,,,,,,,
+07048,TUZANTÁN,Juárez,25.0,Cálido,Medio,95.5,18.2,7.6,7.6,10.6,50.0,72.7,0.4,,,,,,,,,
+07049,UNIÓN JUÁREZ,Larráinzar,13.0,Templado,Alto,96.5,30.2,2.3,1.2,29.1,30.2,54.7,0.3,1.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+07050,VENUSTIANO CARRANZA,La Libertad,25.0,Cálido,Medio,75.0,18.8,6.3,12.5,0.0,62.5,68.8,0.3,,,,,,,,,
+07051,VILLA COMALTITLÁN,Mapastepec,25.0,Cálido,Medio,98.1,31.8,6.5,5.6,15.0,38.3,73.8,0.4,,,,,,,,,
+07052,VILLA CORZO,Las Margaritas,25.0,Cálido,Alto,85.2,18.2,1.4,2.3,7.1,35.3,47.0,0.3,,,,,,,,,
+07053,VILLAFLORES,Mazapa de Madero,13.0,Templado,Alto,86.7,24.4,2.2,2.2,6.7,51.1,37.8,0.3,,,,,,,,,
+07054,YAJALÓN,Mazatán,27.0,Muy cálido,Alto,87.0,15.2,4.3,8.7,4.3,15.2,54.3,0.3,,,,,,,,,
+08001,ALDAMA,Ahumada,17.0,Templado,Muy bajo,78.3,30.4,8.7,17.4,0.0,69.6,69.6,0.4,1.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+08002,ALLENDE,Aldama,17.0,Templado,Muy bajo,96.0,48.0,44.0,28.0,8.0,84.0,96.0,0.6,6.0,100.0,83.33,66.67,66.67,66.67,33.33,URBANO,PÚBLICO
+08003,BOCOYNA,Allende,17.0,Templado,Muy bajo,93.3,33.3,46.7,26.7,0.0,80.0,80.0,0.5,,,,,,,,,
+08004,CAMARGO,Aquiles Serdán,17.0,Templado,Muy bajo,92.9,35.7,42.9,21.4,0.0,92.9,92.9,0.5,3.0,100.0,100.0,66.67,33.33,66.67,33.33,URBANO,PÚBLICO
+08005,CHIHUAHUA,Ascensión,17.0,Templado,Muy bajo,86.4,45.5,22.7,22.7,0.0,81.8,81.8,0.5,,,,,,,,,
+08006,CUAUHTÉMOC,Bachíniva,11.0,Semifrio,Bajo,100.0,66.7,33.3,11.1,11.1,100.0,100.0,0.6,,,,,,,,,
+08007,DELICIAS,Balleza,13.0,Templado,Muy alto,75.5,44.7,14.9,9.6,1.1,40.4,55.3,0.3,,,,,,,,,
+08008,GUACHOCHI,Batopilas de Manuel Gómez Morín,13.0,Templado,Muy alto,61.5,28.6,3.3,1.1,0.0,26.4,39.6,0.2,,,,,,,,,
+08009,GUERRERO,Bocoyna,11.0,Semifrio,Alto,79.6,52.4,10.7,16.5,4.9,49.5,69.9,0.4,3.0,100.0,100.0,100.0,0.0,0.0,100.0,RURAL,PÚBLICO
+08010,HIDALGO DEL PARRAL,Buenaventura,17.0,Templado,Muy bajo,92.0,44.0,12.0,28.0,4.0,84.0,92.0,0.5,1.0,100.0,100.0,100.0,100.0,100.0,0.0,URBANO,PÚBLICO
+08011,JIMÉNEZ,Camargo,17.0,Templado,Muy bajo,94.3,62.3,49.1,30.2,22.6,92.5,92.5,0.6,5.0,100.0,100.0,80.0,80.0,80.0,20.0,URBANO,PÚBLICO
+08012,JUÁREZ,Carichí,11.0,Semifrio,Muy alto,72.7,33.3,15.2,3.0,3.0,66.7,69.7,0.4,,,,,,,,,
+08013,MADERA,Casas Grandes,11.0,Semifrio,Muy bajo,81.0,42.9,23.8,19.0,4.8,76.2,90.5,0.5,1.0,100.0,100.0,100.0,100.0,100.0,0.0,URBANO,PÚBLICO
+08014,MEOQUI,Coronado,17.0,Templado,Bajo,75.0,25.0,50.0,0.0,0.0,75.0,75.0,0.4,2.0,100.0,100.0,50.0,100.0,0.0,100.0,RURAL,PÚBLICO
+08015,NUEVO CASAS GRANDES,Coyame del Sotol,17.0,Templado,Bajo,66.7,55.6,22.2,0.0,0.0,55.6,66.7,0.4,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+08016,OJINAGA,La Cruz,17.0,Templado,Muy bajo,100.0,83.3,66.7,16.7,0.0,100.0,83.3,0.6,2.0,100.0,100.0,50.0,100.0,50.0,50.0,RURAL,PÚBLICO
+09001,ÁLVARO OBREGÓN,,,,,,,,,,,,,,,,,,,,,
+09002,AZCAPOTZALCO,Azcapotzalco,15.0,Templado,Muy bajo,99.5,75.3,54.5,37.9,33.3,99.5,98.5,0.7,,,,,,,,,
+09003,BENITO JUÁREZ,Coyoacán,15.0,Templado,Muy bajo,100.0,79.4,68.7,38.1,32.7,99.3,98.2,0.7,,,,,,,,,
+09004,COYOACÁN,Cuajimalpa de Morelos,15.0,Templado,Muy bajo,100.0,85.8,74.5,48.9,44.0,99.3,99.3,0.8,,,,,,,,,
+09005,CUAJIMALPA DE MORELOS,Gustavo A. Madero,15.0,Templado,Muy bajo,99.7,76.9,61.2,34.7,28.0,99.2,97.0,0.7,,,,,,,,,
+09006,CUAUHTÉMOC,Iztacalco,17.0,Templado,Muy bajo,99.5,79.6,57.7,37.8,26.4,98.0,98.5,0.7,,,,,,,,,
+09007,GUSTAVO A. MADERO,Iztapalapa,15.0,Templado,Muy bajo,99.2,70.0,54.8,45.2,29.7,97.8,95.8,0.7,,,,,,,,,
+09008,IZTACALCO,La Magdalena Contreras,15.0,Templado,Muy bajo,100.0,83.2,68.3,48.5,28.7,100.0,97.0,0.8,,,,,,,,,
+09009,IZTAPALAPA,Milpa Alta,15.0,Templado,Muy bajo,100.0,69.7,62.1,43.9,27.3,97.0,97.0,0.7,,,,,,,,,
+09010,MIGUEL HIDALGO,Álvaro Obregón,15.0,Templado,Muy bajo,99.7,77.1,70.1,43.0,32.9,99.1,98.8,0.7,,,,,,,,,
+09011,MILPA ALTA,Tláhuac,15.0,Templado,Muy bajo,100.0,67.5,63.1,58.0,45.2,96.2,94.3,0.7,,,,,,,,,
+09012,TLÁHUAC,Tlalpan,15.0,Templado,Muy bajo,100.0,74.0,67.9,44.5,35.1,95.8,96.4,0.7,,,,,,,,,
+09013,TLALPAN,Xochimilco,15.0,Templado,Muy bajo,100.0,76.5,59.9,51.9,38.5,96.8,97.3,0.7,,,,,,,,,
+09014,VENUSTIANO CARRANZA,Benito Juárez,15.0,Templado,Muy bajo,100.0,85.4,76.9,36.8,30.2,99.5,98.6,0.8,,,,,,,,,
+09015,XOCHIMILCO,Cuauhtémoc,17.0,Templado,Muy bajo,98.5,77.3,62.3,29.7,26.4,98.5,97.8,0.7,,,,,,,,,
+10001,DURANGO,Canatlán,13.0,Templado,Muy bajo,86.1,58.2,16.5,17.7,5.1,91.1,83.5,0.5,,,,,,,,,
+10001,DURANGO,Canatlán,13.0,Templado,83.5,86.1,58.2,16.5,17.7,5.1,91.1,83.5,0.5,,,,,,,,,
+10002,GÓMEZ PALACIO,Canelas,23.0,Cálido,Alto,25.0,21.7,3.3,3.3,1.7,8.3,25.0,0.1,,,,,,,,,
+10002,GÓMEZ PALACIO,Canelas,23.0,Cálido,25.0,25.0,21.7,3.3,3.3,1.7,8.3,25.0,0.1,,,,,,,,,
+10003,LERDO,Coneto de Comonfort,15.0,Templado,Bajo,83.3,45.8,0.0,4.2,4.2,66.7,66.7,0.4,,,,,,,,,
+10003,LERDO,Coneto de Comonfort,15.0,Templado,66.7,83.3,45.8,0.0,4.2,4.2,66.7,66.7,0.4,,,,,,,,,
+10004,NOMBRE DE DIOS,Cuencamé,15.0,Templado,Muy bajo,88.6,60.0,14.3,22.9,10.0,77.1,77.1,0.5,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+10004,NOMBRE DE DIOS,Cuencamé,15.0,Templado,77.1,88.6,60.0,14.3,22.9,10.0,77.1,77.1,0.5,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+10005,SAN DIMAS,Durango,15.0,Templado,Muy bajo,94.5,82.7,52.9,45.8,22.5,88.3,88.8,0.7,19.0,100.0,89.47,36.84,47.37,36.84,63.16,RURAL,PÚBLICO
+10005,SAN DIMAS,Durango,15.0,Templado,88.8,94.5,82.7,52.9,45.8,22.5,88.3,88.8,0.7,19.0,100.0,89.47,36.84,47.37,36.84,63.16,RURAL,PÚBLICO
+10006,SANTIAGO PAPASQUIARO,General Simón Bolívar,17.0,Templado,Medio,94.6,62.2,8.1,16.2,5.4,81.1,75.7,0.5,,,,,,,,,
+10006,SANTIAGO PAPASQUIARO,General Simón Bolívar,17.0,Templado,75.7,94.6,62.2,8.1,16.2,5.4,81.1,75.7,0.5,,,,,,,,,
+10007,TAMAZULA,Gómez Palacio,21.0,Semicálido,Muy bajo,94.4,68.0,36.7,36.4,19.1,96.9,93.7,0.6,3.0,100.0,100.0,66.67,100.0,0.0,100.0,RURAL,PÚBLICO
+10007,TAMAZULA,Gómez Palacio,21.0,Semicálido,93.7,94.4,68.0,36.7,36.4,19.1,96.9,93.7,0.6,3.0,100.0,100.0,66.67,100.0,0.0,100.0,RURAL,PÚBLICO
+10008,VICENTE GUERRERO,Guadalupe Victoria,15.0,Templado,Muy bajo,97.8,84.4,37.8,40.0,13.3,93.3,84.4,0.6,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+10008,VICENTE GUERRERO,Guadalupe Victoria,15.0,Templado,84.4,97.8,84.4,37.8,40.0,13.3,93.3,84.4,0.6,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+11001,ACÁMBARO,Abasolo,17.0,Templado,Bajo,97.4,65.5,40.5,32.8,17.2,95.7,97.4,0.6,5.0,100.0,100.0,40.0,0.0,40.0,60.0,RURAL,PÚBLICO
+11002,APASEO EL ALTO,Acámbaro,15.0,Templado,Muy bajo,98.7,67.5,43.0,36.4,19.9,93.4,97.4,0.7,7.0,100.0,85.71,28.57,71.43,57.14,42.86,URBANO,PÚBLICO
+11003,APASEO EL GRANDE,San Miguel de Allende,15.0,Templado,Bajo,95.3,74.8,34.9,28.4,16.9,87.1,91.4,0.6,6.0,100.0,50.0,16.67,16.67,33.33,66.67,RURAL,PÚBLICO
+11004,CELAYA,Apaseo el Alto,15.0,Templado,Muy bajo,98.9,69.1,35.1,34.0,19.1,100.0,97.9,0.6,2.0,100.0,50.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+11005,COMONFORT,Apaseo el Grande,17.0,Templado,Muy bajo,91.0,54.0,38.0,38.0,18.0,97.0,96.0,0.6,,,,,,,,,
+11006,CORONEO,Atarjea,15.0,Templado,Alto,100.0,80.6,93.5,35.5,6.5,38.7,83.9,0.6,2.0,100.0,0.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+11007,DOCTOR MORA,Celaya,15.0,Templado,Muy bajo,96.7,60.1,62.8,51.8,27.0,97.0,97.0,0.7,7.0,100.0,100.0,42.86,28.57,28.57,71.43,RURAL,PÚBLICO
+11008,DOLORES HIDALGO CUNA DE LA INDEPENDENCIA NACIONAL,Manuel Doblado,19.0,Semicálido,Bajo,93.1,69.0,21.8,23.0,9.2,83.9,95.4,0.6,2.0,100.0,100.0,50.0,50.0,50.0,50.0,RURAL,PÚBLICO
+11009,GUANAJUATO,Comonfort,15.0,Templado,Medio,94.9,56.1,30.6,30.6,10.2,82.7,92.9,0.6,8.0,100.0,87.5,50.0,50.0,25.0,75.0,RURAL,PÚBLICO
+11010,IRAPUATO,Coroneo,15.0,Templado,Bajo,100.0,75.0,37.5,50.0,12.5,100.0,100.0,0.7,,,,,,,,,
+11011,JERÉCUARO,Cortazar,17.0,Templado,Muy bajo,93.5,64.9,53.2,46.8,20.8,96.1,97.4,0.7,2.0,100.0,100.0,0.0,0.0,50.0,50.0,RURAL,PÚBLICO
+11012,LEÓN,Cuerámaro,19.0,Semicálido,Bajo,100.0,47.6,16.7,47.6,16.7,100.0,100.0,0.6,,,,,,,,,
+11013,MOROLEÓN,Doctor Mora,15.0,Templado,Bajo,98.1,85.2,100.0,44.4,3.7,100.0,96.3,0.8,,,,,,,,,
+11014,OCAMPO,Dolores Hidalgo Cuna de la Independencia Nacional,17.0,Templado,,,,,,,,,,10.0,100.0,90.0,30.0,40.0,30.0,70.0,RURAL,PÚBLICO
+11015,PÉNJAMO,Guanajuato,15.0,Templado,Muy bajo,98.9,69.1,43.1,36.5,26.5,85.6,96.7,0.7,3.0,100.0,100.0,33.33,100.0,100.0,0.0,URBANO,PÚBLICO
+11016,PURÍSIMA DEL RINCÓN,Huanímaro,17.0,Templado,Bajo,100.0,64.9,18.9,24.3,2.7,100.0,100.0,0.6,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+11017,SALAMANCA,Irapuato,17.0,Templado,Muy bajo,98.7,59.9,53.6,46.4,26.1,96.6,96.3,0.7,24.0,100.0,91.67,29.17,29.17,37.5,62.5,RURAL,PÚBLICO
+11018,SALVATIERRA,Jaral del Progreso,17.0,Templado,Muy bajo,97.0,84.8,48.5,45.5,36.4,100.0,97.0,0.7,1.0,100.0,100.0,100.0,0.0,0.0,100.0,RURAL,PÚBLICO
+11019,SAN FELIPE,Jerécuaro,15.0,Templado,Medio,97.2,64.1,14.8,19.7,11.3,81.0,89.4,0.5,,,,,,,,,
+11020,SAN FRANCISCO DEL RINCÓN,León,19.0,Semicálido,Muy bajo,96.5,57.9,59.1,56.2,29.5,92.1,96.1,0.7,32.0,100.0,96.88,71.88,40.62,59.38,40.62,URBANO,PÚBLICO
+11021,SAN JOSÉ ITURBIDE,Moroleón,15.0,Templado,Muy bajo,100.0,72.0,50.0,60.0,34.0,100.0,98.0,0.7,2.0,100.0,100.0,50.0,50.0,100.0,0.0,URBANO,PÚBLICO
+11022,SAN LUIS DE LA PAZ,Ocampo,13.0,Templado,Bajo,94.0,76.0,42.0,36.0,16.0,92.0,88.0,0.6,2.0,100.0,100.0,50.0,0.0,0.0,100.0,RURAL,PÚBLICO
+11023,SAN MIGUEL DE ALLENDE,Pénjamo,17.0,Templado,Bajo,93.4,53.3,17.2,22.8,12.6,85.8,94.7,0.5,10.0,100.0,70.0,10.0,10.0,10.0,90.0,RURAL,PÚBLICO
+11024,SANTA CATARINA,Pueblo Nuevo,19.0,Semicálido,Bajo,100.0,68.2,45.5,31.8,18.2,100.0,100.0,0.7,2.0,100.0,50.0,50.0,0.0,0.0,100.0,RURAL,PÚBLICO
+11025,SANTIAGO MARAVATÍO,Purísima del Rincón,19.0,Semicálido,Muy bajo,98.7,41.6,48.1,55.8,14.3,96.1,98.7,0.6,4.0,100.0,100.0,50.0,50.0,25.0,75.0,RURAL,PÚBLICO
+11026,SILAO DE LA VICTORIA,Romita,19.0,Semicálido,Bajo,100.0,69.3,30.7,41.6,16.8,96.0,98.0,0.6,2.0,100.0,100.0,50.0,100.0,100.0,0.0,URBANO,PÚBLICO
+11027,TARANDACUAO,Salamanca,17.0,Templado,Muy bajo,93.8,58.8,53.5,58.0,29.6,94.2,97.3,0.7,31.0,100.0,90.32,29.03,45.16,29.03,70.97,RURAL,PÚBLICO
+11028,TIERRA BLANCA,Salvatierra,15.0,Templado,Muy bajo,99.0,60.2,55.3,33.0,15.5,96.1,99.0,0.7,2.0,100.0,100.0,50.0,0.0,50.0,50.0,RURAL,PÚBLICO
+11029,URIANGATO,San Diego de la Unión,15.0,Templado,Medio,96.0,68.0,17.0,27.0,23.0,91.0,93.0,0.6,2.0,100.0,50.0,50.0,50.0,0.0,100.0,RURAL,PÚBLICO
+11030,VALLE DE SANTIAGO,San Felipe,15.0,Templado,Medio,96.3,66.4,25.5,26.6,19.2,76.8,93.4,0.6,6.0,100.0,83.33,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+11031,VICTORIA,San Francisco del Rincón,19.0,Semicálido,Muy bajo,98.5,53.8,44.7,43.2,14.4,95.5,98.5,0.6,10.0,100.0,90.0,70.0,10.0,50.0,50.0,RURAL,PÚBLICO
+11032,VILLAGRÁN,San José Iturbide,13.0,Templado,Muy bajo,99.1,65.8,76.3,50.0,14.9,98.2,97.4,0.7,4.0,100.0,100.0,75.0,50.0,25.0,75.0,RURAL,PÚBLICO
+11033,YURIRIA,San Luis de la Paz,15.0,Templado,Bajo,97.4,74.7,79.4,43.8,11.9,87.6,96.4,0.7,8.0,100.0,87.5,50.0,50.0,12.5,87.5,RURAL,PÚBLICO
+12001,ACAPULCO DE JUÁREZ,Acapulco de Juárez,27.0,Muy cálido,Bajo,95.4,54.3,34.2,22.3,14.2,73.6,74.5,0.5,31.0,100.0,77.42,41.94,87.1,58.06,41.94,URBANO,PÚBLICO
+12002,ARCELIA,Ahuacuotzingo,19.0,Semicálido,Muy alto,90.2,35.4,0.0,0.0,1.2,47.6,47.6,0.3,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+12003,ATOYAC DE ÁLVAREZ,Ajuchitlán del Progreso,17.0,Templado,Muy alto,86.6,33.9,4.5,1.8,0.0,41.1,52.7,0.3,7.0,100.0,42.86,0.0,85.71,0.0,100.0,RURAL,PÚBLICO
+12004,AYUTLA DE LOS LIBRES,Alcozauca de Guerrero,23.0,Cálido,Muy alto,87.2,46.8,6.4,2.1,2.1,51.1,31.9,0.3,13.0,100.0,84.62,7.69,15.38,7.69,92.31,RURAL,PÚBLICO
+12005,CHILAPA DE ÁLVAREZ,Alpoyeca,23.0,Cálido,Medio,84.6,61.5,7.7,0.0,0.0,69.2,53.8,0.4,4.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+12006,CHILPANCINGO DE LOS BRAVO,Apaxtla,27.0,Muy cálido,Alto,90.0,23.3,0.0,3.3,0.0,56.7,63.3,0.3,2.0,100.0,100.0,50.0,50.0,0.0,100.0,RURAL,PÚBLICO
+12007,COYUCA DE BENÍTEZ,Arcelia,25.0,Cálido,Medio,96.9,46.9,9.2,4.1,6.1,50.0,62.2,0.4,6.0,100.0,83.33,16.67,83.33,16.67,83.33,RURAL,PÚBLICO
+12008,EDUARDO NERI,Atenango del Río,27.0,Muy cálido,Alto,100.0,50.0,0.0,3.8,3.8,65.4,69.2,0.4,2.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+12009,FLORENCIO VILLARREAL,Atlamajalcingo del Monte,19.0,Semicálido,Muy alto,94.4,33.3,0.0,0.0,0.0,33.3,22.2,0.3,14.0,100.0,57.14,0.0,35.71,0.0,100.0,RURAL,PÚBLICO
+12010,HUAMUXTITLÁN,Atlixtac,23.0,Cálido,Muy alto,96.4,34.5,1.2,6.0,1.2,42.9,34.5,0.3,13.0,100.0,61.54,0.0,23.08,15.38,84.62,RURAL,PÚBLICO
+12011,HUITZUCO DE LOS FIGUEROA,Atoyac de Álvarez,27.0,Muy cálido,Medio,96.0,44.0,10.7,6.0,5.3,58.7,62.0,0.4,14.0,100.0,100.0,21.43,64.29,7.14,92.86,RURAL,PÚBLICO
+12012,IGUALA DE LA INDEPENDENCIA,Ayutla de los Libres,27.0,Muy cálido,Muy alto,93.0,31.4,4.1,4.7,4.1,43.0,51.7,0.3,39.0,100.0,35.9,2.56,43.59,7.69,92.31,RURAL,PÚBLICO
+12013,JUAN R. ESCUDERO,Azoyú,27.0,Muy cálido,Alto,94.6,45.9,2.7,8.1,2.7,67.6,56.8,0.4,2.0,100.0,50.0,0.0,50.0,0.0,100.0,RURAL,PÚBLICO
+12014,MARQUELIA,Benito Juárez,27.0,Muy cálido,Bajo,95.2,61.9,19.0,28.6,19.0,61.9,76.2,0.5,4.0,100.0,100.0,0.0,75.0,25.0,75.0,RURAL,PÚBLICO
+12015,OLINALÁ,Buenavista de Cuéllar,25.0,Cálido,Bajo,100.0,73.9,17.4,21.7,21.7,95.7,91.3,0.6,6.0,100.0,83.33,16.67,100.0,33.33,66.67,RURAL,PÚBLICO
+12016,OMETEPEC,Coahuayutla de José María Izazaga,23.0,Cálido,Muy alto,94.2,42.0,0.0,0.0,0.0,18.8,29.0,0.3,,,,,,,,,
+12017,PETATLÁN,Cocula,27.0,Muy cálido,Medio,94.4,50.0,8.3,8.3,5.6,72.2,66.7,0.4,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+12018,PUNGARABATO,Copala,27.0,Muy cálido,Alto,96.7,30.0,0.0,6.7,6.7,73.3,63.3,0.4,,,,,,,,,
+12019,SAN MARCOS,Copalillo,23.0,Cálido,Muy alto,100.0,21.6,2.7,2.7,0.0,51.4,51.4,0.3,10.0,100.0,70.0,0.0,90.0,20.0,80.0,RURAL,PÚBLICO
+12020,TAXCO DE ALARCÓN,Copanatoyac,13.0,Templado,Muy alto,92.9,46.4,0.0,0.0,0.0,33.9,42.9,0.3,30.0,100.0,50.0,0.0,26.67,0.0,100.0,RURAL,PÚBLICO
+12021,TECOANAPA,Coyuca de Benítez,27.0,Muy cálido,Alto,90.0,32.9,7.9,7.1,2.1,59.3,73.6,0.4,5.0,100.0,60.0,20.0,60.0,0.0,100.0,RURAL,PÚBLICO
+12022,TÉCPAN DE GALEANA,Coyuca de Catalán,21.0,Semicálido,Alto,89.0,27.6,7.1,5.5,3.1,39.4,50.4,0.3,3.0,100.0,33.33,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+12023,TELOLOAPAN,Cuajinicuilapa,27.0,Muy cálido,Alto,93.5,37.0,13.0,4.3,4.3,73.9,67.4,0.4,,,,,,,,,
+12024,TIXTLA DE GUERRERO,Cualác,19.0,Semicálido,Alto,100.0,44.0,0.0,16.0,8.0,56.0,48.0,0.4,7.0,100.0,71.43,0.0,28.57,0.0,100.0,RURAL,PÚBLICO
+12025,TLAPA DE COMONFORT,Cuautepec,27.0,Muy cálido,Muy alto,97.6,33.3,0.0,2.4,0.0,54.8,50.0,0.3,3.0,100.0,100.0,0.0,66.67,0.0,100.0,RURAL,PÚBLICO
+12026,TLAPEHUALA,Cuetzala del Progreso,25.0,Cálido,Muy alto,100.0,62.5,4.2,8.3,4.2,41.7,70.8,0.4,3.0,100.0,33.33,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+12027,ZIHUATANEJO DE AZUETA,Cutzamala de Pinzón,25.0,Cálido,Alto,97.4,24.4,2.6,3.8,1.3,52.6,60.3,0.3,6.0,100.0,100.0,0.0,33.33,0.0,100.0,RURAL,PÚBLICO
+13001,ACTOPAN,Acatlán,15.0,Templado,Medio,98.0,75.5,22.4,22.4,14.3,83.7,83.7,0.6,,,,,,,,,
+13002,AGUA BLANCA DE ITURBIDE,Acaxochitlán,15.0,Templado,Alto,96.6,62.1,23.0,19.5,20.7,85.1,82.8,0.6,,,,,,,,,
+13003,AJACUBA,Actopan,15.0,Templado,Muy bajo,90.9,72.7,42.9,29.9,23.4,90.9,79.2,0.6,,,,,,,,,
+13004,APAN,Agua Blanca de Iturbide,15.0,Templado,Medio,90.6,56.3,21.9,15.6,18.8,84.4,81.3,0.5,,,,,,,,,
+13005,ATITALAQUIA,Ajacuba,15.0,Templado,Muy bajo,94.4,77.8,16.7,33.3,16.7,100.0,77.8,0.6,,,,,,,,,
+13006,ATLAPEXCO,Alfajayucan,15.0,Templado,Medio,97.9,66.7,20.8,10.4,14.6,95.8,87.5,0.6,,,,,,,,,
+13007,ATOTONILCO DE TULA,Almoloya,13.0,Templado,Bajo,95.2,52.4,19.0,19.0,23.8,81.0,66.7,0.5,,,,,,,,,
+13008,ATOTONILCO EL GRANDE,Apan,13.0,Templado,Muy bajo,92.2,68.6,39.2,19.6,11.8,86.3,82.4,0.6,,,,,,,,,
+13009,CUAUTEPEC DE HINOJOSA,El Arenal,15.0,Templado,Bajo,95.8,83.3,4.2,4.2,12.5,91.7,91.7,0.5,,,,,,,,,
+13010,FRANCISCO I. MADERO,Atitalaquia,15.0,Templado,Muy bajo,100.0,94.7,73.7,78.9,15.8,100.0,89.5,0.8,,,,,,,,,
+13011,HUEJUTLA DE REYES,Atlapexco,23.0,Cálido,Medio,100.0,51.1,2.1,6.4,10.6,72.3,89.4,0.5,,,,,,,,,
+13012,HUICHAPAN,Atotonilco el Grande,15.0,Templado,Bajo,95.8,40.8,11.3,19.7,11.3,85.9,78.9,0.5,,,,,,,,,
+13013,IXMIQUILPAN,Atotonilco de Tula,15.0,Templado,Muy bajo,97.9,59.6,38.3,48.9,12.8,87.2,89.4,0.6,,,,,,,,,
+13014,JACALA DE LEDEZMA,Calnali,23.0,Cálido,Medio,92.5,45.0,2.5,2.5,15.0,75.0,85.0,0.5,,,,,,,,,
+13015,METZTITLÁN,Cardonal,15.0,Templado,Bajo,98.4,74.2,43.5,6.5,14.5,96.8,87.1,0.6,,,,,,,,,
+13016,MINERAL DE LA REFORMA,Cuautepec de Hinojosa,15.0,Templado,Bajo,91.3,57.6,13.0,23.9,20.7,87.0,90.2,0.5,,,,,,,,,
+13017,MIXQUIAHUALA DE JUÁREZ,Chapantongo,15.0,Templado,Medio,92.9,71.4,10.7,10.7,14.3,100.0,89.3,0.6,,,,,,,,,
+13018,OMITLÁN DE JUÁREZ,Chapulhuacán,23.0,Cálido,Medio,89.9,31.5,2.2,5.6,21.3,64.0,83.1,0.4,,,,,,,,,
+13019,PACHUCA DE SOTO,Chilcuautla,15.0,Templado,Bajo,100.0,93.3,30.0,36.7,10.0,90.0,83.3,0.6,,,,,,,,,
+13020,SAN AGUSTÍN TLAXIACA,Eloxochitlán,19.0,Semicálido,Medio,93.3,33.3,6.7,6.7,26.7,80.0,93.3,0.5,,,,,,,,,
+13021,SANTIAGO DE ANAYA,Emiliano Zapata,11.0,Semifrio,Muy bajo,100.0,44.4,0.0,22.2,11.1,100.0,77.8,0.5,,,,,,,,,
+13022,TECOZAUTLA,Epazoyucan,15.0,Templado,Bajo,95.0,50.0,15.0,25.0,20.0,85.0,95.0,0.6,,,,,,,,,
+13023,TENANGO DE DORIA,Francisco I. Madero,15.0,Templado,Muy bajo,100.0,73.7,31.6,44.7,7.9,100.0,81.6,0.6,,,,,,,,,
+13024,TEPEAPULCO,Huasca de Ocampo,15.0,Templado,Bajo,100.0,41.3,19.6,15.2,26.1,95.7,91.3,0.6,,,,,,,,,
+13025,TEPEJI DEL RÍO DE OCAMPO,Huautla,23.0,Cálido,Alto,98.7,65.3,6.7,1.3,5.3,44.0,85.3,0.4,,,,,,,,,
+13026,TEZONTEPEC DE ALDAMA,Huazalingo,23.0,Cálido,Alto,94.9,38.5,0.0,2.6,10.3,79.5,87.2,0.4,,,,,,,,,
+13027,TIZAYUCA,Huehuetla,17.0,Templado,Alto,87.0,58.4,5.2,6.5,5.2,40.3,62.3,0.4,,,,,,,,,
+13028,TLANCHINOL,Huejutla de Reyes,23.0,Cálido,Medio,96.1,50.0,9.5,11.2,13.8,69.4,74.6,0.5,,,,,,,,,
+13029,TLAXCOAPAN,Huichapan,15.0,Templado,Bajo,97.0,73.1,25.4,10.4,11.9,95.5,92.5,0.6,,,,,,,,,
+13030,TOLCAYUCA,Ixmiquilpan,15.0,Templado,Bajo,98.0,74.5,20.1,14.8,9.4,90.6,84.6,0.6,,,,,,,,,
+13031,TULA DE ALLENDE,Jacala de Ledezma,23.0,Cálido,Medio,95.2,42.9,7.1,4.8,19.0,66.7,71.4,0.4,,,,,,,,,
+13032,TULANCINGO DE BRAVO,Jaltocán,23.0,Cálido,Medio,100.0,55.0,5.0,10.0,5.0,75.0,85.0,0.5,,,,,,,,,
+13033,ZACUALTIPÁN DE ÁNGELES,Juárez Hidalgo,23.0,Cálido,Medio,100.0,62.5,0.0,0.0,0.0,100.0,100.0,0.5,,,,,,,,,
+13034,ZAPOTLÁN DE JUÁREZ,Lolotla,23.0,Cálido,Alto,82.9,48.8,7.3,2.4,7.3,73.2,82.9,0.4,,,,,,,,,
+13035,ZIMAPÁN,Metepec,15.0,Templado,Bajo,100.0,37.0,7.4,7.4,3.7,96.3,74.1,0.5,,,,,,,,,
+14001,ACATLÁN DE JUÁREZ,Acatic,19.0,Semicálido,Muy bajo,93.6,44.7,61.7,27.7,6.4,80.9,91.5,0.6,,,,,,,,,
+14002,AMATITÁN,Acatlán de Juárez,19.0,Semicálido,Muy bajo,93.8,68.8,75.0,50.0,12.5,93.8,93.8,0.7,,,,,,,,,
+14003,AMECA,Ahualulco de Mercado,21.0,Semicálido,Muy bajo,100.0,56.5,73.9,30.4,8.7,100.0,100.0,0.7,,,,,,,,,
+14004,ARANDAS,Amacueca,19.0,Semicálido,Bajo,87.5,50.0,50.0,50.0,12.5,100.0,100.0,0.6,,,,,,,,,
+14005,AUTLÁN DE NAVARRO,Amatitán,19.0,Semicálido,Muy bajo,100.0,70.0,55.0,20.0,5.0,100.0,100.0,0.6,,,,,,,,,
+14006,CASIMIRO CASTILLO,Ameca,19.0,Semicálido,Muy bajo,97.9,60.6,36.2,17.0,6.4,91.5,88.3,0.6,,,,,,,,,
+14007,CHAPALA,San Juanito de Escobedo,21.0,Semicálido,Muy bajo,100.0,60.0,53.3,13.3,6.7,100.0,100.0,0.6,,,,,,,,,
+14008,CIHUATLÁN,Arandas,19.0,Semicálido,Muy bajo,95.9,45.1,50.0,22.1,12.3,86.9,90.2,0.6,,,,,,,,,
+14009,ETZATLÁN,El Arenal,19.0,Semicálido,Muy bajo,100.0,52.4,52.4,38.1,14.3,90.5,81.0,0.6,,,,,,,,,
+14010,GUADALAJARA,Atemajac de Brizuela,19.0,Semicálido,Bajo,100.0,28.6,28.6,21.4,21.4,78.6,92.9,0.5,,,,,,,,,
+14011,HUEJUQUILLA EL ALTO,Atengo,19.0,Semicálido,Bajo,94.1,70.6,23.5,17.6,5.9,94.1,100.0,0.6,,,,,,,,,
+14012,IXTLAHUACÁN DE LOS MEMBRILLOS,Atenguillo,13.0,Templado,Muy bajo,100.0,50.0,35.7,21.4,21.4,100.0,100.0,0.6,,,,,,,,,
+14013,JOCOTEPEC,Atotonilco el Alto,17.0,Templado,Muy bajo,100.0,57.1,40.5,26.2,15.5,98.8,91.7,0.6,,,,,,,,,
+14014,LA BARCA,Atoyac,19.0,Semicálido,Bajo,72.7,45.5,40.9,18.2,9.1,100.0,81.8,0.5,,,,,,,,,
+14015,LAGOS DE MORENO,Autlán de Navarro,25.0,Cálido,Muy bajo,97.4,59.7,61.0,24.7,11.7,98.7,94.8,0.6,,,,,,,,,
+14016,MASCOTA,Ayotlán,17.0,Templado,Bajo,100.0,50.0,59.4,25.0,6.3,96.9,87.5,0.6,,,,,,,,,
+14017,OCOTLÁN,Ayutla,17.0,Templado,Muy bajo,98.0,64.7,35.3,27.5,19.6,92.2,88.2,0.6,,,,,,,,,
+14018,PUERTO VALLARTA,La Barca,17.0,Templado,Muy bajo,98.6,50.7,81.7,19.7,9.9,98.6,93.0,0.6,,,,,,,,,
+14019,SAN JULIÁN,Bolaños,17.0,Templado,Muy alto,53.5,23.3,4.7,7.0,2.3,41.9,44.2,0.3,,,,,,,,,
+14020,SAN MIGUEL EL ALTO,Cabo Corrientes,25.0,Cálido,Bajo,95.7,32.6,15.2,6.5,15.2,80.4,91.3,0.5,,,,,,,,,
+14021,SAN PEDRO TLAQUEPAQUE,Casimiro Castillo,25.0,Cálido,Muy bajo,97.0,42.4,48.5,21.2,9.1,93.9,87.9,0.6,,,,,,,,,
+14022,TAPALPA,Cihuatlán,25.0,Cálido,Muy bajo,97.6,54.8,35.7,21.4,7.1,92.9,88.1,0.6,,,,,,,,,
+14023,TEPATITLÁN DE MORELOS,Zapotlán el Grande,21.0,Semicálido,Muy bajo,97.2,73.6,77.8,51.4,26.4,100.0,97.2,0.7,,,,,,,,,
+14024,TEQUILA,Cocula,19.0,Semicálido,Muy bajo,97.7,60.5,69.8,34.9,11.6,100.0,95.3,0.7,,,,,,,,,
+14025,TLAJOMULCO DE ZÚÑIGA,Colotlán,15.0,Templado,Muy bajo,100.0,54.1,32.4,24.3,8.1,97.3,91.9,0.6,,,,,,,,,
+14026,TONALÁ,Concepción de Buenos Aires,19.0,Semicálido,Muy bajo,100.0,72.7,45.5,27.3,9.1,90.9,90.9,0.6,,,,,,,,,
+14027,UNIÓN DE TULA,Cuautitlán de García Barragán,25.0,Cálido,Alto,81.3,49.5,12.1,9.9,9.9,80.2,81.3,0.5,,,,,,,,,
+14028,VILLA HIDALGO,Cuautla,19.0,Semicálido,Bajo,100.0,83.3,16.7,16.7,0.0,100.0,100.0,0.6,,,,,,,,,
+14029,ZAPOPAN,Cuquío,19.0,Semicálido,Bajo,90.8,51.3,38.2,13.2,9.2,63.2,86.8,0.5,,,,,,,,,
+14030,ZAPOTLÁN EL GRANDE,Chapala,19.0,Semicálido,Muy bajo,100.0,70.8,45.8,37.5,8.3,93.8,97.9,0.6,,,,,,,,,
+15001,ACAMBAY DE RUÍZ CASTAÑEDA,Acambay de Ruíz Castañeda,15.0,Templado,Medio,99.2,73.6,17.6,14.4,16.0,80.0,81.6,0.5,,,,,,,,,
+15002,ACOLMAN,Acolman,15.0,Templado,Muy bajo,94.1,78.8,51.8,38.8,14.1,92.9,85.9,0.7,,,,,,,,,
+15003,ACULCO,Aculco,15.0,Templado,Medio,97.7,76.7,17.4,22.1,10.5,91.9,87.2,0.6,,,,,,,,,
+15004,ALMOLOYA DE ALQUISIRAS,Almoloya de Alquisiras,19.0,Semicálido,Medio,98.0,85.7,10.2,16.3,8.2,77.6,77.6,0.5,,,,,,,,,
+15005,ALMOLOYA DEL RÍO,Almoloya de Juárez,9.0,Semifrio,Bajo,94.2,75.4,22.8,25.1,16.4,74.9,84.8,0.6,,,,,,,,,
+15006,AMECAMECA,Almoloya del Río,13.0,Templado,Muy bajo,100.0,100.0,66.7,66.7,0.0,100.0,66.7,0.7,,,,,,,,,
+15007,APAXCO,Amanalco,17.0,Templado,Medio,90.4,76.9,9.6,1.9,7.7,82.7,94.2,0.5,,,,,,,,,
+15008,ATENCO,Amatepec,25.0,Cálido,Medio,87.0,59.4,8.0,3.6,2.2,17.4,65.2,0.3,,,,,,,,,
+15009,ATIZAPÁN DE ZARAGOZA,Amecameca,15.0,Templado,Muy bajo,97.8,75.6,53.3,33.3,11.1,95.6,97.8,0.7,,,,,,,,,
+15010,ATLACOMULCO,Apaxco,15.0,Templado,Muy bajo,100.0,84.2,47.4,21.1,15.8,100.0,78.9,0.6,,,,,,,,,
+15011,AXAPUSCO,Atenco,15.0,Templado,Muy bajo,92.9,64.3,17.9,32.1,14.3,96.4,96.4,0.6,,,,,,,,,
+15012,AYAPANGO,Atizapán,13.0,Templado,Muy bajo,100.0,100.0,75.0,62.5,50.0,100.0,100.0,0.8,,,,,,,,,
+15013,CHALCO,Atizapán de Zaragoza,15.0,Templado,Muy bajo,99.2,84.4,69.2,42.8,22.4,98.8,95.6,0.7,,,,,,,,,
+15014,CHICOLOAPAN,Atlacomulco,11.0,Semifrio,Bajo,99.0,84.0,43.0,36.0,16.0,99.0,92.0,0.7,,,,,,,,,
+15015,CHIMALHUACÁN,Atlautla,17.0,Templado,Bajo,100.0,57.9,47.4,26.3,15.8,100.0,84.2,0.6,,,,,,,,,
+15016,COACALCO DE BERRIOZÁBAL,Axapusco,15.0,Templado,Bajo,100.0,91.9,32.4,18.9,0.0,100.0,81.1,0.6,,,,,,,,,
+15017,COYOTEPEC,Ayapango,15.0,Templado,Muy bajo,100.0,100.0,62.5,37.5,12.5,100.0,100.0,0.7,,,,,,,,,
+15018,CUAUTITLÁN,Calimaya,7.0,Semifrio,Muy bajo,92.9,78.6,40.5,42.9,21.4,95.2,88.1,0.7,,,,,,,,,
+15019,CUAUTITLÁN IZCALLI,Capulhuac,13.0,Templado,Muy bajo,88.9,88.9,38.9,33.3,0.0,94.4,100.0,0.6,,,,,,,,,
+15020,ECATEPEC DE MORELOS,Coacalco de Berriozábal,15.0,Templado,Muy bajo,96.2,66.8,47.8,31.5,13.0,97.3,93.5,0.6,,,,,,,,,
+15021,HUEHUETOCA,Coatepec Harinas,19.0,Semicálido,Medio,92.0,73.6,25.3,13.8,1.1,71.3,81.6,0.5,,,,,,,,,
+15022,HUIXQUILUCAN,Cocotitlán,15.0,Templado,Muy bajo,100.0,100.0,70.0,20.0,20.0,100.0,80.0,0.7,,,,,,,,,
+15023,IXTAPALUCA,Coyotepec,15.0,Templado,Muy bajo,92.3,84.6,50.0,46.2,23.1,92.3,92.3,0.7,,,,,,,,,
+15024,IXTAPAN DE LA SAL,Cuautitlán,15.0,Templado,Muy bajo,97.6,67.1,53.7,36.6,19.5,100.0,89.0,0.7,,,,,,,,,
+15025,IXTLAHUACA,Chalco,15.0,Templado,Muy bajo,97.4,69.2,47.0,29.5,10.3,96.6,88.0,0.6,,,,,,,,,
+15026,JALTENCO,Chapa de Mota,15.0,Templado,Medio,85.2,64.8,11.1,35.2,22.2,79.6,88.9,0.6,,,,,,,,,
+15027,JILOTEPEC,Chapultepec,13.0,Templado,Muy bajo,100.0,100.0,40.0,40.0,20.0,100.0,80.0,0.7,,,,,,,,,
+15028,LA PAZ,Chiautla,15.0,Templado,Muy bajo,100.0,79.2,50.0,29.2,25.0,100.0,70.8,0.6,,,,,,,,,
+15029,LERMA,Chicoloapan,15.0,Templado,Muy bajo,98.1,61.2,42.7,35.0,11.7,97.1,88.3,0.6,,,,,,,,,
+15030,MELCHOR OCAMPO,Chiconcuac,15.0,Templado,Muy bajo,100.0,91.7,91.7,25.0,16.7,100.0,100.0,0.8,,,,,,,,,
+15031,METEPEC,Chimalhuacán,15.0,Templado,Muy bajo,98.0,50.3,39.9,27.8,12.1,95.5,87.9,0.6,,,,,,,,,
+15032,NAUCALPAN DE JUÁREZ,Donato Guerra,19.0,Semicálido,Alto,96.4,82.1,19.6,8.9,3.6,89.3,75.0,0.5,,,,,,,,,
+15033,NEZAHUALCÓYOTL,Ecatepec de Morelos,15.0,Templado,Muy bajo,93.7,74.7,49.7,35.6,18.1,92.3,86.7,0.6,,,,,,,,,
+15034,NICOLÁS ROMERO,Ecatzingo,17.0,Templado,Bajo,88.9,44.4,22.2,11.1,0.0,77.8,55.6,0.4,,,,,,,,,
+15035,OCOYOACAC,Huehuetoca,15.0,Templado,Muy bajo,94.5,63.7,40.7,46.2,17.6,96.7,92.3,0.6,,,,,,,,,
+15036,OTUMBA,Hueypoxtla,15.0,Templado,Muy bajo,94.4,80.6,27.8,27.8,19.4,97.2,86.1,0.6,,,,,,,,,
+15037,OTZOLOTEPEC,Huixquilucan,15.0,Templado,Muy bajo,99.2,88.8,68.0,44.0,27.2,93.6,96.8,0.7,,,,,,,,,
+15038,SAN FELIPE DEL PROGRESO,Isidro Fabela,11.0,Semifrio,Bajo,100.0,88.9,44.4,11.1,0.0,100.0,88.9,0.6,,,,,,,,,
+15039,SAN JOSÉ DEL RINCÓN,Ixtapaluca,15.0,Templado,Muy bajo,97.0,62.0,41.6,32.0,14.2,95.7,83.2,0.6,,,,,,,,,
+15040,SAN MATEO ATENCO,Ixtapan de la Sal,21.0,Semicálido,Bajo,93.7,74.6,31.7,36.5,12.7,69.8,82.5,0.6,,,,,,,,,
+15041,TECÁMAC,Ixtapan del Oro,19.0,Semicálido,Alto,100.0,82.6,4.3,13.0,4.3,73.9,82.6,0.5,,,,,,,,,
+15042,TEJUPILCO,Ixtlahuaca,9.0,Semifrio,Bajo,97.8,84.1,28.3,18.8,12.3,83.3,91.3,0.6,,,,,,,,,
+15043,TEMASCALCINGO,Xalatlaco,13.0,Templado,Muy bajo,76.2,57.1,19.0,14.3,4.8,85.7,76.2,0.5,,,,,,,,,
+15044,TEMOAYA,Jaltenco,15.0,Templado,Muy bajo,100.0,75.0,33.3,33.3,8.3,100.0,75.0,0.6,,,,,,,,,
+15045,TENANCINGO,Jilotepec,15.0,Templado,Bajo,97.6,84.7,12.9,33.1,12.1,94.4,87.9,0.6,,,,,,,,,
+15046,TEOLOYUCAN,Jilotzingo,11.0,Semifrio,Muy bajo,100.0,92.0,84.0,48.0,40.0,96.0,100.0,0.8,,,,,,,,,
+15047,TEOTIHUACÁN,Jiquipilco,7.0,Semifrio,Bajo,95.8,78.9,22.1,20.0,11.6,88.4,77.9,0.6,,,,,,,,,
+15048,TEPOTZOTLÁN,Jocotitlán,11.0,Semifrio,Bajo,97.0,84.8,30.3,13.6,13.6,93.9,77.3,0.6,,,,,,,,,
+15049,TEXCOCO,Joquicingo,15.0,Templado,Bajo,90.9,90.9,36.4,45.5,0.0,100.0,100.0,0.7,,,,,,,,,
+15050,TIANGUISTENCO,Juchitepec,15.0,Templado,Muy bajo,92.3,53.8,46.2,46.2,0.0,100.0,100.0,0.6,,,,,,,,,
+15051,TLALNEPANTLA DE BAZ,Lerma,9.0,Semifrio,Muy bajo,91.3,82.7,44.2,23.1,11.5,92.3,89.4,0.6,,,,,,,,,
+15052,TOLUCA,Malinalco,23.0,Cálido,Bajo,95.9,69.4,18.4,16.3,6.1,83.7,93.9,0.5,,,,,,,,,
+15053,TULTEPEC,Melchor Ocampo,15.0,Templado,Muy bajo,89.7,62.1,69.0,27.6,17.2,100.0,96.6,0.7,,,,,,,,,
+15054,TULTITLÁN,Metepec,13.0,Templado,Muy bajo,100.0,81.2,75.8,46.7,24.2,98.2,94.5,0.7,,,,,,,,,
+15055,VALLE DE BRAVO,Mexicaltzingo,13.0,Templado,Muy bajo,100.0,87.5,62.5,62.5,37.5,100.0,87.5,0.8,,,,,,,,,
+15056,VALLE DE CHALCO SOLIDARIDAD,Morelos,11.0,Semifrio,Alto,84.9,67.9,5.7,11.3,7.5,66.0,75.5,0.5,,,,,,,,,
+15057,VILLA DEL CARBÓN,Naucalpan de Juárez,15.0,Templado,Muy bajo,98.8,79.2,62.7,28.8,18.6,98.3,92.9,0.7,,,,,,,,,
+15058,VILLA GUERRERO,Nezahualcóyotl,15.0,Templado,Muy bajo,97.0,75.2,54.0,28.2,14.2,95.6,92.0,0.7,,,,,,,,,
+15059,XONACATLÁN,Nextlalpan,15.0,Templado,Muy bajo,94.1,58.8,32.4,44.1,14.7,85.3,85.3,0.6,,,,,,,,,
+15060,ZINACANTEPEC,Nicolás Romero,7.0,Semifrio,Muy bajo,96.0,78.9,58.6,36.1,17.6,92.5,90.7,0.7,,,,,,,,,
+15061,ZUMPANGO,Nopaltepec,15.0,Templado,Muy bajo,100.0,87.5,37.5,0.0,0.0,87.5,100.0,0.6,,,,,,,,,
+16001,ACUITZIO,Acuitzio,13.0,Templado,Bajo,96.3,40.7,14.8,0.0,7.4,85.2,92.6,0.5,,,,,,,,,
+16002,APATZINGÁN,Aguililla,21.0,Semicálido,Medio,58.1,11.6,0.0,7.0,0.0,55.8,69.8,0.3,,,,,,,,,
+16003,ARTEAGA,Álvaro Obregón,17.0,Templado,Bajo,92.1,31.6,21.1,5.3,5.3,89.5,78.9,0.5,,,,,,,,,
+16004,CHAVINDA,Angamacutiro,17.0,Templado,Bajo,88.2,35.3,17.6,2.9,5.9,82.4,73.5,0.4,,,,,,,,,
+16005,COALCOMÁN DE VÁZQUEZ PALLARES,Angangueo,11.0,Semifrio,Bajo,95.0,35.0,5.0,15.0,10.0,75.0,65.0,0.4,,,,,,,,,
+16006,CONTEPEC,Apatzingán,23.0,Cálido,Bajo,87.6,38.5,30.4,13.7,8.1,83.2,78.3,0.5,,,,,,,,,
+16007,GABRIEL ZAMORA,Aporo,17.0,Templado,Medio,87.5,75.0,25.0,0.0,0.0,87.5,75.0,0.5,,,,,,,,,
+16008,HIDALGO,Aquila,27.0,Muy cálido,Muy alto,69.2,39.8,10.5,2.3,2.3,45.9,71.4,0.3,,,,,,,,,
+16009,HUETAMO,Ario,25.0,Cálido,Bajo,96.7,43.5,21.7,7.6,15.2,83.7,79.3,0.5,,,,,,,,,
+16010,JIQUILPAN,Arteaga,27.0,Muy cálido,Medio,71.6,48.6,11.9,3.7,1.8,53.2,78.0,0.4,,,,,,,,,
+16011,JUNGAPEO,Briseñas,19.0,Semicálido,Bajo,100.0,37.5,25.0,25.0,25.0,87.5,75.0,0.5,,,,,,,,,
+16012,LA HUACANA,Buenavista,27.0,Muy cálido,Medio,84.6,33.8,12.3,6.2,12.3,73.8,76.9,0.4,,,,,,,,,
+16013,LA PIEDAD,Carácuaro,27.0,Muy cálido,Alto,80.7,36.8,0.0,1.8,5.3,36.8,78.9,0.3,,,,,,,,,
+16014,LÁZARO CÁRDENAS,Coahuayana,23.0,Cálido,Bajo,88.2,50.0,11.8,5.9,5.9,70.6,85.3,0.5,,,,,,,,,
+16015,LOS REYES,Coalcomán de Vázquez Pallares,25.0,Cálido,Bajo,70.6,27.9,14.7,4.4,5.9,48.5,76.5,0.4,,,,,,,,,
+16016,MARAVATÍO,Coeneo,15.0,Templado,Medio,83.0,28.3,7.5,0.0,0.0,75.5,71.7,0.4,,,,,,,,,
+16017,MORELIA,Contepec,15.0,Templado,Medio,80.6,22.6,4.8,6.5,4.8,77.4,75.8,0.4,,,,,,,,,
+16018,MÚGICA,Copándaro,15.0,Templado,Bajo,94.7,47.4,0.0,15.8,5.3,78.9,73.7,0.5,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+16019,PARACHO,Cotija,21.0,Semicálido,Bajo,100.0,52.1,18.8,10.4,8.3,81.3,81.3,0.5,,,,,,,,,
+16020,PÁTZCUARO,Cuitzeo,15.0,Templado,Bajo,100.0,43.2,16.2,8.1,8.1,100.0,94.6,0.5,,,,,,,,,
+16021,PERIBÁN,Charapan,13.0,Templado,Alto,100.0,37.5,18.8,6.3,6.3,81.3,75.0,0.5,,,,,,,,,
+16022,PURUÁNDIRO,Charo,15.0,Templado,Bajo,68.1,42.6,6.4,8.5,6.4,55.3,59.6,0.4,,,,,,,,,
+16023,QUERÉNDARO,Chavinda,19.0,Semicálido,Bajo,80.0,40.0,0.0,0.0,0.0,100.0,100.0,0.5,,,,,,,,,
+16024,QUIROGA,Cherán,13.0,Templado,Medio,95.2,57.1,28.6,0.0,9.5,90.5,76.2,0.5,,,,,,,,,
+16025,SAHUAYO,Chilchota,15.0,Templado,Medio,52.9,14.7,5.9,2.9,0.0,44.1,32.4,0.2,,,,,,,,,
+16026,SALVADOR ESCALANTE,Chinicuila,25.0,Cálido,Medio,73.3,11.1,4.4,0.0,2.2,60.0,73.3,0.3,,,,,,,,,
+16027,SAN LUCAS,Chucándiro,15.0,Templado,Medio,94.1,52.9,11.8,11.8,0.0,82.4,94.1,0.5,,,,,,,,,
+16028,TACÁMBARO,Churintzio,19.0,Semicálido,Bajo,90.5,19.0,14.3,4.8,9.5,85.7,66.7,0.4,,,,,,,,,
+16029,TANHUATO,Churumuco,,Muy cálido,Alto,83.3,28.3,8.3,0.0,3.3,53.3,61.7,0.3,,,,,,,,,
+16030,TARETAN,Ecuandureo,19.0,Semicálido,Bajo,81.8,22.7,4.5,4.5,0.0,77.3,77.3,0.4,,,,,,,,,
+16031,TEPALCATEPEC,Epitacio Huerta,15.0,Templado,Medio,88.9,26.7,2.2,8.9,0.0,84.4,82.2,0.4,1.0,100.0,0.0,0.0,0.0,100.0,0.0,URBANO,PÚBLICO
+16032,TINGAMBATO,Erongarícuaro,13.0,Templado,Bajo,100.0,50.0,11.5,7.7,3.8,88.5,92.3,0.5,,,,,,,,,
+16033,TLALPUJAHUA,Gabriel Zamora,27.0,Muy cálido,Bajo,96.8,61.3,22.6,9.7,3.2,83.9,87.1,0.5,,,,,,,,,
+16034,TURICATO,Hidalgo,19.0,Semicálido,Bajo,89.2,38.3,14.0,18.9,21.6,73.9,84.2,0.5,1.0,100.0,100.0,0.0,0.0,100.0,0.0,URBANO,PÚBLICO
+16035,TUXPAN,La Huacana,23.0,Cálido,Medio,97.4,34.2,2.6,1.8,5.3,57.0,75.4,0.4,,,,,,,,,
+16036,URUAPAN,Huandacareo,15.0,Templado,Bajo,100.0,87.5,37.5,25.0,6.3,100.0,100.0,0.7,,,,,,,,,
+16037,YURÉCUARO,Huaniqueo,15.0,Templado,Medio,73.1,50.0,50.0,3.8,0.0,73.1,73.1,0.5,,,,,,,,,
+16038,ZACAPU,Huetamo,,Muy cálido,Medio,88.3,37.2,19.7,5.1,9.5,61.3,66.4,0.4,,,,,,,,,
+16039,ZAMORA,Huiramba,13.0,Templado,Bajo,100.0,25.0,6.3,6.3,6.3,100.0,68.8,0.4,,,,,,,,,
+16040,ZINAPÉCUARO,Indaparapeo,15.0,Templado,Bajo,96.8,51.6,9.7,9.7,16.1,71.0,87.1,0.5,,,,,,,,,
+16041,ZIRACUARETIRO,Irimbo,17.0,Templado,Medio,70.6,23.5,2.9,8.8,2.9,64.7,64.7,0.3,,,,,,,,,
+16042,ZITÁCUARO,Ixtlán,19.0,Semicálido,Bajo,91.7,29.2,16.7,8.3,0.0,91.7,75.0,0.4,,,,,,,,,
+17001,AYALA,Amacuzac,25.0,Cálido,Bajo,96.2,69.2,61.5,19.2,11.5,88.5,92.3,0.6,,,,,,,,,
+17002,CUAUTLA,Atlatlahucan,19.0,Semicálido,Bajo,96.2,84.6,61.5,30.8,23.1,84.6,92.3,0.7,,,,,,,,,
+17003,CUERNAVACA,Axochiapan,23.0,Cálido,Medio,96.8,67.7,32.3,45.2,16.1,96.8,100.0,0.6,,,,,,,,,
+17004,EMILIANO ZAPATA,Ayala,23.0,Cálido,Bajo,98.7,53.2,41.8,35.4,21.5,92.4,96.2,0.6,,,,,,,,,
+17005,JIUTEPEC,Coatlán del Río,23.0,Cálido,Bajo,88.9,66.7,27.8,27.8,11.1,94.4,100.0,0.6,,,,,,,,,
+17006,JOJUTLA,Cuautla,23.0,Cálido,Muy bajo,99.4,73.3,69.1,47.3,17.6,98.2,98.2,0.7,,,,,,,,,
+17007,PUENTE DE IXTLA,Cuernavaca,19.0,Semicálido,Muy bajo,98.1,77.9,81.6,35.4,23.9,97.1,96.3,0.7,,,,,,,,,
+17008,TEMIXCO,Emiliano Zapata,23.0,Cálido,Muy bajo,100.0,63.3,60.0,41.7,25.0,96.7,98.3,0.7,,,,,,,,,
+17009,TLAQUILTENANGO,Huitzilac,19.0,Semicálido,Bajo,87.5,68.8,43.8,37.5,31.3,62.5,81.3,0.6,,,,,,,,,
+17010,YAUTEPEC,Jantetelco,23.0,Cálido,Bajo,100.0,65.0,35.0,10.0,0.0,85.0,95.0,0.6,,,,,,,,,
+18001,ACAPONETA,Acaponeta,21.0,Semicálido,Bajo,84.0,37.0,13.0,8.0,17.0,78.0,82.0,0.5,,,,,,,,,
+18001,ACAPONETA,Acaponeta,21.0,Semicálido,82.0,84.0,37.0,13.0,8.0,17.0,78.0,82.0,0.5,,,,,,,,,
+18002,AHUACATLÁN,Ahuacatlán,23.0,Cálido,Muy bajo,96.6,62.1,24.1,17.2,10.3,96.6,82.8,0.6,,,,,,,,,
+18002,AHUACATLÁN,Ahuacatlán,23.0,Cálido,82.8,96.6,62.1,24.1,17.2,10.3,96.6,82.8,0.6,,,,,,,,,
+18003,BAHÍA DE BANDERAS,Amatlán de Cañas,21.0,Semicálido,Muy bajo,100.0,66.7,14.8,25.9,14.8,92.6,88.9,0.6,,,,,,,,,
+18003,BAHÍA DE BANDERAS,Amatlán de Cañas,21.0,Semicálido,88.9,100.0,66.7,14.8,25.9,14.8,92.6,88.9,0.6,,,,,,,,,
+18004,COMPOSTELA,Compostela,25.0,Cálido,Muy bajo,96.5,54.4,34.2,29.8,20.2,96.5,94.7,0.6,,,,,,,,,
+18004,COMPOSTELA,Compostela,25.0,Cálido,94.7,96.5,54.4,34.2,29.8,20.2,96.5,94.7,0.6,,,,,,,,,
+18005,IXTLÁN DEL RÍO,Huajicori,23.0,Cálido,Muy alto,44.6,34.8,3.3,2.2,19.6,48.9,72.8,0.3,,,,,,,,,
+18005,IXTLÁN DEL RÍO,Huajicori,23.0,Cálido,72.8,44.6,34.8,3.3,2.2,19.6,48.9,72.8,0.3,,,,,,,,,
+18006,ROSAMORADA,Ixtlán del Río,21.0,Semicálido,Muy bajo,100.0,71.9,25.0,15.6,25.0,87.5,81.3,0.6,,,,,,,,,
+18006,ROSAMORADA,Ixtlán del Río,21.0,Semicálido,81.3,100.0,71.9,25.0,15.6,25.0,87.5,81.3,0.6,,,,,,,,,
+18007,SAN BLAS,Jala,19.0,Semicálido,Bajo,86.0,32.6,11.6,16.3,14.0,48.8,76.7,0.4,,,,,,,,,
+18007,SAN BLAS,Jala,19.0,Semicálido,76.7,86.0,32.6,11.6,16.3,14.0,48.8,76.7,0.4,,,,,,,,,
+18008,SANTA MARÍA DEL ORO,Xalisco,19.0,Semicálido,Muy bajo,96.6,61.0,50.8,32.2,11.9,96.6,94.9,0.6,,,,,,,,,
+18008,SANTA MARÍA DEL ORO,Xalisco,19.0,Semicálido,94.9,96.6,61.0,50.8,32.2,11.9,96.6,94.9,0.6,,,,,,,,,
+18009,SANTIAGO IXCUINTLA,Del Nayar,27.0,Muy cálido,Muy alto,56.9,34.9,3.1,4.7,14.5,48.2,65.9,0.3,,,,,,,,,
+18009,SANTIAGO IXCUINTLA,Del Nayar,27.0,Muy cálido,65.9,56.9,34.9,3.1,4.7,14.5,48.2,65.9,0.3,,,,,,,,,
+18010,TEPIC,Rosamorada,23.0,Cálido,Bajo,97.4,46.2,10.3,14.1,10.3,94.9,89.7,0.5,,,,,,,,,
+18010,TEPIC,Rosamorada,23.0,Cálido,89.7,97.4,46.2,10.3,14.1,10.3,94.9,89.7,0.5,,,,,,,,,
+18011,TUXPAN,Ruíz,23.0,Cálido,Medio,82.8,41.4,5.2,15.5,24.1,74.1,79.3,0.5,,,,,,,,,
+18011,TUXPAN,Ruíz,23.0,Cálido,79.3,82.8,41.4,5.2,15.5,24.1,74.1,79.3,0.5,,,,,,,,,
+18012,XALISCO,San Blas,21.0,Semicálido,Muy bajo,98.7,57.9,22.4,18.4,10.5,93.4,92.1,0.6,,,,,,,,,
+18012,XALISCO,San Blas,21.0,Semicálido,92.1,98.7,57.9,22.4,18.4,10.5,93.4,92.1,0.6,,,,,,,,,
+19001,ALLENDE,Abasolo,19.0,Semicálido,Muy bajo,100.0,0.0,0.0,0.0,0.0,100.0,50.0,0.4,,,,,,,,,
+19002,APODACA,Agualeguas,23.0,Cálido,Muy bajo,100.0,70.0,20.0,20.0,10.0,80.0,60.0,0.5,,,,,,,,,
+19003,CADEREYTA JIMÉNEZ,Los Aldamas,23.0,Cálido,Bajo,100.0,66.7,33.3,33.3,33.3,100.0,66.7,0.6,,,,,,,,,
+19004,CIÉNEGA DE FLORES,Allende,21.0,Semicálido,Muy bajo,97.6,42.9,33.3,57.1,19.0,95.2,71.4,0.6,,,,,,,,,
+19005,GARCÍA,Anáhuac,23.0,Cálido,Muy bajo,100.0,34.8,4.3,8.7,0.0,60.9,69.6,0.4,,,,,,,,,
+19006,GENERAL ESCOBEDO,Apodaca,23.0,Cálido,Muy bajo,92.1,49.7,46.6,71.9,39.4,94.9,79.5,0.7,,,,,,,,,
+19007,GUADALUPE,Aramberri,15.0,Templado,Medio,78.8,28.3,4.0,14.1,6.1,50.5,65.7,0.4,,,,,,,,,
+19008,JUÁREZ,Bustamante,19.0,Semicálido,Muy bajo,100.0,50.0,25.0,50.0,25.0,100.0,75.0,0.6,,,,,,,,,
+19009,LINARES,Cadereyta Jiménez,23.0,Cálido,Muy bajo,97.0,39.4,19.7,43.2,28.8,78.0,72.0,0.5,,,,,,,,,
+19010,MONTEMORELOS,El Carmen,17.0,Templado,Muy bajo,80.0,20.0,17.1,54.3,22.9,91.4,60.0,0.5,,,,,,,,,
+19011,MONTERREY,Cerralvo,23.0,Cálido,Muy bajo,100.0,60.0,40.0,10.0,0.0,90.0,90.0,0.6,,,,,,,,,
+19012,SABINAS HIDALGO,Ciénega de Flores,21.0,Semicálido,Muy bajo,64.9,24.3,18.9,70.3,40.5,78.4,59.5,0.5,,,,,,,,,
+19013,SALINAS VICTORIA,China,23.0,Cálido,Muy bajo,90.0,50.0,15.0,40.0,15.0,75.0,65.0,0.5,,,,,,,,,
+19014,SAN NICOLÁS DE LOS GARZA,Doctor Arroyo,19.0,Semicálido,Alto,89.9,43.9,3.2,20.6,8.5,32.8,67.2,0.4,,,,,,,,,
+19015,SAN PEDRO GARZA GARCÍA,Doctor Coss,23.0,Cálido,Bajo,100.0,60.0,20.0,40.0,0.0,100.0,100.0,0.6,,,,,,,,,
+19016,SANTA CATARINA,Doctor González,23.0,Cálido,Bajo,80.0,40.0,40.0,80.0,0.0,100.0,60.0,0.6,,,,,,,,,
+20001,ACATLÁN DE PÉREZ FIGUEROA,Abejones,19.0,Semicálido,Alto,100.0,50.0,50.0,0.0,0.0,100.0,50.0,0.5,,,,,,,,,
+20002,ASUNCIÓN IXTALTEPEC,Acatlán de Pérez Figueroa,23.0,Cálido,Medio,66.3,31.7,8.9,3.0,7.9,77.2,82.2,0.4,,,,,,,,,
+20003,ASUNCIÓN NOCHIXTLÁN,Asunción Cacalotepec,19.0,Semicálido,Alto,50.0,10.0,0.0,0.0,0.0,40.0,30.0,0.2,,,,,,,,,
+20004,CIUDAD IXTEPEC,Asunción Cuyotepeji,15.0,Templado,Medio,33.3,0.0,0.0,33.3,0.0,100.0,100.0,0.4,,,,,,,,,
+20005,CONSTANCIA DEL ROSARIO,Asunción Ixtaltepec,27.0,Muy cálido,Bajo,80.6,19.4,9.7,3.2,0.0,80.6,71.0,0.4,,,,,,,,,
+20006,CUILÁPAM DE GUERRERO,Asunción Nochixtlán,17.0,Templado,Medio,64.9,32.4,18.9,8.1,10.8,91.9,83.8,0.4,,,,,,,,,
+20007,HEROICA CIUDAD DE HUAJUAPAN DE LEÓN,Asunción Ocotlán,21.0,Semicálido,Muy alto,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.3,,,,,,,,,
+20008,HEROICA CIUDAD DE JUCHITÁN DE ZARAGOZA,Asunción Tlacolulita,27.0,Muy cálido,Medio,75.0,50.0,25.0,0.0,0.0,50.0,75.0,0.4,,,,,,,,,
+20009,HEROICA CIUDAD DE TLAXIACO,Ayotzintepec,23.0,Cálido,Alto,90.0,50.0,0.0,0.0,0.0,70.0,70.0,0.4,,,,,,,,,
+20010,HUAUTLA DE JIMÉNEZ,El Barrio de la Soledad,23.0,Cálido,Bajo,77.4,22.6,9.7,12.9,6.5,74.2,80.6,0.4,,,,,,,,,
+20011,LOMA BONITA,Calihualá,15.0,Templado,Alto,25.0,25.0,0.0,0.0,0.0,100.0,100.0,0.4,,,,,,,,,
+20012,MAGDALENA APASCO,Candelaria Loxicha,23.0,Cálido,Muy alto,54.5,27.3,9.1,0.0,5.5,67.3,72.7,0.3,,,,,,,,,
+20013,MIAHUATLÁN DE PORFIRIO DÍAZ,Ciénega de Zimatlán,21.0,Semicálido,Bajo,33.3,0.0,0.0,0.0,0.0,100.0,100.0,0.3,,,,,,,,,
+20014,OAXACA DE JUÁREZ,Ciudad Ixtepec,27.0,Muy cálido,Muy bajo,42.9,21.4,14.3,21.4,3.6,100.0,100.0,0.4,,,,,,,,,
+20015,SALINA CRUZ,Coatecas Altas,17.0,Templado,Muy alto,6.7,6.7,0.0,0.0,0.0,93.3,100.0,0.3,,,,,,,,,
+20016,SAN ANTONIO DE LA CAL,Coicoyán de las Flores,25.0,Cálido,Muy alto,9.7,6.5,3.2,0.0,3.2,90.3,83.9,0.3,,,,,,,,,
+20017,SAN FRANCISCO IXHUATÁN,La Compañía,19.0,Semicálido,Alto,33.3,0.0,6.7,0.0,0.0,86.7,73.3,0.3,,,,,,,,,
+20018,SAN FRANCISCO TELIXTLAHUACA,Concepción Buenavista,15.0,Templado,Alto,100.0,66.7,0.0,16.7,0.0,83.3,66.7,0.5,,,,,,,,,
+20019,SAN JACINTO AMILPAS,Concepción Pápalo,15.0,Templado,Alto,28.6,14.3,0.0,0.0,14.3,100.0,92.9,0.4,,,,,,,,,
+20020,SAN JUAN BAUTISTA CUICATLÁN,Constancia del Rosario,23.0,Cálido,Alto,20.0,10.0,0.0,0.0,0.0,90.0,80.0,0.3,,,,,,,,,
+20021,SAN JUAN BAUTISTA TUXTEPEC,Cosolapa,21.0,Semicálido,Medio,51.7,20.7,6.9,0.0,10.3,86.2,89.7,0.4,,,,,,,,,
+20022,SAN LORENZO CACAOTEPEC,Cosoltepec,19.0,Semicálido,Medio,40.0,20.0,20.0,0.0,0.0,100.0,100.0,0.4,,,,,,,,,
+20023,SAN MARTÍN TILCAJETE,Cuilápam de Guerrero,19.0,Semicálido,Alto,52.9,23.5,11.8,0.0,5.9,76.5,88.2,0.4,,,,,,,,,
+20024,SAN PEDRO MIXTEPEC,Cuyamecalco Villa de Zaragoza,25.0,Cálido,Alto,75.0,18.8,0.0,0.0,25.0,56.3,75.0,0.4,,,,,,,,,
+20025,SAN PEDRO POCHUTLA,Chahuites,27.0,Muy cálido,Medio,100.0,38.5,15.4,7.7,0.0,76.9,61.5,0.4,,,,,,,,,
+20026,SANTA CRUZ AMILPAS,Chalcatongo de Hidalgo,23.0,Cálido,Alto,48.0,16.0,0.0,0.0,0.0,84.0,76.0,0.3,,,,,,,,,
+20027,SANTA CRUZ XOXOCOTLÁN,Chiquihuitlán de Benito Juárez,17.0,Templado,Alto,20.0,20.0,0.0,0.0,0.0,80.0,80.0,0.3,,,,,,,,,
+20028,SANTA LUCÍA DEL CAMINO,Heroica Ciudad de Ejutla de Crespo,19.0,Semicálido,Alto,31.7,12.2,2.4,2.4,2.4,85.4,90.2,0.3,,,,,,,,,
+20029,SANTA MARÍA ATZOMPA,Eloxochitlán de Flores Magón,15.0,Templado,Muy alto,90.0,30.0,10.0,0.0,0.0,60.0,50.0,0.3,,,,,,,,,
+20030,SANTA MARÍA DEL TULE,El Espinal,27.0,Muy cálido,Muy bajo,55.6,11.1,11.1,11.1,11.1,100.0,100.0,0.4,,,,,,,,,
+20031,SANTA MARÍA HUATULCO,Tamazulápam del Espíritu Santo,19.0,Semicálido,Alto,92.3,61.5,23.1,0.0,0.0,92.3,76.9,0.5,,,,,,,,,
+20032,SANTA MARÍA PETAPA,Fresnillo de Trujano,25.0,Cálido,Alto,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.3,,,,,,,,,
+20033,SANTIAGO COMALTEPEC,Guadalupe Etla,19.0,Semicálido,Muy bajo,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.3,,,,,,,,,
+20034,SANTIAGO JUXTLAHUACA,Guadalupe de Ramírez,19.0,Semicálido,Medio,20.0,20.0,0.0,0.0,0.0,80.0,100.0,0.3,,,,,,,,,
+20035,SANTIAGO MATATLÁN,Guelatao de Juárez,17.0,Templado,Muy bajo,100.0,50.0,100.0,50.0,50.0,100.0,100.0,0.8,,,,,,,,,
+20036,SANTIAGO PINOTEPA NACIONAL,Guevea de Humboldt,23.0,Cálido,Alto,54.8,12.9,9.7,6.5,32.3,54.8,64.5,0.3,,,,,,,,,
+20037,SANTIAGO SUCHILQUITONGO,Mesones Hidalgo,27.0,Muy cálido,Alto,31.8,9.1,0.0,0.0,22.7,90.9,100.0,0.4,,,,,,,,,
+20038,SANTO DOMINGO TEHUANTEPEC,Villa Hidalgo,17.0,Templado,Alto,33.3,33.3,0.0,0.0,0.0,100.0,66.7,0.3,,,,,,,,,
+20039,TEOTITLÁN DE FLORES MAGÓN,Heroica Ciudad de Huajuapan de León,17.0,Templado,Muy bajo,49.5,29.9,23.7,9.3,10.3,92.8,91.8,0.4,1.0,100.0,100.0,100.0,0.0,0.0,100.0,RURAL,PÚBLICO
+20040,TLACOLULA DE MATAMOROS,Huautepec,23.0,Cálido,Muy alto,6.7,6.7,0.0,0.0,0.0,86.7,80.0,0.3,,,,,,,,,
+20041,TLALIXTAC DE CABRERA,Huautla de Jiménez,23.0,Cálido,Muy alto,56.3,14.9,1.1,2.3,0.0,59.8,65.5,0.3,,,,,,,,,
+20042,VILLA DE TUTUTEPEC,Ixtlán de Juárez,17.0,Templado,Medio,100.0,33.3,0.0,0.0,4.8,61.9,66.7,0.4,,,,,,,,,
+20043,ZIMATLÁN DE ÁLVAREZ,Juchitán de Zaragoza,27.0,Muy cálido,Bajo,79.3,28.7,16.1,20.7,5.7,86.2,74.7,0.4,,,,,,,,,
+21001,ACAJETE,Acajete,15.0,Templado,Medio,95.6,53.3,28.9,40.0,15.6,82.2,93.3,0.6,,,,,,,,,
+21002,ACATLÁN,Acateno,21.0,Semicálido,Alto,100.0,52.4,23.8,14.3,9.5,38.1,66.7,0.4,,,,,,,,,
+21003,ACATZINGO,Acatlán,21.0,Semicálido,Medio,97.0,51.5,7.6,13.6,6.1,75.8,86.4,0.5,,,,,,,,,
+21004,AHUAZOTEPEC,Acatzingo,17.0,Templado,Medio,93.8,56.3,39.6,27.1,14.6,70.8,93.8,0.6,,,,,,,,,
+21005,AJALPAN,Acteopan,19.0,Semicálido,Muy alto,100.0,83.3,33.3,0.0,0.0,66.7,100.0,0.5,,,,,,,,,
+21006,ALTEPEXI,Ahuacatlán,19.0,Semicálido,Alto,92.0,48.0,8.0,8.0,8.0,88.0,84.0,0.5,,,,,,,,,
+21007,AMOZOC,Ahuatlán,23.0,Cálido,Alto,100.0,38.5,15.4,7.7,38.5,69.2,92.3,0.5,,,,,,,,,
+21008,ATLIXCO,Ahuazotepec,13.0,Templado,Bajo,100.0,52.6,15.8,31.6,10.5,100.0,94.7,0.6,,,,,,,,,
+21009,CHALCHICOMULA DE SESMA,Ahuehuetitla,21.0,Semicálido,Alto,100.0,50.0,0.0,37.5,25.0,75.0,100.0,0.6,,,,,,,,,
+21010,CHIAUTLA,Ajalpan,19.0,Semicálido,Alto,97.5,60.2,20.3,9.3,9.3,49.2,78.8,0.5,,,,,,,,,
+21011,CHIGNAHUAPAN,Albino Zertuche,21.0,Semicálido,Medio,50.0,0.0,0.0,0.0,0.0,50.0,75.0,0.3,,,,,,,,,
+21012,CHIGNAUTLA,Aljojuca,15.0,Templado,Medio,100.0,28.6,28.6,28.6,14.3,100.0,85.7,0.6,,,,,,,,,
+21013,CUAUTLANCINGO,Altepexi,23.0,Cálido,Bajo,88.9,55.6,55.6,22.2,11.1,88.9,100.0,0.6,,,,,,,,,
+21014,CUETZALAN DEL PROGRESO,Amixtlán,17.0,Templado,Alto,90.9,45.5,0.0,0.0,0.0,90.9,90.9,0.5,,,,,,,,,
+21015,EPATLÁN,Amozoc,15.0,Templado,Muy bajo,89.5,59.6,54.4,36.8,22.8,80.7,93.0,0.6,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+21016,GUADALUPE VICTORIA,Aquixtla,15.0,Templado,Medio,96.6,58.6,13.8,6.9,6.9,96.6,86.2,0.5,,,,,,,,,
+21017,HUAUCHINANGO,Atempan,11.0,Semifrio,Medio,96.4,89.3,35.7,17.9,14.3,96.4,89.3,0.6,,,,,,,,,
+21018,HUEHUETLA,Atexcal,21.0,Semicálido,Medio,92.9,50.0,7.1,14.3,14.3,92.9,100.0,0.5,,,,,,,,,
+21019,HUEJOTZINGO,Atlixco,19.0,Semicálido,Muy bajo,97.0,69.7,47.7,29.5,20.5,85.6,97.0,0.6,1.0,100.0,100.0,100.0,100.0,100.0,0.0,URBANO,PÚBLICO
+21020,IZÚCAR DE MATAMOROS,Atoyatempan,17.0,Templado,Bajo,100.0,66.7,0.0,33.3,0.0,100.0,66.7,0.5,,,,,,,,,
+21021,LIBRES,Atzala,23.0,Cálido,Medio,100.0,50.0,0.0,50.0,50.0,100.0,100.0,0.6,,,,,,,,,
+21022,MIXTLA,Atzitzihuacán,19.0,Semicálido,Medio,100.0,68.4,26.3,26.3,21.1,84.2,100.0,0.6,,,,,,,,,
+21023,NOPALUCAN,Atzitzintla,11.0,Semifrio,Alto,90.5,42.9,9.5,23.8,38.1,66.7,90.5,0.5,,,,,,,,,
+21024,ORIENTAL,Axutla,25.0,Cálido,Medio,80.0,20.0,0.0,0.0,0.0,80.0,100.0,0.4,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+21025,PANTEPEC,Ayotoxco de Guerrero,21.0,Semicálido,Alto,85.7,57.1,4.8,19.0,19.0,81.0,90.5,0.5,,,,,,,,,
+21026,PUEBLA,Calpan,15.0,Templado,Medio,100.0,75.0,66.7,33.3,25.0,100.0,100.0,0.7,,,,,,,,,
+21027,RAFAEL LARA GRAJALES,Caltepec,15.0,Templado,Alto,95.2,57.1,19.0,4.8,14.3,81.0,81.0,0.5,,,,,,,,,
+21028,SAN ANDRÉS CHOLULA,Camocuautla,17.0,Templado,Alto,60.0,50.0,10.0,0.0,40.0,50.0,70.0,0.4,,,,,,,,,
+21029,SAN JOSÉ MIAHUATLÁN,Caxhuacan,21.0,Semicálido,Alto,75.0,50.0,25.0,0.0,0.0,75.0,100.0,0.5,,,,,,,,,
+21030,SAN MARTÍN TEXMELUCAN,Coatepec,19.0,Semicálido,Alto,100.0,50.0,50.0,0.0,0.0,100.0,100.0,0.6,,,,,,,,,
+21031,SAN PEDRO CHOLULA,Coatzingo,23.0,Cálido,Alto,100.0,0.0,0.0,0.0,0.0,100.0,100.0,0.4,,,,,,,,,
+21032,SANTO TOMÁS HUEYOTLIPAN,Cohetzala,21.0,Semicálido,Medio,71.4,57.1,0.0,0.0,0.0,57.1,85.7,0.4,,,,,,,,,
+21033,SOLTEPEC,Cohuecan,19.0,Semicálido,Medio,88.9,77.8,33.3,0.0,0.0,100.0,100.0,0.6,,,,,,,,,
+21034,TECALI DE HERRERA,Coronango,15.0,Templado,Muy bajo,100.0,66.7,61.9,61.9,19.0,57.1,100.0,0.7,,,,,,,,,
+21035,TECAMACHALCO,Coxcatlán,13.0,Templado,Medio,91.9,64.9,24.3,18.9,10.8,59.5,91.9,0.5,,,,,,,,,
+21036,TEHUACÁN,Coyomeapan,15.0,Templado,Muy alto,96.9,57.8,4.7,0.0,1.6,34.4,79.7,0.4,,,,,,,,,
+21037,TEPEACA,Coyotepec,19.0,Semicálido,Medio,100.0,66.7,16.7,33.3,33.3,100.0,100.0,0.6,,,,,,,,,
+21038,TEPEXI DE RODRÍGUEZ,Cuapiaxtla de Madero,17.0,Templado,Medio,83.3,83.3,66.7,33.3,16.7,83.3,100.0,0.7,,,,,,,,,
+21039,TEZIUTLÁN,Cuautempan,13.0,Templado,Alto,80.0,40.0,0.0,5.0,0.0,75.0,90.0,0.4,,,,,,,,,
+21040,TLAOLA,Cuautinchán,17.0,Templado,Alto,93.3,66.7,40.0,40.0,13.3,80.0,93.3,0.6,,,,,,,,,
+21041,TLATLAUQUITEPEC,Cuautlancingo,17.0,Templado,Muy bajo,100.0,74.2,72.6,51.6,25.8,95.2,98.4,0.7,,,,,,,,,
+21042,TOCHTEPEC,Cuayuca de Andrade,19.0,Semicálido,Alto,88.2,58.8,5.9,11.8,17.6,70.6,70.6,0.5,,,,,,,,,
+21043,XICOTEPEC,Cuetzalan del Progreso,21.0,Semicálido,Alto,83.8,40.4,7.4,8.8,19.9,80.1,87.5,0.5,,,,,,,,,
+21044,XIUTETELCO,Cuyoaco,11.0,Semifrio,Medio,96.7,46.7,23.3,10.0,3.3,93.3,96.7,0.5,,,,,,,,,
+21045,ZACAPOAXTLA,Chalchicomula de Sesma,15.0,Templado,Bajo,94.1,62.7,31.4,17.6,15.7,94.1,96.1,0.6,,,,,,,,,
+21046,ZACATLÁN,Chapulco,17.0,Templado,Bajo,100.0,55.6,44.4,44.4,22.2,88.9,100.0,0.7,,,,,,,,,
+21047,ZAPOTITLÁN,Chiautla,25.0,Cálido,Medio,91.1,50.0,17.9,5.4,3.6,69.6,78.6,0.5,,,,,,,,,
+21048,ZARAGOZA,Chiautzingo,15.0,Templado,Bajo,100.0,66.7,40.0,26.7,6.7,100.0,93.3,0.6,,,,,,,,,
+21049,ZINACATEPEC,Chiconcuautla,13.0,Templado,Alto,97.6,58.5,7.3,9.8,17.1,80.5,87.8,0.5,,,,,,,,,
+22001,AMEALCO DE BONFIL,Amealco de Bonfil,15.0,Templado,Medio,94.4,64.0,8.8,19.2,17.6,97.6,89.6,0.6,,,,,,,,,
+22002,CADEREYTA DE MONTES,Pinal de Amoles,19.0,Semicálido,Alto,84.6,64.0,8.1,8.8,16.9,45.6,76.5,0.4,,,,,,,,,
+22003,CORREGIDORA,Arroyo Seco,19.0,Semicálido,Medio,92.5,70.0,27.5,17.5,25.0,75.0,90.0,0.6,,,,,,,,,
+22004,EL MARQUÉS,Cadereyta de Montes,17.0,Templado,Medio,93.0,53.8,12.3,12.3,17.0,82.5,77.8,0.5,,,,,,,,,
+22005,EZEQUIEL MONTES,Colón,15.0,Templado,Bajo,95.2,62.7,28.9,19.3,9.6,95.2,83.1,0.6,,,,,,,,,
+22006,JALPAN DE SERRA,Corregidora,19.0,Semicálido,Muy bajo,100.0,72.3,73.1,51.5,31.5,97.7,93.8,0.7,,,,,,,,,
+22007,QUERÉTARO,Ezequiel Montes,19.0,Semicálido,Bajo,97.9,68.1,38.3,31.9,6.4,100.0,76.6,0.6,,,,,,,,,
+22008,SAN JOAQUÍN,Huimilpan,15.0,Templado,Bajo,96.8,58.7,20.6,31.7,7.9,96.8,84.1,0.6,,,,,,,,,
+22009,SAN JUAN DEL RÍO,Jalpan de Serra,19.0,Semicálido,Bajo,89.3,61.3,10.7,17.3,20.0,64.0,81.3,0.5,,,,,,,,,
+22010,TEQUISQUIAPAN,Landa de Matamoros,19.0,Semicálido,Alto,95.7,68.6,15.7,12.9,18.6,65.7,82.9,0.5,,,,,,,,,
+23001,BACALAR,Cozumel,25.0,Cálido,Muy bajo,89.8,32.7,42.9,63.3,26.5,89.8,91.8,0.6,,,,,,,,,
+23002,BENITO JUÁREZ,Felipe Carrillo Puerto,25.0,Cálido,Medio,87.7,64.5,18.1,31.6,14.8,94.2,84.5,0.6,3.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+23003,COZUMEL,Isla Mujeres,25.0,Cálido,Muy bajo,100.0,47.6,52.4,76.2,33.3,81.0,100.0,0.7,,,,,,,,,
+23004,FELIPE CARRILLO PUERTO,Othón P. Blanco,23.0,Cálido,Muy bajo,84.9,55.0,26.7,45.0,22.3,88.4,78.5,0.6,2.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+23005,ISLA MUJERES,Benito Juárez,25.0,Cálido,Muy bajo,87.2,43.5,47.3,61.2,22.5,84.6,81.3,0.6,,,,,,,,,
+23006,JOSÉ MARÍA MORELOS,José María Morelos,25.0,Cálido,Alto,86.0,63.4,9.7,35.5,16.1,90.3,75.3,0.5,4.0,100.0,25.0,0.0,25.0,0.0,100.0,RURAL,PÚBLICO
+23007,LÁZARO CÁRDENAS,Lázaro Cárdenas,25.0,Cálido,Medio,92.9,51.4,5.7,27.1,18.6,81.4,72.9,0.5,2.0,100.0,100.0,50.0,0.0,0.0,100.0,RURAL,PÚBLICO
+23008,OTHÓN P. BLANCO,Solidaridad,25.0,Cálido,Muy bajo,82.5,43.4,38.0,54.2,22.9,87.3,75.9,0.6,,,,,,,,,
+23009,PUERTO MORELOS,Tulum,25.0,Cálido,Bajo,97.8,51.1,33.3,51.1,8.9,88.9,86.7,0.6,,,,,,,,,
+23010,SOLIDARIDAD,Bacalar,25.0,Cálido,Medio,92.7,65.1,15.6,37.6,22.0,93.6,86.2,0.6,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+23011,TULUM,Puerto Morelos,25.0,Cálido,Muy bajo,93.8,25.0,31.3,62.5,18.8,100.0,100.0,0.6,,,,,,,,,
+24001,AXTLA DE TERRAZAS,Ahualulco del Sonido 13,15.0,Templado,Medio,90.0,43.8,5.0,8.8,13.8,71.3,95.0,0.5,1.0,100.0,0.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+24002,CATORCE,Alaquines,21.0,Semicálido,Alto,92.5,52.5,7.5,17.5,0.0,45.0,62.5,0.4,,,,,,,,,
+24003,CERRITOS,Aquismón,19.0,Semicálido,Muy alto,89.0,60.5,4.1,4.7,2.3,31.4,73.8,0.4,,,,,,,,,
+24004,CIUDAD DEL MAÍZ,Armadillo de los Infante,15.0,Templado,Medio,95.2,38.1,4.8,9.5,0.0,85.7,95.2,0.5,,,,,,,,,
+24005,CIUDAD FERNÁNDEZ,Cárdenas,21.0,Semicálido,Muy bajo,100.0,74.3,14.3,20.0,5.7,68.6,77.1,0.5,,,,,,,,,
+24006,CIUDAD VALLES,Catorce,17.0,Templado,Alto,83.3,61.7,3.3,6.7,11.7,58.3,76.7,0.4,,,,,,,,,
+24007,EBANO,Cedral,19.0,Semicálido,Muy bajo,96.2,57.7,5.8,11.5,5.8,78.8,78.8,0.5,,,,,,,,,
+24008,HUEHUETLÁN,Cerritos,17.0,Templado,Muy bajo,97.9,47.9,16.7,8.3,8.3,77.1,89.6,0.5,,,,,,,,,
+24009,MATEHUALA,Cerro de San Pedro,15.0,Templado,Bajo,100.0,60.0,20.0,30.0,30.0,100.0,100.0,0.6,,,,,,,,,
+24010,MATLAPA,Ciudad del Maíz,21.0,Semicálido,Medio,99.0,55.3,7.8,9.7,5.8,40.8,70.9,0.4,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+24011,MEXQUITIC DE CARMONA,Ciudad Fernández,13.0,Templado,Muy bajo,96.7,55.0,23.3,20.0,11.7,88.3,83.3,0.5,,,,,,,,,
+24012,MOCTEZUMA,Tancanhuitz,25.0,Cálido,Alto,93.9,53.1,4.1,0.0,4.1,42.9,69.4,0.4,2.0,100.0,50.0,0.0,50.0,0.0,100.0,RURAL,PÚBLICO
+24013,RIOVERDE,Ciudad Valles,25.0,Cálido,Muy bajo,97.1,65.4,39.5,22.0,12.2,71.2,84.9,0.6,4.0,100.0,100.0,25.0,100.0,25.0,75.0,RURAL,PÚBLICO
+24014,SALINAS,Coxcatlán,25.0,Cálido,Alto,95.7,42.6,4.3,4.3,2.1,61.7,72.3,0.4,,,,,,,,,
+24015,SAN LUIS POTOSÍ,Charcas,13.0,Templado,Bajo,82.2,34.2,6.8,11.0,16.4,67.1,76.7,0.4,,,,,,,,,
+24016,SANTA MARÍA DEL RÍO,Ebano,25.0,Cálido,Bajo,97.6,31.0,11.9,14.3,4.8,69.0,83.3,0.4,,,,,,,,,
+24017,SOLEDAD DE GRACIANO SÁNCHEZ,Guadalcázar,21.0,Semicálido,Alto,91.5,54.7,1.9,11.3,11.3,35.8,59.4,0.4,,,,,,,,,
+24018,TAMAZUNCHALE,Huehuetlán,23.0,Cálido,Alto,91.7,41.7,2.8,2.8,5.6,38.9,91.7,0.4,,,,,,,,,
+24019,TIERRA NUEVA,Lagunillas,23.0,Cálido,Medio,100.0,38.7,9.7,9.7,6.5,83.9,93.5,0.5,,,,,,,,,
+24020,VILLA DE ARISTA,Matehuala,19.0,Semicálido,Muy bajo,94.2,61.9,25.9,28.1,15.1,69.1,80.6,0.5,2.0,100.0,100.0,50.0,50.0,100.0,0.0,URBANO,PÚBLICO
+25001,AHOME,Ahome,25.0,Cálido,Muy bajo,97.3,51.2,43.4,35.3,20.1,92.8,91.0,0.6,,,,,,,,,
+25002,ANGOSTURA,Angostura,25.0,Cálido,Muy bajo,100.0,45.0,28.3,33.3,20.0,100.0,81.7,0.6,,,,,,,,,
+25003,BADIRAGUATO,Badiraguato,25.0,Cálido,Alto,91.7,26.1,6.1,4.8,9.1,34.8,75.7,0.4,,,,,,,,,
+25004,CHOIX,Concordia,23.0,Cálido,Bajo,93.0,35.2,12.7,18.3,22.5,87.3,76.1,0.5,,,,,,,,,
+25005,CONCORDIA,Cosalá,25.0,Cálido,Bajo,84.3,31.4,2.0,2.9,31.4,65.7,65.7,0.4,,,,,,,,,
+25006,COSALÁ,Culiacán,23.0,Cálido,Muy bajo,93.1,51.2,35.7,40.9,33.8,93.0,85.5,0.6,,,,,,,,,
+25007,CULIACÁN,Choix,23.0,Cálido,Medio,87.6,31.4,2.5,7.4,18.2,40.5,62.8,0.4,,,,,,,,,
+25008,EL FUERTE,Elota,23.0,Cálido,Bajo,93.5,21.3,7.4,13.0,13.9,88.9,81.5,0.5,,,,,,,,,
+25009,ELDORADO,Escuinapa,23.0,Cálido,Bajo,90.2,36.1,21.3,31.1,29.5,63.9,63.9,0.5,,,,,,,,,
+25010,ELOTA,El Fuerte,25.0,Cálido,Bajo,90.0,27.4,6.3,14.2,12.6,58.9,75.3,0.4,,,,,,,,,
+25011,ESCUINAPA,Guasave,25.0,Cálido,Muy bajo,97.1,40.3,29.4,24.5,12.6,85.5,83.5,0.5,,,,,,,,,
+25012,GUASAVE,Mazatlán,23.0,Cálido,Muy bajo,96.6,52.5,45.4,46.3,35.5,94.4,89.5,0.7,,,,,,,,,
+25013,JUAN JOSÉ RÍOS,Mocorito,25.0,Cálido,Bajo,95.4,45.4,16.2,13.1,5.4,60.0,71.5,0.4,,,,,,,,,
+25014,MAZATLÁN,Rosario,23.0,Cálido,Bajo,83.3,23.5,9.8,9.8,11.8,66.7,62.7,0.4,,,,,,,,,
+25015,MOCORITO,Salvador Alvarado,25.0,Cálido,Muy bajo,97.7,49.4,36.8,43.7,31.0,92.0,82.8,0.6,,,,,,,,,
+25016,NAVOLATO,San Ignacio,23.0,Cálido,Bajo,85.9,15.6,7.8,12.5,12.5,79.7,62.5,0.4,,,,,,,,,
+25017,ROSARIO,Sinaloa,25.0,Cálido,Medio,86.6,17.9,5.7,12.6,11.4,63.8,72.4,0.4,,,,,,,,,
+25018,SALVADOR ALVARADO,Navolato,25.0,Cálido,Muy bajo,94.8,30.7,14.6,24.0,15.6,90.1,78.6,0.5,,,,,,,,,
+25019,SAN IGNACIO,,,,,,,,,,,,,,,,,,,,,
+25020,SINALOA,,,,,,,,,,,,,,,,,,,,,
+26001,AGUA PRIETA,Aconchi,17.0,Templado,Muy bajo,100.0,100.0,75.0,0.0,0.0,100.0,75.0,0.6,,,,,,,,,
+26002,CABORCA,Agua Prieta,15.0,Templado,Muy bajo,100.0,62.7,44.1,57.6,13.6,100.0,83.1,0.7,,,,,,,,,
+26003,CAJEME,Álamos,23.0,Cálido,Medio,90.2,68.0,11.5,19.7,13.9,75.4,77.9,0.5,,,,,,,,,
+26004,CANANEA,Altar,21.0,Semicálido,Muy bajo,81.8,45.5,27.3,45.5,0.0,81.8,63.6,0.5,,,,,,,,,
+26005,EMPALME,Arivechi,15.0,Templado,Muy bajo,80.0,100.0,40.0,40.0,20.0,100.0,100.0,0.7,,,,,,,,,
+26006,GUAYMAS,Arizpe,17.0,Templado,Muy bajo,100.0,77.8,55.6,33.3,22.2,100.0,100.0,0.7,,,,,,,,,
+26007,HERMOSILLO,Atil,21.0,Semicálido,Muy bajo,100.0,100.0,100.0,0.0,0.0,100.0,100.0,0.7,,,,,,,,,
+26008,HUATABAMPO,Bacadéhuachi,23.0,Cálido,Muy bajo,100.0,100.0,0.0,100.0,0.0,100.0,100.0,0.7,,,,,,,,,
+26009,MAGDALENA,Bacanora,23.0,Cálido,Bajo,100.0,75.0,25.0,25.0,25.0,75.0,100.0,0.6,,,,,,,,,
+26010,MOCTEZUMA,Bacerac,15.0,Templado,Bajo,57.1,28.6,28.6,28.6,28.6,57.1,71.4,0.4,,,,,,,,,
+26011,NACOZARI DE GARCÍA,Bacoachi,19.0,Semicálido,Muy bajo,66.7,100.0,0.0,66.7,33.3,100.0,66.7,0.6,,,,,,,,,
+26012,NAVOJOA,Bácum,23.0,Cálido,Bajo,92.3,73.1,42.3,34.6,11.5,80.8,76.9,0.6,,,,,,,,,
+26013,NOGALES,Banámichi,15.0,Templado,Muy bajo,100.0,100.0,33.3,66.7,0.0,100.0,100.0,0.7,,,,,,,,,
+26014,PUERTO PEÑASCO,Baviácora,19.0,Semicálido,Muy bajo,100.0,100.0,50.0,66.7,16.7,100.0,100.0,0.8,,,,,,,,,
+26015,SAN LUIS RÍO COLORADO,Bavispe,15.0,Templado,Muy bajo,100.0,100.0,33.3,0.0,0.0,100.0,100.0,0.6,,,,,,,,,
+26016,SANTA ANA,Benjamín Hill,19.0,Semicálido,Muy bajo,100.0,75.0,100.0,100.0,50.0,100.0,75.0,0.9,,,,,,,,,
+27001,BALANCÁN,Balancán,25.0,Cálido,Medio,94.6,21.1,8.8,10.9,14.3,59.2,82.3,0.4,12.0,100.0,75.0,0.0,41.67,0.0,100.0,RURAL,PÚBLICO
+27002,CÁRDENAS,Cárdenas,25.0,Cálido,Bajo,96.6,24.0,12.2,33.1,16.0,41.1,84.8,0.4,20.0,100.0,50.0,10.0,55.0,25.0,75.0,RURAL,PÚBLICO
+27003,CENTLA,Centla,27.0,Muy cálido,Medio,91.0,29.8,4.5,21.3,12.4,26.4,77.0,0.4,8.0,100.0,37.5,0.0,62.5,25.0,75.0,RURAL,PÚBLICO
+27004,CENTRO,Centro,27.0,Muy cálido,Muy bajo,98.1,36.8,27.5,45.6,29.6,88.9,88.1,0.6,31.0,100.0,90.32,12.9,67.74,41.94,58.06,RURAL,PÚBLICO
+27005,COMALCALCO,Comalcalco,27.0,Muy cálido,Bajo,99.0,31.7,19.2,34.1,21.2,82.2,85.1,0.5,35.0,100.0,97.14,0.0,77.14,8.57,91.43,RURAL,PÚBLICO
+27006,CUNDUACÁN,Cunduacán,27.0,Muy cálido,Bajo,95.1,26.2,12.8,29.9,12.2,53.0,78.7,0.4,39.0,100.0,64.1,2.56,48.72,7.69,92.31,RURAL,PÚBLICO
+27007,EMILIANO ZAPATA,Emiliano Zapata,25.0,Cálido,Muy bajo,97.7,16.3,9.3,39.5,27.9,76.7,81.4,0.5,1.0,100.0,100.0,100.0,100.0,100.0,0.0,URBANO,PÚBLICO
+27008,HUIMANGUILLO,Huimanguillo,23.0,Cálido,Medio,90.2,21.4,5.1,16.1,10.1,31.3,68.8,0.3,33.0,100.0,48.48,3.03,21.21,15.15,84.85,RURAL,PÚBLICO
+27009,JALAPA,Jalapa,27.0,Muy cálido,Bajo,98.5,13.4,6.0,19.4,16.4,85.1,80.6,0.5,5.0,100.0,100.0,0.0,60.0,0.0,100.0,RURAL,PÚBLICO
+27010,JALPA DE MÉNDEZ,Jalpa de Méndez,27.0,Muy cálido,Bajo,100.0,29.4,12.9,34.1,18.8,75.3,77.6,0.5,11.0,100.0,45.45,0.0,81.82,9.09,90.91,RURAL,PÚBLICO
+27011,JONUTA,Jonuta,27.0,Muy cálido,Medio,89.1,17.3,0.9,6.4,23.6,49.1,77.3,0.4,2.0,100.0,100.0,0.0,50.0,0.0,100.0,RURAL,PÚBLICO
+27012,MACUSPANA,Macuspana,27.0,Muy cálido,Medio,90.9,23.1,6.3,18.2,12.6,50.3,72.4,0.4,26.0,100.0,73.08,7.69,65.38,7.69,92.31,RURAL,PÚBLICO
+27013,NACAJUCA,Nacajuca,27.0,Muy cálido,Muy bajo,98.9,29.0,10.8,38.7,24.7,79.6,76.3,0.5,7.0,100.0,100.0,0.0,85.71,14.29,85.71,RURAL,PÚBLICO
+27014,PARAÍSO,Paraíso,27.0,Muy cálido,Muy bajo,100.0,25.9,25.9,42.0,22.2,75.3,92.6,0.5,14.0,100.0,85.71,21.43,92.86,14.29,85.71,RURAL,PÚBLICO
+27015,TACOTALPA,Tacotalpa,23.0,Cálido,Medio,95.7,33.3,3.4,23.1,14.5,77.8,82.9,0.5,13.0,100.0,69.23,0.0,38.46,0.0,100.0,RURAL,PÚBLICO
+27016,TEAPA,Teapa,23.0,Cálido,Bajo,95.7,29.0,14.5,30.4,17.4,78.3,84.1,0.5,7.0,100.0,100.0,0.0,71.43,42.86,57.14,RURAL,PÚBLICO
+27017,TENOSIQUE,Tenosique,23.0,Cálido,Bajo,92.9,16.3,5.0,24.8,18.4,73.8,80.9,0.4,12.0,100.0,83.33,0.0,25.0,16.67,83.33,RURAL,PÚBLICO
+28001,ALTAMIRA,Abasolo,21.0,Semicálido,Bajo,100.0,65.0,35.0,55.0,15.0,85.0,90.0,0.6,,,,,,,,,
+28002,CIUDAD MADERO,Aldama,23.0,Cálido,Bajo,98.8,54.7,19.8,19.8,17.4,75.6,80.2,0.5,,,,,,,,,
+28003,EL MANTE,Altamira,23.0,Cálido,Muy bajo,95.6,62.6,42.9,34.1,15.9,89.0,85.2,0.6,,,,,,,,,
+28004,GUSTAVO DÍAZ ORDAZ,Antiguo Morelos,25.0,Cálido,Medio,95.8,50.0,12.5,29.2,4.2,70.8,66.7,0.5,,,,,,,,,
+28005,HIDALGO,Burgos,21.0,Semicálido,Bajo,88.9,44.4,5.6,11.1,5.6,44.4,72.2,0.4,,,,,,,,,
+28006,MATAMOROS,Bustamante,17.0,Templado,Muy alto,97.1,37.1,0.0,20.0,5.7,20.0,65.7,0.4,,,,,,,,,
+28007,MIER,Camargo,23.0,Cálido,Muy bajo,100.0,76.2,52.4,42.9,23.8,100.0,95.2,0.7,,,,,,,,,
+28008,NUEVO LAREDO,Casas,23.0,Cálido,Alto,95.8,58.3,12.5,20.8,25.0,58.3,75.0,0.5,,,,,,,,,
+28009,REYNOSA,Ciudad Madero,23.0,Cálido,Muy bajo,99.2,84.4,79.5,41.8,33.6,98.4,94.3,0.8,,,,,,,,,
+28010,TAMPICO,Cruillas,21.0,Semicálido,Medio,100.0,28.6,0.0,42.9,14.3,71.4,100.0,0.5,,,,,,,,,
+28011,VALLE HERMOSO,Gómez Farías,25.0,Cálido,Bajo,93.9,27.3,0.0,12.1,12.1,51.5,87.9,0.4,,,,,,,,,
+28012,VICTORIA,González,25.0,Cálido,Bajo,95.4,47.7,18.5,18.5,10.8,80.0,80.0,0.5,,,,,,,,,
+28013,XICOTÉNCATL,Güémez,21.0,Semicálido,Bajo,95.5,68.2,43.2,29.5,13.6,79.5,86.4,0.6,,,,,,,,,
+29001,APIZACO,Amaxac de Guerrero,15.0,Templado,Muy bajo,100.0,100.0,57.1,71.4,57.1,100.0,100.0,0.8,,,,,,,,,
+29002,CALPULALPAN,Apetatitlán de Antonio Carvajal,15.0,Templado,Muy bajo,100.0,94.1,82.4,41.2,17.6,100.0,100.0,0.8,,,,,,,,,
+29003,CHIAUTEMPAN,Atlangatepec,13.0,Templado,Bajo,100.0,93.8,25.0,12.5,37.5,100.0,93.8,0.7,,,,,,,,,
+29004,HUAMANTLA,Atltzayanca,15.0,Templado,Bajo,91.4,74.3,20.0,22.9,31.4,91.4,91.4,0.6,,,,,,,,,
+29005,PAPALOTLA DE XICOHTÉNCATL,Apizaco,15.0,Templado,Muy bajo,100.0,86.6,76.8,46.3,18.3,100.0,100.0,0.8,,,,,,,,,
+29006,SAN FRANCISCO TETLANOHCAN,Calpulalpan,11.0,Semifrio,Muy bajo,97.5,82.5,42.5,35.0,32.5,95.0,92.5,0.7,,,,,,,,,
+29007,SAN PABLO DEL MONTE,El Carmen Tequexquitla,15.0,Templado,Bajo,100.0,82.4,29.4,35.3,23.5,94.1,100.0,0.7,,,,,,,,,
+29008,TEPETITLA DE LARDIZÁBAL,Cuapiaxtla,15.0,Templado,Bajo,100.0,80.0,25.0,20.0,20.0,100.0,100.0,0.6,,,,,,,,,
+29009,TETLA DE LA SOLIDARIDAD,Cuaxomulco,15.0,Templado,Bajo,100.0,75.0,75.0,25.0,12.5,100.0,100.0,0.7,,,,,,,,,
+29010,TLAXCALA,Chiautempan,15.0,Templado,Muy bajo,98.0,88.0,64.0,50.0,20.0,98.0,98.0,0.7,,,,,,,,,
+29011,TLAXCO,Muñoz de Domingo Arenas,13.0,Templado,Muy bajo,100.0,87.5,25.0,37.5,25.0,100.0,87.5,0.7,,,,,,,,,
+29012,TOTOLAC,Españita,15.0,Templado,Bajo,91.3,91.3,21.7,21.7,21.7,95.7,100.0,0.6,,,,,,,,,
+29013,TZOMPANTEPEC,Huamantla,15.0,Templado,Muy bajo,96.6,86.4,39.8,40.9,28.4,98.9,98.9,0.7,,,,,,,,,
+29014,XALOZTOC,Hueyotlipan,13.0,Templado,Muy bajo,100.0,81.0,23.8,38.1,9.5,95.2,90.5,0.6,,,,,,,,,
+29015,ZACATELCO,Ixtacuixtla de Mariano Matamoros,15.0,Templado,Muy bajo,100.0,91.2,38.2,38.2,8.8,85.3,94.1,0.7,,,,,,,,,
+30001,ACAYUCAN,Acajete,13.0,Templado,Medio,81.5,33.3,25.9,7.4,7.4,85.2,88.9,0.5,,,,,,,,,
+30002,AGUA DULCE,Acatlán,17.0,Templado,Medio,100.0,66.7,33.3,66.7,0.0,100.0,100.0,0.7,,,,,,,,,
+30003,ÁLAMO TEMAPACHE,Acayucan,25.0,Cálido,Bajo,95.8,26.1,17.6,13.4,8.4,82.4,85.7,0.5,,,,,,,,,
+30004,ALTOTONGA,Actopan,23.0,Cálido,Bajo,97.6,24.1,25.3,10.8,8.4,85.5,81.9,0.5,,,,,,,,,
+30005,ALVARADO,Acula,25.0,Cálido,Alto,100.0,25.0,8.3,8.3,0.0,41.7,83.3,0.4,,,,,,,,,
+30006,BOCA DEL RÍO,Acultzingo,13.0,Templado,Alto,97.5,50.0,7.5,12.5,0.0,55.0,77.5,0.4,,,,,,,,,
+30007,CAMERINO Z. MENDOZA,Camarón de Tejeda,25.0,Cálido,Medio,100.0,10.5,10.5,5.3,0.0,100.0,94.7,0.5,,,,,,,,,
+30008,CASTILLO DE TEAYO,Alpatláhuac,13.0,Templado,Alto,88.6,20.0,14.3,5.7,2.9,80.0,77.1,0.4,,,,,,,,,
+30009,CATEMACO,Alto Lucero de Gutiérrez Barrios,25.0,Cálido,Bajo,100.0,36.7,23.3,8.3,5.0,88.3,93.3,0.5,,,,,,,,,
+30010,COATEPEC,Altotonga,21.0,Semicálido,Medio,96.5,41.7,12.5,9.7,19.4,61.8,81.9,0.5,,,,,,,,,
+30011,COATZACOALCOS,Alvarado,25.0,Cálido,Muy bajo,100.0,31.4,29.1,11.6,5.8,74.4,93.0,0.5,,,,,,,,,
+30012,CÓRDOBA,Amatitlán,25.0,Cálido,Medio,95.5,13.6,9.1,4.5,4.5,50.0,81.8,0.4,,,,,,,,,
+30013,COSAMALOAPAN DE CARPIO,Naranjos Amatlán,23.0,Cálido,Muy bajo,100.0,25.0,22.7,20.5,22.7,77.3,88.6,0.5,,,,,,,,,
+30014,COSCOMATEPEC,Amatlán de los Reyes,21.0,Semicálido,Bajo,100.0,46.0,20.0,18.0,8.0,78.0,86.0,0.5,,,,,,,,,
+30015,COSOLEACAQUE,Angel R. Cabada,23.0,Cálido,Medio,98.3,25.9,13.8,5.2,1.7,89.7,89.7,0.5,,,,,,,,,
+30016,COTAXTLA,La Antigua,25.0,Cálido,Muy bajo,93.9,33.3,30.3,21.2,9.1,100.0,90.9,0.5,,,,,,,,,
+30017,COYUTLA,Apazapan,25.0,Cálido,Bajo,100.0,45.5,27.3,9.1,0.0,81.8,100.0,0.5,,,,,,,,,
+30018,CUITLÁHUAC,Aquila,15.0,Templado,Alto,100.0,62.5,12.5,37.5,0.0,100.0,62.5,0.5,,,,,,,,,
+30019,EL HIGO,Astacinga,13.0,Templado,Alto,100.0,70.0,10.0,0.0,0.0,65.0,80.0,0.5,,,,,,,,,
+30020,GUTIÉRREZ ZAMORA,Atlahuilco,13.0,Templado,Muy alto,95.5,45.5,4.5,0.0,0.0,68.2,86.4,0.4,,,,,,,,,
+30021,HUATUSCO,Atoyac,21.0,Semicálido,Bajo,97.3,32.4,16.2,5.4,0.0,56.8,78.4,0.4,,,,,,,,,
+30022,HUAYACOCOTLA,Atzacan,19.0,Semicálido,Medio,100.0,44.0,12.0,28.0,0.0,76.0,96.0,0.5,,,,,,,,,
+30023,ISLA,Atzalan,15.0,Templado,Alto,98.3,26.0,6.8,2.3,11.3,63.8,82.5,0.4,,,,,,,,,
+30024,JOSÉ AZUETA,Tlaltetela,25.0,Cálido,Medio,97.5,22.5,12.5,10.0,2.5,82.5,90.0,0.5,,,,,,,,,
+30025,JUAN RODRÍGUEZ CLARA,Ayahualulco,13.0,Templado,Alto,89.6,39.6,16.7,10.4,4.2,83.3,91.7,0.5,,,,,,,,,
+30026,LA ANTIGUA,Banderilla,19.0,Semicálido,Muy bajo,100.0,52.6,57.9,42.1,36.8,94.7,94.7,0.7,,,,,,,,,
+30027,LAS CHOAPAS,Benito Juárez,23.0,Cálido,Alto,91.4,46.6,3.4,1.7,0.0,36.2,56.9,0.3,,,,,,,,,
+30028,LERDO DE TEJADA,Boca del Río,25.0,Cálido,Muy bajo,93.0,55.3,53.5,34.2,17.5,91.2,94.7,0.6,,,,,,,,,
+30029,MANLIO FABIO ALTAMIRANO,Calcahualco,13.0,Templado,Alto,89.6,37.5,8.3,10.4,8.3,85.4,89.6,0.5,,,,,,,,,
+30030,MARTÍNEZ DE LA TORRE,Camerino Z. Mendoza,13.0,Templado,Bajo,96.9,65.6,28.1,18.8,18.8,84.4,96.9,0.6,,,,,,,,,
+30031,MINATITLÁN,Carrillo Puerto,25.0,Cálido,Alto,98.5,7.7,9.2,1.5,4.6,92.3,93.8,0.4,,,,,,,,,
+30032,MISANTLA,Catemaco,21.0,Semicálido,Medio,100.0,20.0,14.4,6.7,4.4,81.1,92.2,0.5,,,,,,,,,
+30033,NARANJOS AMATLÁN,Cazones de Herrera,25.0,Cálido,Alto,93.4,50.8,4.9,4.9,3.3,55.7,93.4,0.4,,,,,,,,,
+30034,NOGALES,Cerro Azul,23.0,Cálido,Muy bajo,100.0,24.3,10.8,32.4,10.8,91.9,91.9,0.5,,,,,,,,,
+30035,ORIZABA,Citlaltépetl,23.0,Cálido,Medio,100.0,19.2,0.0,7.7,7.7,80.8,84.6,0.4,,,,,,,,,
+30036,PÁNUCO,Coacoatzintla,13.0,Templado,Bajo,90.5,19.0,9.5,4.8,0.0,81.0,90.5,0.4,,,,,,,,,
+30037,PAPANTLA,Coahuitlán,21.0,Semicálido,Alto,90.0,30.0,20.0,10.0,0.0,80.0,100.0,0.5,,,,,,,,,
+30038,PASO DE OVEJAS,Coatepec,21.0,Semicálido,Muy bajo,94.9,43.9,43.9,25.5,15.3,93.9,94.9,0.6,,,,,,,,,
+30039,PEROTE,Coatzacoalcos,25.0,Cálido,Muy bajo,93.9,38.2,41.7,24.6,13.2,93.9,91.2,0.6,,,,,,,,,
+30040,PLAYA VICENTE,Coatzintla,25.0,Cálido,Muy bajo,95.4,40.0,20.0,16.9,9.2,63.1,86.2,0.5,,,,,,,,,
+30041,POZA RICA DE HIDALGO,Coetzala,19.0,Semicálido,Muy alto,75.0,25.0,0.0,25.0,0.0,75.0,50.0,0.4,,,,,,,,,
+30042,PUENTE NACIONAL,Colipa,21.0,Semicálido,Alto,100.0,20.0,25.0,0.0,15.0,50.0,90.0,0.4,,,,,,,,,
+30043,RÍO BLANCO,Comapa,21.0,Semicálido,Alto,96.2,13.2,17.0,1.9,1.9,66.0,90.6,0.4,,,,,,,,,
+30044,SAN ANDRÉS TUXTLA,Córdoba,19.0,Semicálido,Muy bajo,98.6,68.4,55.2,33.5,17.9,95.8,93.4,0.7,,,,,,,,,
+30045,SANTIAGO TUXTLA,Cosamaloapan de Carpio,25.0,Cálido,Bajo,88.9,11.1,15.3,4.2,2.8,69.4,80.6,0.4,,,,,,,,,
+30046,SOLEDAD DE DOBLADO,Cosautlán de Carvajal,21.0,Semicálido,Medio,100.0,23.5,14.7,2.9,2.9,97.1,100.0,0.5,,,,,,,,,
+30047,TANTOYUCA,Coscomatepec,19.0,Semicálido,Alto,96.4,53.0,15.7,9.6,16.9,80.7,88.0,0.5,,,,,,,,,
+30048,TEMPOAL,Cosoleacaque,25.0,Cálido,Muy bajo,98.0,17.8,23.8,12.9,7.9,72.3,79.2,0.4,,,,,,,,,
+30049,TEPETLÁN,Cotaxtla,25.0,Cálido,Medio,98.6,26.4,25.0,2.8,15.3,87.5,93.1,0.5,,,,,,,,,
+30050,TEZONAPA,Coxquihui,23.0,Cálido,Muy alto,97.0,30.3,0.0,3.0,0.0,39.4,81.8,0.4,,,,,,,,,
+30051,TIERRA BLANCA,Coyutla,25.0,Cálido,Alto,100.0,28.6,9.5,14.3,0.0,73.8,88.1,0.4,,,,,,,,,
+30052,TLACOTALPAN,Cuichapa,21.0,Semicálido,Medio,100.0,27.8,11.1,5.6,0.0,94.4,88.9,0.5,,,,,,,,,
+30053,TLALIXCOYAN,Cuitláhuac,25.0,Cálido,Bajo,97.4,39.5,36.8,15.8,10.5,86.8,86.8,0.5,,,,,,,,,
+30054,TLAPACOYAN,Chacaltianguis,25.0,Cálido,Medio,92.6,29.6,0.0,0.0,0.0,77.8,77.8,0.4,,,,,,,,,
+30055,TUXPAN,Chalma,23.0,Cálido,Alto,97.4,31.6,0.0,2.6,0.0,50.0,73.7,0.4,,,,,,,,,
+30056,VEGA DE ALATORRE,Chiconamel,23.0,Cálido,Alto,100.0,42.9,7.1,3.6,7.1,46.4,67.9,0.4,,,,,,,,,
+30057,VERACRUZ,Chiconquiaco,13.0,Templado,Alto,95.7,30.4,15.2,2.2,2.2,69.6,71.7,0.4,,,,,,,,,
+30058,XALAPA,Chicontepec,23.0,Cálido,Alto,96.5,47.5,3.0,4.0,1.5,48.5,72.5,0.4,,,,,,,,,
+30059,YECUATLA,Chinameca,25.0,Cálido,Medio,95.8,25.0,16.7,16.7,4.2,54.2,66.7,0.4,,,,,,,,,
+30060,ZONGOLICA,Chinampa de Gorostiza,23.0,Cálido,Alto,100.0,32.1,17.9,3.6,0.0,57.1,85.7,0.4,,,,,,,,,
+31001,ACANCEH,Abalá,25.0,Cálido,Alto,90.9,63.6,45.5,45.5,9.1,90.9,90.9,0.6,,,,,,,,,
+31002,IZAMAL,Acanceh,25.0,Cálido,Bajo,94.1,52.9,41.2,35.3,11.8,94.1,88.2,0.6,,,,,,,,,
+31003,MÉRIDA,Akil,25.0,Cálido,Medio,87.5,50.0,25.0,62.5,12.5,75.0,87.5,0.6,1.0,100.0,100.0,0.0,100.0,0.0,100.0,RURAL,PÚBLICO
+31004,MOTUL,Baca,25.0,Cálido,Bajo,100.0,28.6,28.6,42.9,57.1,85.7,100.0,0.6,,,,,,,,,
+31005,MUNA,Bokobá,25.0,Cálido,Medio,100.0,100.0,100.0,100.0,0.0,66.7,100.0,0.8,,,,,,,,,
+31006,OXKUTZCAB,Buctzotz,25.0,Cálido,Medio,61.5,38.5,7.7,23.1,7.7,69.2,69.2,0.4,,,,,,,,,
+31007,PROGRESO,Cacalchén,25.0,Cálido,Bajo,100.0,80.0,80.0,60.0,0.0,100.0,100.0,0.7,,,,,,,,,
+31008,TICUL,Calotmul,25.0,Cálido,Alto,100.0,28.6,42.9,28.6,0.0,71.4,85.7,0.5,,,,,,,,,
+31009,UMÁN,Cansahcab,25.0,Cálido,Medio,100.0,75.0,50.0,75.0,62.5,87.5,100.0,0.8,1.0,100.0,100.0,100.0,100.0,100.0,0.0,URBANO,PÚBLICO
+31010,VALLADOLID,Cantamayec,25.0,Cálido,Alto,80.0,60.0,20.0,40.0,20.0,80.0,60.0,0.5,,,,,,,,,
+32001,CALERA,Apozol,17.0,Templado,Bajo,100.0,75.0,43.8,37.5,25.0,93.8,100.0,0.7,,,,,,,,,
+32002,FRESNILLO,Apulco,19.0,Semicálido,Bajo,100.0,70.6,17.6,17.6,17.6,70.6,88.2,0.5,2.0,100.0,100.0,0.0,50.0,50.0,50.0,RURAL,PÚBLICO
+32003,GENERAL FRANCISCO R. MURGUÍA,Atolinga,17.0,Templado,Bajo,100.0,100.0,60.0,60.0,0.0,80.0,80.0,0.7,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+32004,GUADALUPE,Benito Juárez,15.0,Templado,Bajo,100.0,75.0,50.0,25.0,0.0,100.0,100.0,0.6,3.0,100.0,100.0,0.0,66.67,33.33,66.67,RURAL,PÚBLICO
+32005,JALPA,Calera,15.0,Templado,Muy bajo,100.0,53.1,50.0,37.5,21.9,90.6,90.6,0.6,1.0,100.0,100.0,100.0,0.0,0.0,100.0,RURAL,PÚBLICO
+32006,JEREZ,Cañitas de Felipe Pescador,15.0,Templado,Muy bajo,91.7,75.0,58.3,25.0,33.3,91.7,100.0,0.7,6.0,100.0,100.0,0.0,66.67,66.67,33.33,URBANO,PÚBLICO
+32007,JUAN ALDAMA,Concepción del Oro,13.0,Templado,Muy bajo,94.4,61.1,11.1,19.4,11.1,72.2,75.0,0.5,,,,,,,,,
+32008,LORETO,Cuauhtémoc,17.0,Templado,Bajo,100.0,38.5,23.1,15.4,15.4,84.6,100.0,0.5,4.0,100.0,100.0,25.0,75.0,75.0,25.0,URBANO,PÚBLICO
+32009,NOCHISTLÁN DE MEJÍA,Chalchihuites,17.0,Templado,Bajo,100.0,61.5,25.6,12.8,23.1,79.5,89.7,0.6,6.0,100.0,100.0,16.67,33.33,16.67,83.33,RURAL,PÚBLICO
+32010,NORIA DE ÁNGELES,Fresnillo,13.0,Templado,Muy bajo,94.7,60.8,36.0,30.1,17.5,87.7,90.4,0.6,32.0,100.0,96.88,12.5,18.75,18.75,81.25,RURAL,PÚBLICO
+32011,PINOS,Trinidad García de la Cadena,17.0,Templado,Bajo,100.0,100.0,80.0,40.0,60.0,100.0,100.0,0.8,1.0,100.0,100.0,0.0,100.0,100.0,0.0,URBANO,PÚBLICO
+32012,RÍO GRANDE,Genaro Codina,13.0,Templado,Medio,90.2,43.9,12.2,14.6,14.6,78.0,82.9,0.5,1.0,100.0,100.0,0.0,0.0,0.0,100.0,RURAL,PÚBLICO
+32013,SOMBRERETE,General Enrique Estrada,15.0,Templado,Bajo,100.0,54.5,0.0,9.1,0.0,100.0,90.9,0.5,2.0,100.0,100.0,0.0,50.0,50.0,50.0,RURAL,PÚBLICO
+32014,TABASCO,General Francisco R. Murguía,15.0,Templado,Bajo,100.0,53.2,8.9,20.3,5.1,94.9,94.9,0.5,11.0,100.0,100.0,0.0,36.36,18.18,81.82,RURAL,PÚBLICO
+32015,TLALTENANGO DE SÁNCHEZ ROMÁN,El Plateado de Joaquín Amaro,19.0,Semicálido,Bajo,100.0,71.4,57.1,0.0,0.0,100.0,85.7,0.6,1.0,100.0,100.0,0.0,0.0,100.0,0.0,URBANO,PÚBLICO
+32016,VALPARAÍSO,General Pánfilo Natera,15.0,Templado,Bajo,95.3,62.8,11.6,27.9,16.3,100.0,93.0,0.6,5.0,100.0,100.0,20.0,60.0,0.0,100.0,RURAL,PÚBLICO
+32017,VILLA HIDALGO,Guadalupe,13.0,Templado,Muy bajo,97.9,64.5,57.4,52.5,27.0,96.5,92.9,0.7,8.0,100.0,100.0,12.5,75.0,50.0,50.0,RURAL,PÚBLICO
+32018,VILLANUEVA,Huanusco,19.0,Semicálido,Bajo,91.7,62.5,12.5,16.7,4.2,70.8,87.5,0.5,2.0,100.0,100.0,0.0,0.0,100.0,0.0,URBANO,PÚBLICO
+32019,ZACATECAS,Jalpa,21.0,Semicálido,Muy bajo,98.4,60.7,29.5,29.5,27.9,80.3,90.2,0.6,7.0,100.0,100.0,0.0,71.43,28.57,71.43,RURAL,PÚBLICO

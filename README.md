@@ -62,35 +62,130 @@ Tomamos datos de INEGI sobre infraestructura escolar (agua, electricidad, servic
 **Al final:**  
 La pregunta es simple: ¿cuáles son esas zonas donde el calor más la falta de servicios se juntan? Ahí es donde hay que invertir primero. No es negar que México avanzó. Es decir que ahora hay que asegurar que esas escuelas realmente funcionen en el clima que tenemos.
 
-## Metadatos de datasets (modulo A3 y B2)
+# Metadatos de datasets
 
-1. Atlas (Educacion e Infraestructura)
-- Fuente oficial: SEP - Direccion General de Planeacion, Programacion y Estadistica Educativa (DGPPyEE).
-- URL: Atlas de la Educacion Basica por Municipio.
-- Fecha de descarga: 14 de abril de 2026.
-- Licencia: Terminos de Libre Uso de Informacion de la Administracion Publica Federal.
-- Variables usadas: % agua potable, % electricidad, % lavabo de manos, grado de escolaridad, indice de marginacion, asistencia escolar (6-11, 12-14, 15-17 anios).
+## 1. Atlas (Educación e Infraestructura)
 
-2. Matricula (SICEE / Formato 911)
-- Fuente oficial: SEP - Sistema de Estadisticas Continuas de Educacion del Formato 911.
-- URL: Principales Cifras del Sistema Educativo Nacional.
-- Fecha de descarga: 14 de abril de 2026.
-- Licencia: Libre uso (Datos Abiertos Mexico).
-- Variables usadas: alumnos total, alumnos mujeres, alumnos hombres, docentes, escuelas.
+**Fuente oficial:** SEP - Dirección General de Planeación, Programación y Estadística Educativa (DGPPyEE).
 
-3. Temperatura municipal (Clima)
-- Fuente oficial: CONABIO / CONAGUA (Servicio Meteorologico Nacional).
-- URL: Geoportal CONABIO (tman13gw) / Datos Abiertos CONAGUA.
-- Fecha de descarga: 14 de abril de 2026.
-- Licencia: Creative Commons Attribution (CC BY).
-- Variables usadas: temperatura media anual, temperatura maxima, zona termica (ZON_TER).
+**URL:** https://www.planeacion.sep.gob.mx/principalescifras/
 
-4. Infraestructura fisica (INIFED)
-- Fuente oficial: SEP - Sistema de Informacion y Gestion Educativa (SIGED).
-- URL: SIGED Datos Abiertos - Infraestructura.
-- Fecha de descarga: 14 de abril de 2026.
-- Licencia: Libre uso (Datos Abiertos Mexico).
-- Variables usadas: CUBIERTA_TECHUMBRE_EXT (sombra), ESTRUCTURAS_ATIPICAS (precariedad), BEBEDEROS, NUM_AULAS.
+**Fecha de descarga:** 14 de abril de 2026.
+
+**Licencia:** Términos de Libre Uso de Información de la Administración Pública Federal.
+
+### Variables usadas
+
+### Infraestructura
+
+- % Agua potable  
+- % Electricidad  
+- % Drenaje  
+- % Pavimentación  
+- % Internet  
+- % Recolección de basura  
+
+### Variables sociales
+
+- Grado de escolaridad  
+- Índice de marginación  
+- Asistencia escolar (6-11, 12-14, 15-17 años)  
+
+---
+
+## 2. Matrícula (SICEE / Formato 911)
+
+**Fuente oficial:** SEP - Sistema de Estadísticas Continuas de Educación del Formato 911.
+
+**URL:** https://www.planeacion.sep.gob.mx/principalescifras/
+
+**Fecha de descarga:** 14 de abril de 2026.
+
+**Licencia:** Libre uso (Datos Abiertos México).
+
+### Variables usadas
+
+- Alumnos total  
+- Alumnos mujeres  
+- Alumnos hombres  
+- Docentes  
+- Escuelas  
+
+---
+
+## 3. Temperatura municipal (Clima)
+
+**Fuente oficial:** CONABIO / CONAGUA (Servicio Meteorológico Nacional).
+
+**URL:**  
+http://geoportal.conabio.gob.mx/metadatos/doc/html/tman13gw.html  
+https://datos.conagua.gob.mx/
+
+**Fecha de descarga:** 14 de abril de 2026.
+
+**Licencia:** Creative Commons Attribution (CC BY).
+
+### Variables usadas
+
+- Temperatura media anual  
+- Temperatura máxima  
+- Zona térmica (ZON_TER)  
+
+---
+
+## 4. Infraestructura física (INIFED / SIGED)
+
+**Fuente oficial:** SEP - Sistema de Información y Gestión Educativa (SIGED).
+
+**URL:** https://siged.sep.gob.mx/SIGED/datos_abiertos.html
+
+**Fecha de descarga:** 14 de abril de 2026.
+
+**Licencia:** Libre uso (Datos Abiertos México).
+
+### Variables usadas
+
+- CUBIERTA_TECHUMBRE_EXT (indicador de sombra)  
+- ESTRUCTURAS_ATIPICAS (precariedad de materiales)  
+- BEBEDEROS  
+- NUM_AULAS  
+
+---
+
+## 5. Climatología y Geografía (INEGI)
+
+**Fuente oficial:** Instituto Nacional de Estadística y Geografía (INEGI).
+
+**URL:** https://www.inegi.org.mx/temas/climatologia/#descargas
+
+**Fecha de descarga:** 14 de abril de 2026.
+
+**Licencia:** Términos de libre uso de información del INEGI.
+
+### Uso
+
+Datos vectoriales de tipos de clima, isotermas y entorno geográfico para discernir entre zonas urbanas y rurales.
+
+---
+
+## 6. Marco Teórico y Referencia Científica (SciELO)
+
+**Fuente:** SciELO México / Revista de Arquitectura y Urbanismo.
+
+**Referencia:**  
+*"Confort térmico y eficiencia energética en el diseño de infraestructura"*
+
+**URL:** https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2594-19252022000400105
+
+### Uso
+
+Fundamentación científica para la definición de confort térmico y selección de variables de materialidad y habitabilidad escolar.
+
+---
+
+## Nota sobre interoperabilidad
+
+El repositorio utiliza la **Clave Geoelectoral Municipal (CVEGEO)** a 5 dígitos como llave primaria para el cruce de las bases educativas, climáticas y de infraestructura.
 
 ## Declaratoria IA (modulo A5)
 
